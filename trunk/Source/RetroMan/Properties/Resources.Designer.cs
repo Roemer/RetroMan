@@ -60,9 +60,44 @@ namespace RetroMan.Properties {
             }
         }
         
-        internal static System.Drawing.Icon Games_Blue_Folder {
+        internal static System.Drawing.Icon bios {
             get {
-                object obj = ResourceManager.GetObject("Games_Blue_Folder", resourceCulture);
+                object obj = ResourceManager.GetObject("bios", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon device {
+            get {
+                object obj = ResourceManager.GetObject("device", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon game {
+            get {
+                object obj = ResourceManager.GetObject("game", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon retroman {
+            get {
+                object obj = ResourceManager.GetObject("retroman", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon settings {
+            get {
+                object obj = ResourceManager.GetObject("settings", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon video {
+            get {
+                object obj = ResourceManager.GetObject("video", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

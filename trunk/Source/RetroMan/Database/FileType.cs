@@ -8,5 +8,7 @@ namespace RetroMan.Database
     public enum FileType
     {
         Game,
+        BIOS,
+        Video,
     }
 }
