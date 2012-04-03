@@ -96,6 +96,12 @@
   <ItemGroup>
     <None Include="Resources\Games-Blue-Folder.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SevenZipInterface\SevenZipInterface.csproj">
+      <Project>{051F76DA-EFB1-4C7E-ADEF-F80972647A9B}</Project>
+      <Name>SevenZipInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

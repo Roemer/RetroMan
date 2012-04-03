@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Nomad.Archive.SevenZip;
 using RetroMan.Properties;
 using System.IO;
 using System.Reflection;
@@ -23,16 +24,41 @@ namespace RetroMan.UI
             InitializeComponent();
 
             // Load the Icon From the Resource
-            this.Icon = Properties.Resources.Games_Blue_Folder;
+            Icon = Resources.Games_Blue_Folder;
+
+            //"C:\Program Files\7-Zip\7z.exe" l -slt "Madden NFL 06 (U).7z"
 
             DeviceObject dev = new DeviceObject() { Name = "Nintendo Game Boy Advance", Version = "1.0" };
             dev.Files.Add(new FileObject() { FileSize = 1111, Name = "asdasf", FileType = FileType.Game });
             dev.Files.Add(new FileObject() { FileSize = 11131, Name = "Other", FileType = FileType.Game });
-            string output = JsonConvert.SerializeObject(dev,Formatting.Indented);
+            string output = JsonConvert.SerializeObject(dev, Formatting.Indented);
             File.WriteAllText("db.txt", output);
 
             dev = JsonConvert.DeserializeObject<DeviceObject>(File.ReadAllText("db.txt"));
 
+            string archivePath = @"C:\Users\Roman\Downloads\7zIntf15.zip";
+
+            string sevenZipLibPath = Path.Combine(@"C:\Program Files\7-Zip", "7z.dll");
+            using (SevenZipFormat format = new SevenZipFormat(sevenZipLibPath))
+            {
+                IInArchive archive = format.CreateInArchive(SevenZipFormat.GetClassIdFromKnownFormat(KnownSevenZipFormat.Zip));
+
+                using (InStreamWrapper archiveStream = new InStreamWrapper(File.OpenRead(archivePath)))
+                {
+                    ulong checkPos = 32 * 1024;
+                    archive.Open(archiveStream, ref checkPos, null);
+
+                    uint count = archive.GetNumberOfItems();
+                    for (uint i = 0; i < count; i++)
+                    {
+                        PropVariant name = new PropVariant();
+                        archive.GetProperty(i, ItemPropId.kpidCRC, ref name);
+                        Console.Write(i);
+                        Console.Write(' ');
+                        Console.WriteLine(name.GetObject());
+                    }
+                }
+            }
 
             List<DeviceModel> deviceList = new List<DeviceModel>();
             deviceList.Add(new DeviceModel { Label = "N64" });
@@ -60,7 +86,7 @@ namespace RetroMan.UI
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
     }
 }
