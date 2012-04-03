@@ -16,7 +16,7 @@
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -56,11 +56,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\RetroSettings.cs" />
     <Compile Include="Database\DeviceObject.cs" />
     <Compile Include="Database\FileObject.cs" />
     <Compile Include="Database\FileType.cs" />
     <Compile Include="Models\DeviceModel.cs" />
     <Compile Include="Models\FileModel.cs" />
+    <Compile Include="Tools\JsonSettings.cs" />
+    <Compile Include="UI\Controls\SplitContainerEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UI\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -81,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="UI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
@@ -101,6 +115,21 @@
       <Project>{051F76DA-EFB1-4C7E-ADEF-F80972647A9B}</Project>
       <Name>SevenZipInterface</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_preferences.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bios.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nintendo-NES.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package_games_arcade.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

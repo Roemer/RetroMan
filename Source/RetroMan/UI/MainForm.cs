@@ -1,30 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using Nomad.Archive.SevenZip;
-using RetroMan.Properties;
 using System.IO;
-using System.Reflection;
-using System.Resources;
-using RetroMan.Models;
-using RetroMan.Database;
+using System.Windows.Forms;
 using Newtonsoft.Json;
+using RetroMan.Core;
+using RetroMan.Database;
+using RetroMan.Models;
+using RetroMan.Properties;
 
 namespace RetroMan.UI
 {
     public partial class MainForm : Form
     {
+        private RetroSettings _settings;
+
         public MainForm()
         {
             InitializeComponent();
 
             // Load the Icon From the Resource
-            Icon = Resources.Games_Blue_Folder;
+            Icon = Resources.retroman;
+
+            ImageList imgList = new ImageList();
+            imgList.ColorDepth = ColorDepth.Depth32Bit;
+            imgList.ImageSize = new Size(20, 20);
+            imgList.Images.Add(Resources.device);
+            imgList.Images.Add(Resources.game);
+            imgList.Images.Add(Resources.bios);
+            imgList.Images.Add(Resources.video);
+            treeListView1.SmallImageList = imgList;
 
             //"C:\Program Files\7-Zip\7z.exe" l -slt "Madden NFL 06 (U).7z"
 
@@ -36,7 +41,7 @@ namespace RetroMan.UI
 
             dev = JsonConvert.DeserializeObject<DeviceObject>(File.ReadAllText("db.txt"));
 
-            string archivePath = @"C:\Users\Roman\Downloads\7zIntf15.zip";
+            /*string archivePath = @"C:\Users\Roman\Downloads\7zIntf15.zip";
 
             string sevenZipLibPath = Path.Combine(@"C:\Program Files\7-Zip", "7z.dll");
             using (SevenZipFormat format = new SevenZipFormat(sevenZipLibPath))
@@ -58,12 +63,14 @@ namespace RetroMan.UI
                         Console.WriteLine(name.GetObject());
                     }
                 }
-            }
+            }*/
 
             List<DeviceModel> deviceList = new List<DeviceModel>();
             deviceList.Add(new DeviceModel { Label = "N64" });
-            deviceList[0].Children.Add(new FileModel { Label = "SomeGame" });
+            deviceList[0].Children.Add(new FileModel { Label = "SomeGame", FileType = FileType.Game });
             deviceList.Add(new DeviceModel { Label = "GBA" });
+            deviceList[1].Children.Add(new FileModel { Label = "SomeVideo", FileType = FileType.Video });
+            deviceList[1].Children.Add(new FileModel { Label = "SomeBios", FileType = FileType.BIOS });
 
             treeListView1.SetObjects(deviceList);
             treeListView1.CanExpandGetter = delegate(object x)
@@ -82,11 +89,71 @@ namespace RetroMan.UI
                 }
                 return null;
             };
+            olvColumn1.ImageGetter = delegate(object x)
+            {
+                if (x is DeviceModel)
+                {
+                    return 0;
+                }
+                FileModel file = (FileModel)x;
+                switch (file.FileType)
+                {
+                    case FileType.Game:
+                        return 1;
+                    case FileType.BIOS:
+                        return 2;
+                    case FileType.Video:
+                        return 3;
+                }
+                return 1;
+            };
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            // Initialize Settings
+            _settings = RetroSettings.Load();
+            if (string.IsNullOrWhiteSpace(_settings.SevenZipPath))
+            {
+                _settings.SevenZipPath = SearchForSevenZip();
+                _settings.Save();
+            }
+        }
+
+        private string SearchForSevenZip()
+        {
+            string sevenZipFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "7-Zip");
+            if (!Directory.Exists(sevenZipFolderPath))
+            {
+                // Try the x86 Folder in case we're on a 64-Bit System
+                sevenZipFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "7-Zip");
+                if (!Directory.Exists(sevenZipFolderPath))
+                {
+                    MessageBox.Show("No 7-Zip Installation found, please install it or set the Path in the Settings", "No 7-Zip found", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return null;
+                }
+            }
+            return sevenZipFolderPath;
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (SettingsForm dlg = new SettingsForm())
+            {
+                dlg.InitializeSettings(_settings);
+                if (dlg.ShowDialog() == DialogResult.OK)
+                {
+                    _settings = dlg.GetSettings();
+                    _settings.Save();
+                }
+            }
         }
     }
 }
