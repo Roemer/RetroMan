@@ -1,0 +1,22 @@
+﻿{
+  "Name": "Magnavox Odyssey2 / Philips Videopac G7000",
+  "Version": "1.0",
+  "Files": [
+	{
+	  "Name": "Odyssey 2 System ROM.bin",
+	  "FileType": "BIOS",
+	  "FileSize": 1024,
+	  "CRC": 2148967189,
+	  "MD5": "bf5e2d56-039e-400a-d6fa-bfc2f33139fd",
+	  "SHA1": "B2E1955D957A475DE2411770452EFF4EA19F4CEE"
+	},
+	{
+	  "Name": "Smithereens (U).bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": 1728485668,
+	  "MD5": "ebbe77ed-7130-8e1f-e03a-23a4577f403a",
+	  "SHA1": "FC798F3CF770E8BF5F9A4064B6A4CA66E5A4EB71"
+	}
+  ]
+}

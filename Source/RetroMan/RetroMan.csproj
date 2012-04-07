@@ -62,9 +62,19 @@
     <Compile Include="Database\FileType.cs" />
     <Compile Include="Models\DeviceModel.cs" />
     <Compile Include="Models\FileModel.cs" />
+    <Compile Include="Tools\Crc32.cs" />
+    <Compile Include="Tools\HashTool.cs" />
     <Compile Include="Tools\JsonSettings.cs" />
+    <Compile Include="Tools\SevenZipTool.cs" />
+    <Compile Include="Tools\Utils.cs" />
     <Compile Include="UI\Controls\SplitContainerEx.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\GenerateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\GenerateForm.Designer.cs">
+      <DependentUpon>GenerateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\MainForm.cs">
       <SubType>Form</SubType>
@@ -90,6 +100,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\GenerateForm.resx">
+      <DependentUpon>GenerateForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
