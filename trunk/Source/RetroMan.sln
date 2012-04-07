@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMan", "RetroMan\RetroM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenZipInterface", "SevenZipInterface\SevenZipInterface.csproj", "{051F76DA-EFB1-4C7E-ADEF-F80972647A9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMan.DataFiles", "RetroMan.DataFiles\RetroMan.DataFiles.csproj", "{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -39,6 +41,16 @@ Global
 		{051F76DA-EFB1-4C7E-ADEF-F80972647A9B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{051F76DA-EFB1-4C7E-ADEF-F80972647A9B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{051F76DA-EFB1-4C7E-ADEF-F80972647A9B}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D1BFCC7F-BF82-4E09-B81E-513D14A628A9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
