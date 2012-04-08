@@ -16,9 +16,10 @@ namespace RetroMan.Tools
             return -1;
         }
 
-        public static uint GetCRC(string filePath)
+        public static string GetCRC(string filePath)
         {
-            return Crc32.ComputeChecksum(File.ReadAllBytes(filePath));
+            uint decResult = Crc32.ComputeChecksum(File.ReadAllBytes(filePath));
+            return decResult.ToString("X8");
         }
 
         public static Guid GetMD5(string filePath)
