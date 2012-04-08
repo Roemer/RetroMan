@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using BrightIdeasSoftware;
 using Newtonsoft.Json;
 using RetroMan.Core;
 using RetroMan.Database;
-using RetroMan.Models;
 using RetroMan.Properties;
 
 namespace RetroMan.UI
 {
     public partial class MainForm : Form
     {
+        private List<RetroDeviceInfo> deviceList;
+
         public MainForm()
         {
             InitializeComponent();
@@ -30,31 +32,29 @@ namespace RetroMan.UI
             imgList.Images.Add(Resources.video);
             treeListView1.SmallImageList = imgList;
 
-            //"C:\Program Files\7-Zip\7z.exe" l -slt "Madden NFL 06 (U).7z"
-
             treeListView1.CanExpandGetter = delegate(object x)
             {
-                if (x is DeviceModel)
+                if (x is RetroDeviceInfo)
                 {
-                    return ((DeviceModel)x).ChildCount > 0;
+                    return ((RetroDeviceInfo)x).FileCount > 0;
                 }
                 return false;
             };
             treeListView1.ChildrenGetter = delegate(object x)
             {
-                if (x is DeviceModel)
+                if (x is RetroDeviceInfo)
                 {
-                    return ((DeviceModel)x).Children;
+                    return ((RetroDeviceInfo)x).Files;
                 }
                 return null;
             };
             olvColumn1.ImageGetter = delegate(object x)
             {
-                if (x is DeviceModel)
+                if (x is RetroDeviceInfo)
                 {
                     return 0;
                 }
-                FileModel file = (FileModel)x;
+                RetroFileInfo file = (RetroFileInfo)x;
                 switch (file.FileType)
                 {
                     case FileType.Game:
@@ -80,27 +80,13 @@ namespace RetroMan.UI
                 RetroSettings.Instance.Save();
             }
 
-
-            // Load the Data Files
-            List<DeviceModel> deviceList = new List<DeviceModel>();
-            foreach (string dataFilePath in RetroSettings.Instance.DataFileList)
+            // Process the DataFiles
+            deviceList = new List<RetroDeviceInfo>();
+            foreach (DataFileSetting dataFile in RetroSettings.Instance.DataFiles)
             {
-                DeviceObject devObj = JsonConvert.DeserializeObject<DeviceObject>(File.ReadAllText(dataFilePath));
-                DeviceModel devModel = new DeviceModel { Label = devObj.Name };
-                foreach (FileObject fileObj in devObj.Files)
-                {
-                    devModel.Children.Add(new FileModel { Label = fileObj.Name, FileType = fileObj.FileType });
-                }
-                deviceList.Add(devModel);
+                deviceList.Add(new RetroDeviceInfo(dataFile));
             }
-
-            // Process the Rom Files
-            foreach (string romDirectory in RetroSettings.Instance.RomPathList)
-            {
-                // TODO
-            }
-
-            // Set the Objects to Display
+            // Assign the Model to the View
             treeListView1.SetObjects(deviceList);
         }
 
@@ -143,6 +129,101 @@ namespace RetroMan.UI
             using (GenerateForm dlg = new GenerateForm())
             {
                 dlg.ShowDialog();
+            }
+        }
+
+        private void AddDataFileBtn_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog dlg = new OpenFileDialog())
+            {
+                dlg.Title = "Select a Data File";
+                dlg.Multiselect = false;
+
+                if (dlg.ShowDialog() == DialogResult.OK)
+                {
+                    // Load the Device from the Data File
+                    DeviceDataObject deviceObject = JsonConvert.DeserializeObject<DeviceDataObject>(File.ReadAllText(dlg.FileName));
+                    // Create the Data File
+                    DataFileSetting dataFile = new DataFileSetting() { Name = deviceObject.Name, DataFilePath = dlg.FileName };
+                    // Add the Device to the Settings
+                    RetroSettings.Instance.DataFiles.Add(dataFile);
+                    RetroSettings.Instance.Save();
+                    // Add the Objects to the Manager
+                    deviceList.Add(new RetroDeviceInfo(dataFile));
+                    // Assign the Model to the View
+                    treeListView1.SetObjects(deviceList);
+                }
+            }
+        }
+
+        private void treeListView1_MouseClick(object sender, MouseEventArgs e)
+        {
+            TreeListView treeList = (TreeListView)sender;
+            if (e.Button == MouseButtons.Right)
+            {
+                ListViewHitTestInfo hitTest = treeList.HitTest(e.X, e.Y);
+                OLVListItem item = treeList.GetItem(hitTest.Item.Index);
+                object rowItem = item.RowObject;
+                if (rowItem is RetroDeviceInfo)
+                {
+                    // Show the Context Menu
+                    DeviceCtx.Tag = rowItem;
+                    DeviceCtx.Show(treeList, e.Location);
+                }
+            }
+        }
+
+        private void setRomPathToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Get the Objects
+            RetroDeviceInfo deviceInfo = (RetroDeviceInfo)DeviceCtx.Tag;
+            DataFileSetting dataFile = deviceInfo.DataFileSetting;
+
+            using (FolderBrowserDialog dlg = new FolderBrowserDialog())
+            {
+                dlg.SelectedPath = dataFile.RomFolderPath;
+                dlg.Description = "Choose the Rom Folder for: " + deviceInfo.Name;
+                dlg.ShowNewFolderButton = true;
+                if (dlg.ShowDialog() == DialogResult.OK)
+                {
+                    dataFile.RomFolderPath = dlg.SelectedPath;
+                    RetroSettings.Instance.Save();
+                }
+            }
+        }
+
+        private void removeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RetroDeviceInfo deviceInfo = (RetroDeviceInfo)DeviceCtx.Tag;
+            DataFileSetting dataFile = deviceInfo.DataFileSetting;
+            RetroSettings.Instance.DataFiles.Remove(dataFile);
+            RetroSettings.Instance.Save();
+            deviceList.Remove(deviceInfo);
+            treeListView1.SetObjects(deviceList);
+        }
+
+        private void checkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Get the Objects
+            RetroDeviceInfo deviceInfo = (RetroDeviceInfo)DeviceCtx.Tag;
+            int unknownFilesCount = deviceInfo.CheckFiles();
+            MessageBox.Show(string.Format("You have {0} unknown Files in this Rom Folder", unknownFilesCount));
+            treeListView1.Refresh();
+        }
+
+        private void treeListView1_FormatRow(object sender, FormatRowEventArgs e)
+        {
+            if (e.Model is RetroFileInfo)
+            {
+                RetroFileInfo file = (RetroFileInfo)e.Model;
+                if (file.IsAvailable)
+                {
+                    e.Item.ForeColor = Color.Black;
+                }
+                else
+                {
+                    e.Item.ForeColor = Color.Gray;
+                }
             }
         }
     }

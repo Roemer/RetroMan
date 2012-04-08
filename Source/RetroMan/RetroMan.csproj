@@ -56,12 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\RetroDeviceInfo.cs" />
+    <Compile Include="Core\RetroFileInfo.cs" />
     <Compile Include="Core\RetroSettings.cs" />
-    <Compile Include="Database\DeviceObject.cs" />
-    <Compile Include="Database\FileObject.cs" />
-    <Compile Include="Database\FileType.cs" />
-    <Compile Include="Models\DeviceModel.cs" />
-    <Compile Include="Models\FileModel.cs" />
+    <Compile Include="Database\DeviceDataObject.cs" />
+    <Compile Include="Database\FileDataObject.cs" />
+    <Compile Include="Core\FileType.cs" />
     <Compile Include="Tools\Crc32.cs" />
     <Compile Include="Tools\HashTool.cs" />
     <Compile Include="Tools\JsonSettings.cs" />
@@ -144,6 +144,7 @@
   <ItemGroup>
     <None Include="Resources\package_games_arcade.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

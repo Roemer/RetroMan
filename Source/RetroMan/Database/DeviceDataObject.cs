@@ -6,15 +6,15 @@ using System.Text;
 namespace RetroMan.Database
 {
     [Serializable]
-    public class DeviceObject
+    public class DeviceDataObject
     {
         public string Name { get; set; }
         public string Version { get; set; }
-        public List<FileObject> Files { get; set; }
+        public List<FileDataObject> Files { get; set; }
 
-        public DeviceObject()
+        public DeviceDataObject()
         {
-            Files = new List<FileObject>();
+            Files = new List<FileDataObject>();
         }
     }
 }

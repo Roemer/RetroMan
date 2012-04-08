@@ -19,5 +19,10 @@ namespace RetroMan.Tools
             p.WaitForExit();
             return tempFolder;
         }
+
+        public static void GetExtendendInfo()
+        {
+            //"C:\Program Files\7-Zip\7z.exe" l -slt "Madden NFL 06 (U).7z"
+        }
     }
 }
