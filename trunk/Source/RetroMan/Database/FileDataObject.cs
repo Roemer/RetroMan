@@ -1,11 +1,12 @@
 ﻿using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using RetroMan.Core;
 
 namespace RetroMan.Database
 {
     [Serializable]
-    public class FileObject
+    public class FileDataObject
     {
         public string Name { get; set; }
         [JsonConverter(typeof(StringEnumConverter))]
@@ -15,7 +16,7 @@ namespace RetroMan.Database
         public Guid MD5 { get; set; }
         public string SHA1 { get; set; }
 
-        public FileObject()
+        public FileDataObject()
         {
         }
     }

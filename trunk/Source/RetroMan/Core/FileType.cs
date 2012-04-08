@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RetroMan.Database
+namespace RetroMan.Core
 {
     public enum FileType
     {

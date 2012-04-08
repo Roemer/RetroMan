@@ -2,6 +2,7 @@
 using System.IO;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using RetroMan.Core;
 using RetroMan.Database;
 using RetroMan.Tools;
 
@@ -30,7 +31,7 @@ namespace RetroMan.UI
                             string tempFolder = SevenZipTool.ExtractToTemp(fileName);
                             foreach (string subFile in Directory.GetFiles(tempFolder))
                             {
-                                FileObject fo = ConvertFile(subFile);
+                                FileDataObject fo = ConvertFile(subFile);
                                 AddFileObject(fo);
                             }
 
@@ -38,7 +39,7 @@ namespace RetroMan.UI
                         }
                         else
                         {
-                            FileObject fo = ConvertFile(fileName);
+                            FileDataObject fo = ConvertFile(fileName);
                             AddFileObject(fo);
                         }
                     }
@@ -46,14 +47,14 @@ namespace RetroMan.UI
             }
         }
 
-        private void AddFileObject(FileObject fo)
+        private void AddFileObject(FileDataObject fo)
         {
             OutputText.Text += JsonConvert.SerializeObject(fo, Formatting.Indented) + Environment.NewLine;
         }
 
-        private FileObject ConvertFile(string filePath)
+        private FileDataObject ConvertFile(string filePath)
         {
-            FileObject fo = new FileObject();
+            FileDataObject fo = new FileDataObject();
             fo.Name = Path.GetFileName(filePath);
             fo.FileSize = HashTool.GetFileSize(filePath);
             fo.CRC = HashTool.GetCRC(filePath);
