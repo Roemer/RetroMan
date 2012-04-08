@@ -49,13 +49,14 @@ namespace RetroMan.UI
 
         private void AddFileObject(FileDataObject fo)
         {
-            OutputText.Text += JsonConvert.SerializeObject(fo, Formatting.Indented) + Environment.NewLine;
+            OutputText.Text += JsonConvert.SerializeObject(fo, Formatting.Indented) + "," + Environment.NewLine;
         }
 
         private FileDataObject ConvertFile(string filePath)
         {
             FileDataObject fo = new FileDataObject();
-            fo.Name = Path.GetFileName(filePath);
+            fo.Name = Path.GetFileNameWithoutExtension(filePath);
+            fo.FileName = Path.GetFileName(filePath);
             fo.FileSize = HashTool.GetFileSize(filePath);
             fo.CRC = HashTool.GetCRC(filePath);
             fo.MD5 = HashTool.GetMD5(filePath);

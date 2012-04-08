@@ -17,6 +17,11 @@ namespace RetroMan.Core
             get { return FileObject.Name; }
         }
 
+        public string FileName
+        {
+            get { return FileObject.FileName; }
+        }
+
         public RetroFileInfo(FileDataObject fileObject)
         {
             FileObject = fileObject;

@@ -84,15 +84,15 @@ namespace RetroMan.Core
                     {
                         FileInfo fi = new FileInfo(filePath);
                         // Check if the Name is different
-                        if (fi.Name != fileInfo.Name)
+                        if (fi.Name != fileInfo.FileName)
                         {
                             // It is, so rename it
-                            string newFilePath = Path.Combine(fi.DirectoryName, fileInfo.Name);
+                            string newFilePath = Path.Combine(fi.DirectoryName, fileInfo.FileName);
                             // Check if there is already a File with the new Name
                             if (File.Exists(newFilePath))
                             {
                                 // There is, so this should be a Duplicate
-                                string pathInDupDir = Path.Combine(fi.DirectoryName, "Duplicate", fileInfo.Name);
+                                string pathInDupDir = Path.Combine(fi.DirectoryName, "Duplicate", fileInfo.FileName);
                                 // Safely move the File
                                 Utils.SafeMoveFile(fi.FullName, pathInDupDir);
                             }

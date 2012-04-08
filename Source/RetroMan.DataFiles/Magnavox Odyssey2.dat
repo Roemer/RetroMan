@@ -3,20 +3,553 @@
   "Version": "1.0",
   "Files": [
 	{
-	  "Name": "Odyssey 2 System ROM.bin",
+	  "Name": "Odyssey 2 System ROM",
+	  "FileName": "Odyssey 2 System ROM.bin",
 	  "FileType": "BIOS",
 	  "FileSize": 1024,
-	  "CRC": 2148967189,
+	  "CRC": "8016A315",
 	  "MD5": "bf5e2d56-039e-400a-d6fa-bfc2f33139fd",
 	  "SHA1": "B2E1955D957A475DE2411770452EFF4EA19F4CEE"
 	},
 	{
-	  "Name": "Smithereens (U).bin",
+	  "Name": "Alien Invaders - Plus!",
+	  "FileName": "Alien Invaders Plus.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "71AE8533",
+	  "MD5": "7dfb6c4d-6ca6-938d-27b3-ccdce9852509",
+	  "SHA1": "9BA0737FDEE2918375725BB5230D075A2F847159"
+	},
+	{
+	  "Name": "Alpine Skiing!",
+	  "FileName": "Alpine Skiing.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "4663C4B6",
+	  "MD5": "57b6d755-4556-b5bf-890a-39491f823fea",
+	  "SHA1": "9E7E16744B44FA83FA14C211B2365CF04604E06E"
+	},
+	{
+	  "Name": "Amok (Free Version)",
+	  "FileName": "Amok (Free Version).bin",
 	  "FileType": "Game",
 	  "FileSize": 4096,
-	  "CRC": 1728485668,
+	  "CRC": "2247405E",
+	  "MD5": "d84c0d2d-99e6-f9fc-7cac-366b867420f6",
+	  "SHA1": "31C1B0E10D9F56A6D885E6DB5A55AA35C407B740"
+	},
+	{
+	  "Name": "Atlantis",
+	  "FileName": "Atlantis.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "A7344D1F",
+	  "MD5": "55df237d-acdf-5ba5-c4c8-7677855f4a45",
+	  "SHA1": "6975CF9FED3EE1A2567477921EB851A669D42446"
+	},
+	{
+	  "Name": "Attack of the Timelord!",
+	  "FileName": "Attack of the Timelord.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "FC5A7F08",
+	  "MD5": "cc1dc74a-8825-f41b-d34d-0a3c385568c8",
+	  "SHA1": "C63AD4E9AAA903DED9FCF185CAF24E76F8AAF3A9"
+	},
+	{
+	  "Name": "Baseball!",
+	  "FileName": "Baseball.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "B07748E7",
+	  "MD5": "988e41ff-cb19-10cd-f022-25f7fa3b2362",
+	  "SHA1": "14A37A38C582D8822CB78FB0AACE221A2FA9A44C"
+	},
+	{
+	  "Name": "Blockout! / Breakdown!",
+	  "FileName": "Blockout & Breakdown.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "FB83171E",
+	  "MD5": "a1eb365f-e8ef-d04c-6012-c0b8bf4c05cb",
+	  "SHA1": "00EF6868724A6826534DA620F34DAD207FCB3800"
+	},
+	{
+	  "Name": "Bowling! / Basketball!",
+	  "FileName": "Bowling & Basketball.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "84EE035",
+	  "MD5": "34266516-55e7-dc60-830a-0c38d7fe1711",
+	  "SHA1": "2630C304B6BEB0F8021578277BE68E837202895D"
+	},
+	{
+	  "Name": "Casino Slot Machine!",
+	  "FileName": "Casino Slot Machine.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "BB6E7135",
+	  "MD5": "12c9a631-adb7-ec75-d0b9-387de6f0fbe9",
+	  "SHA1": "052BC62EB03E2673A802BAB866DD0AB3C39FD584"
+	},
+	{
+	  "Name": "Catch the Ball / Noughts and Crosses",
+	  "FileName": "Catch the Ball & Noughts and Crosses.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "A57E1724",
+	  "MD5": "185961dc-948f-ed0e-42dc-3eb8336dfafd",
+	  "SHA1": "671A43595B867B7877E723BE18825E9E5D5C4EE9"
+	},
+	{
+	  "Name": "Clay Pigeon!",
+	  "FileName": "Clay Pigeon.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "FD179F6D",
+	  "MD5": "8c6cea77-8352-067b-99ca-50d26a181043",
+	  "SHA1": "C07C1206DB8D4FB5142B38EAD52082D4682D70BE"
+	},
+	{
+	  "Name": "Computer Golf!",
+	  "FileName": "Computer Golf.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "0F870806",
+	  "MD5": "36911b8b-921f-5b72-7587-ed41fac6d3e0",
+	  "SHA1": "C8736250EBF376543256D85CF853E825475E0AF6"
+	},
+	{
+	  "Name": "Computer Intro!",
+	  "FileName": "Computer Intro.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "95EFA98B",
+	  "MD5": "5835701e-194d-a5aa-3eb3-795d92fa6215",
+	  "SHA1": "F93C448243DB428A4C9E2354596844ED07BB7530"
+	},
+	{
+	  "Name": "Conquest of the World!",
+	  "FileName": "Conquest of the World.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "AFC093FD",
+	  "MD5": "45159c61-9cbd-9d7c-e15e-73a1bd23bdaf",
+	  "SHA1": "508D1475670BA561E7DDF961A4F0CF6D139D168C"
+	},
+	{
+	  "Name": "Cosmic Conflict!",
+	  "FileName": "Cosmic Conflict.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "C049E79E",
+	  "MD5": "af9dac86-ec92-19f0-96c5-6f1e75d558bd",
+	  "SHA1": "DCCBF881E21DD02CBAF15EC049E0801118FB9C96"
+	},
+	{
+	  "Name": "Demon Attack",
+	  "FileName": "Demon Attack.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "9BFC3E01",
+	  "MD5": "1caf55ef-6471-8a94-245e-eb71f804bed8",
+	  "SHA1": "2D78CCBB56E8B43BB8101B2A1932F5E778B9DBC3"
+	},
+	{
+	  "Name": "Dynasty!",
+	  "FileName": "Dynasty.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "DC30AD3D",
+	  "MD5": "7cc876b9-b7a8-ab90-d2d6-e2000d80cb02",
+	  "SHA1": "20C6E4035CE8DD5A8F331C18CEEF1056DC9CE818"
+	},
+	{
+	  "Name": "Electronic Table Soccer!",
+	  "FileName": "Electronic Table Soccer.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "89C6DE2C",
+	  "MD5": "5f12832f-5f4e-5e1f-8742-3cf52e6a2a1a",
+	  "SHA1": "3A032C9BE1081DB58F28F906940641D74D6BAE2B"
+	},
+	{
+	  "Name": "Football!",
+	  "FileName": "Football.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "F9084AA3",
+	  "MD5": "eac4645a-e184-042a-a7f0-070ed13a9507",
+	  "SHA1": "364504FFCE1108BCF09A5CC784F7EA2CF141F7B8"
+	},
+	{
+	  "Name": "Freedom Fighters!",
+	  "FileName": "Freedom Fighters.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "54736B74",
+	  "MD5": "b54559d8-c3e8-427e-98bd-962d87728580",
+	  "SHA1": "AD11F3FAD2DFD3716445FEF3B7D83D479EDEE0ED"
+	},
+	{
+	  "Name": "Frogger",
+	  "FileName": "Frogger.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "D0BC4EE6",
+	  "MD5": "815efb88-58bf-11bc-95b3-1906ccebeff8",
+	  "SHA1": "0BEDA7B36259B3BE84D34206A77A35CD3F04892F"
+	},
+	{
+	  "Name": "The Great Wall Street Fortune Hunt",
+	  "FileName": "The Great Wall Street Fortune Hunt.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "881CEAE4",
+	  "MD5": "6299a8e3-3e60-85d2-84d3-270d700b3a31",
+	  "SHA1": "D54B1D5667BF90368DDDAB55A91955B1789F177C"
+	},
+	{
+	  "Name": "Hockey! / Soccer!",
+	  "FileName": "Hockey & Soccer.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "39989464",
+	  "MD5": "be3f39bb-2c92-4dd3-81ec-cdaee40cbc4d",
+	  "SHA1": "F39C9801984F97D5A685A4B7A1ACCD0164A49B43"
+	},
+	{
+	  "Name": "Invaders from Hyperspace!",
+	  "FileName": "Invaders from Hyperspace.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "AD7A9A11",
+	  "MD5": "12dd215f-7af4-05c8-ec69-dc5cd3b977f1",
+	  "SHA1": "00032798BD4CC01323E663E98634B82A74B0DC53"
+	},
+	{
+	  "Name": "I've Got Your Number!",
+	  "FileName": "I've Got Your Number.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "1C8368E7",
+	  "MD5": "75d9c4a3-abfc-e4be-fdb2-53eb414242ee",
+	  "SHA1": "498CB0882D8A692042889E83775A83CF267A1837"
+	},
+	{
+	  "Name": "K.C.'s Krazy Chase!",
+	  "FileName": "K.C.'s Krazy Chase.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "A6909A8B",
+	  "MD5": "edddea27-f3a2-d40a-a531-0c6e9bdd9dc2",
+	  "SHA1": "3391E48C0048A2F588D8238BB202E2EC346A6AD4"
+	},
+	{
+	  "Name": "K.C. Munchkin!",
+	  "FileName": "K.C. Munchkin.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "7108E058",
+	  "MD5": "d88b522e-f950-58a6-b0af-6bfe1891a4fa",
+	  "SHA1": "D273CF993DFCBCA3B65CD4959B45A3009F242BC6"
+	},
+	{
+	  "Name": "Keyboard Creations!",
+	  "FileName": "Keyboard Creations.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "688FAD11",
+	  "MD5": "811aae84-7159-6662-f7aa-e16ad7dfd062",
+	  "SHA1": "8276CA41E571478EAE2DD6ADD7F79BC7F8BD60DE"
+	},
+	{
+	  "Name": "Killer Bees!",
+	  "FileName": "Killer Bees.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "B096654E",
+	  "MD5": "7e037a5e-a11a-9af5-d2be-80452f81cc38",
+	  "SHA1": "B446A2730AEFAFE71394DBB9850D43C5CF01D367"
+	},
+	{
+	  "Name": "A Labyrinth Game / Supermind",
+	  "FileName": "A Labyrinth Game & Supermind.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "D158EEBA",
+	  "MD5": "4df4b191-28f0-4711-1325-35d9ea1d5590",
+	  "SHA1": "85C567C8F38239350A5D04F8CFD9DD7872F448C9"
+	},
+	{
+	  "Name": "Las Vegas Blackjack!",
+	  "FileName": "Las Vegas Blackjack.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "6F66B1F7",
+	  "MD5": "91382d97-5a4e-e8a8-0460-b7d32c7c94b5",
+	  "SHA1": "3E10FC687B1D07612305F680F24590F99842E62B"
+	},
+	{
+	  "Name": "Loony Balloon +",
+	  "FileName": "Loony Balloon Plus.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "B932D584",
+	  "MD5": "fbf8d4a8-8188-7865-582f-966977e32360",
+	  "SHA1": "8DD1CBA7CE6622AAF5E1B432AB8D47E395D211F2"
+	},
+	{
+	  "Name": "Matchmaker! / Logix! / Buzzword!",
+	  "FileName": "Matchmaker & Logix & Buzzword.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "BBF276A0",
+	  "MD5": "ca84a573-fa53-28d9-9ca0-1a58eccc52b5",
+	  "SHA1": "908387D2446F4C62019017FE262B412DFA040D10"
+	},
+	{
+	  "Name": "Math-A-Magic! / Echo!",
+	  "FileName": "Math-A-Magic & Echo.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "DC5AFAA2",
+	  "MD5": "4012a59a-1e9f-103d-bfe2-c2f2924c7a31",
+	  "SHA1": "4DAC55DE1AFADC1AF2AC9166D7D47C462A8E797A"
+	},
+	{
+	  "Name": "Monkeyshines!",
+	  "FileName": "Monkeyshines.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "FEE664F3",
+	  "MD5": "1d138843-e3bc-8ab6-7d46-f80bafc4a828",
+	  "SHA1": "6D6659539934255711357537D4FA6E969C3C4754"
+	},
+	{
+	  "Name": "Morse",
+	  "FileName": "Morse.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "2122012C",
+	  "MD5": "5392d06f-7e95-01c9-8f2c-80b7663bc8e4",
+	  "SHA1": "8431F56359D80FF6A67C83C50C12FA5D8BC46FF3"
+	},
+	{
+	  "Name": "Nimble Numbers Ned",
+	  "FileName": "Nimble Numbers Ned.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "CF2F8E7A",
+	  "MD5": "52edb298-a95a-60c0-e8be-6c6210d16e41",
+	  "SHA1": "01DD021A1BCDAFB58CB2BCCA051934F05E978C53"
+	},
+	{
+	  "Name": "Out of this World! / Helicopter Rescue!",
+	  "FileName": "Out of this World & Helicopter Rescue.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "0C2E4811",
+	  "MD5": "a7e6a821-1a44-9029-052e-38f85a606db4",
+	  "SHA1": "C6A79E721EE501D82D9A1C4F71F98BC23F1E7C7E"
+	},
+	{
+	  "Name": "P.T. Barnum's Acrobats!",
+	  "FileName": "P.T. Barnum's Acrobats.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "874F36A4",
+	  "MD5": "3c531208-4ce8-289e-e699-af8baec7df25",
+	  "SHA1": "661A73BD490CC592815F742EB33B2D3F0066BE41"
+	},
+	{
+	  "Name": "Pachinko!",
+	  "FileName": "Pachinko.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "239DF97D",
+	  "MD5": "15a40ce0-885b-cbaa-044a-2598c2180158",
+	  "SHA1": "FFD525D5C6023409AFDCDB2AFBDA227BC4568304"
+	},
+	{
+	  "Name": "Pick Axe Pete!",
+	  "FileName": "Pick Axe Pete.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "D62814A3",
+	  "MD5": "1765a6ff-6138-44c5-2195-65e000f79173",
+	  "SHA1": "B979ED0C2B8947F764786FCF4444463B3D3AE87D"
+	},
+	{
+	  "Name": "Pocket Billiards!",
+	  "FileName": "Pocket Billiards.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "24D53E2C",
+	  "MD5": "dd23023f-0986-32fe-0264-e45eeeefe367",
+	  "SHA1": "8ABD1057202EBAC12ACF3822ED4D965BBA02B7DE"
+	},
+	{
+	  "Name": "Popeye",
+	  "FileName": "Popeye.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "5216771A",
+	  "MD5": "9a3e0a2a-28ed-a485-e479-8b380dbb64c3",
+	  "SHA1": "A13E7B338BA15820949F51EB862B381DDC6870AF"
+	},
+	{
+	  "Name": "Power Lords",
+	  "FileName": "Power Lords.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "3351FEDA",
+	  "MD5": "1b3d9467-7cba-70df-7305-edc14feabc46",
+	  "SHA1": "21931AB2B959ED532BE36563CC84297FB53C8A21"
+	},
+	{
+	  "Name": "Power Lords (Alternate)",
+	  "FileName": "Power Lords (Alternate).bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "40AE062D",
+	  "MD5": "4b730082-627a-b417-8479-39acd3cc1601",
+	  "SHA1": "E81570282B8ADE6B7C0D126C819A95C7011CD063"
+	},
+	{
+	  "Name": "Q*bert",
+	  "FileName": "Q-bert.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "202F2749",
+	  "MD5": "4fbeca18-7894-8a7a-8e9f-1ec6c6451e4c",
+	  "SHA1": "80D76D5C56FC716A8F7A55166390658C320E4C34"
+	},
+	{
+	  "Name": "The Quest for the Rings",
+	  "FileName": "The Quest for the Rings.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "9451BE1E",
+	  "MD5": "405a100b-ffc8-e76a-7280-06cf80c4ddb7",
+	  "SHA1": "32759C8D502CD8B959DA5F03351DB7CD46C8F96A"
+	},
+	{
+	  "Name": "Showdown in 2100 A.D.",
+	  "FileName": "Showdown in 2100 AD.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "9487C920",
+	  "MD5": "cfa7d9ad-93ac-8d60-b184-5e49f3594964",
+	  "SHA1": "7163C3E0D0E926287DF670BFA5D5D5C42B5B3CF6"
+	},
+	{
+	  "Name": "Sid the Spellbinder",
+	  "FileName": "Sid the Spellbinder.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "1B9F2F16",
+	  "MD5": "0364ba23-20e7-6360-d65d-ec507a30664a",
+	  "SHA1": "DFED128D213D4192313F85FE2B8716579C2FC995"
+	},
+	{
+	  "Name": "Smithereens! (U)",
+	  "FileName": "Smithereens (U).bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "67069924",
 	  "MD5": "ebbe77ed-7130-8e1f-e03a-23a4577f403a",
 	  "SHA1": "FC798F3CF770E8BF5F9A4064B6A4CA66E5A4EB71"
+	},
+	{
+	  "Name": "Speedway! / Spin-Out! / Crypto-Logic!",
+	  "FileName": "Speedway & Spin-Out & Crypto-Logic.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "4EDA4917",
+	  "MD5": "63ab66bc-5cfb-4ae0-79ae-f9e8fa445225",
+	  "SHA1": "29D078F587BE2AFA4612800C64A5AF72705E5681"
+	},
+	{
+	  "Name": "Armored Encounter! / Sub Chase!",
+	  "FileName": "Armored Encounter & Sub Chase.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "5AE57A8C",
+	  "MD5": "81314c8b-a229-318e-3dc8-9fe73269be61",
+	  "SHA1": "086A29EB625C935295157CE62CA9717DFFFF2AF0"
+	},
+	{
+	  "Name": "Super Cobra",
+	  "FileName": "Super Cobra.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "95936B07",
+	  "MD5": "966c4a8e-7bd6-26ba-f41e-e856dd919118",
+	  "SHA1": "5521FF83E3BE32C38205472B2DF49EB507249DC2"
+	},
+	{
+	  "Name": "Take the Money and Run!",
+	  "FileName": "Take the Money and Run.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "11FF50AD",
+	  "MD5": "dc10d8b2-7eb9-1938-2a6d-d3d213dbce10",
+	  "SHA1": "8C181F4835D53A358ECB8E4385E087EE942B4B4F"
+	},
+	{
+	  "Name": "Thunderball!",
+	  "FileName": "Thunderball.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "2C9D1715",
+	  "MD5": "99fd0206-5e0f-bb43-ab23-004286319b60",
+	  "SHA1": "D0070E12D6B0F406DAB6E1FA550AB01509C9362E"
+	},
+	{
+	  "Name": "Turtles",
+	  "FileName": "Turtles.bin",
+	  "FileType": "Game",
+	  "FileSize": 8192,
+	  "CRC": "9E42E766",
+	  "MD5": "707e7307-41c0-2d74-bcd8-c52efda4edab",
+	  "SHA1": "EE456305397ECBD54FFFA0BB7A894F53976D2A7C"
+	},
+	{
+	  "Name": "Type & Tell",
+	  "FileName": "Type & Tell.bin",
+	  "FileType": "Game",
+	  "FileSize": 4096,
+	  "CRC": "B936BD78",
+	  "MD5": "5deeab49-1bdd-5f47-e4cb-b997f7ee83ef",
+	  "SHA1": "40458EAF84A71F509B4069775E49551CE5152697"
+	},
+	{
+	  "Name": "UFO!",
+	  "FileName": "UFO.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "2B1E9E19",
+	  "MD5": "2625bd7e-c1d8-017b-b882-e39e972c2691",
+	  "SHA1": "0E819A4B0F17520DA24FF79901197F5397CB9A26"
+	},
+	{
+	  "Name": "Volleyball!",
+	  "FileName": "Volleyball.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "D3B09FEC",
+	  "MD5": "ad2e2b8f-1bcc-23d7-66db-49c89b576eb4",
+	  "SHA1": "830C9B3628F2E9C4F8C882024DD912B9D7610765"
+	},
+	{
+	  "Name": "War of Nerves!",
+	  "FileName": "War of Nerves.bin",
+	  "FileType": "Game",
+	  "FileSize": 2048,
+	  "CRC": "58FA6766",
+	  "MD5": "4a9d2430-b185-038f-20f1-b5a00e55b5c7",
+	  "SHA1": "E56B674C832E5A7CAD977CC76779548FDD2F338E"
 	}
   ]
 }
