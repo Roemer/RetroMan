@@ -30,6 +30,8 @@ namespace RetroMan.UI
             imgList.Images.Add(Resources.game);
             imgList.Images.Add(Resources.bios);
             imgList.Images.Add(Resources.video);
+            imgList.Images.Add(Resources.application);
+            imgList.Images.Add(Resources.education);
             treeListView1.SmallImageList = imgList;
 
             treeListView1.CanExpandGetter = delegate(object x)
@@ -63,6 +65,10 @@ namespace RetroMan.UI
                         return 2;
                     case FileType.Video:
                         return 3;
+                    case FileType.App:
+                        return 4;
+                    case FileType.Edu:
+                        return 5;
                 }
                 return 1;
             };
