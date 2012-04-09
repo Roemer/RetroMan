@@ -60,6 +60,13 @@ namespace RetroMan.Properties {
             }
         }
         
+        internal static System.Drawing.Icon application {
+            get {
+                object obj = ResourceManager.GetObject("application", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
         internal static System.Drawing.Icon bios {
             get {
                 object obj = ResourceManager.GetObject("bios", resourceCulture);
@@ -70,6 +77,13 @@ namespace RetroMan.Properties {
         internal static System.Drawing.Icon device {
             get {
                 object obj = ResourceManager.GetObject("device", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Icon education {
+            get {
+                object obj = ResourceManager.GetObject("education", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

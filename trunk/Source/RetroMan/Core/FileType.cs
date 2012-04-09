@@ -10,5 +10,7 @@ namespace RetroMan.Core
         Game,
         BIOS,
         Video,
+        App,
+        Edu,
     }
 }
