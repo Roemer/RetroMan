@@ -15,6 +15,8 @@ namespace RetroMan.Tools
             ProcessStartInfo pInfo = new ProcessStartInfo();
             pInfo.FileName = sevenZipExecutable;
             pInfo.Arguments = string.Format(@"e ""{0}"" -o""{1}""", filePath, tempFolder);
+            pInfo.CreateNoWindow = true;
+            pInfo.UseShellExecute = false;
             Process p = Process.Start(pInfo);
             p.WaitForExit();
             return tempFolder;

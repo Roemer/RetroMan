@@ -1,0 +1,2562 @@
+{
+  "Name": "Atari 5200",
+  "Version": "1.0",
+  "Files": [
+    {
+      "Name": "5200 Menu Program (2003) (PD)",
+      "FileName": "5200 Menu Program (2003) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "0DE2DB48",
+      "MD5": "96a2d107-fab2-ed1c-f2a5-fa029783e9ed",
+      "SHA1": "E64FB1A353C72B87C5483BB88CB3523EA5D37B59"
+    },
+    {
+      "Name": "5200 POK Music - Dust in the Wind by Jeffry Johnston (2002) (PD)",
+      "FileName": "5200 POK Music - Dust in the Wind by Jeffry Johnston (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "F92DA5F7",
+      "MD5": "3e339111-96c9-20a0-c34d-7396f4d71a8d",
+      "SHA1": "18FBA486E3E82D722DF4B40E65110D208581ADC7"
+    },
+    {
+      "Name": "5200Basic - 3-D Maze by Jeffry Johnston (2002) (PD)",
+      "FileName": "5200Basic - 3-D Maze by Jeffry Johnston (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "4E728C4D",
+      "MD5": "6eeaef96-85b2-cd63-9777-5402399f4bf7",
+      "SHA1": "42D1B70C05AA1F6399446259E7D62FA804683E2A"
+    },
+    {
+      "Name": "5200Basic - 5200 Doom by Jeffry Johnston (2002) (PD)",
+      "FileName": "5200Basic - 5200 Doom by Jeffry Johnston (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "9C846B4C",
+      "MD5": "dc47d708-d230-ea59-092e-9a82d4e56eef",
+      "SHA1": "6C91197FAD5F47E4BCC50241520A0DCA270CF656"
+    },
+    {
+      "Name": "5200Basic - 99 Bottles of Beer - V.BrainFck by Jeffry Johnston (2001) (PD)",
+      "FileName": "5200Basic - 99 Bottles of Beer - V.BrainFck by Jeffry Johnston (2001) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "43994750",
+      "MD5": "ff08cef9-e87c-034b-c159-bb46fd67e55a",
+      "SHA1": "DAD0876E2727E82C5E852145EBE8AEA4268870F4"
+    },
+    {
+      "Name": "5200Basic - 99 Bottles of Beer by Jeffry Johnston (2001) (PD)",
+      "FileName": "5200Basic - 99 Bottles of Beer by Jeffry Johnston (2001) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "1A93A9CB",
+      "MD5": "2dd88e97-0a7f-711d-25ec-711f103b2b57",
+      "SHA1": "5D2821316B89C45F502AF06276ABAA4051E987BB"
+    },
+    {
+      "Name": "5200Basic - Echo - V.BrainFck by Jeffry Johnston (2001) (PD)",
+      "FileName": "5200Basic - Echo - V.BrainFck by Jeffry Johnston (2001) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "3DB6C448",
+      "MD5": "99543082-bf9b-5882-242d-af3c67f06e22",
+      "SHA1": "17D3BE7AF2F2AAA057635889D2DAAED83D848676"
+    },
+    {
+      "Name": "5200Basic - Hello World - V.BrainFck by Jeffry Johnston (2001) (PD)",
+      "FileName": "5200Basic - Hello World - V.BrainFck by Jeffry Johnston (2001) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "9FB8F36F",
+      "MD5": "c94da2f1-b4ef-481e-2911-e9e6da10a2b2",
+      "SHA1": "DC81C58047A5775DBBCF84026DB8E0175D51B9BD"
+    },
+    {
+      "Name": "5200Basic - Hello World by Jeffry Johnston (2001) (PD)",
+      "FileName": "5200Basic - Hello World by Jeffry Johnston (2001) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "6666DB64",
+      "MD5": "be5ba1be-0a29-5892-841b-1dd21c7c343a",
+      "SHA1": "2C546869356BEA09E01DBDDA26AEC4742B983CE9"
+    },
+    {
+      "Name": "5200Basic - Missile by Jeffry Johnston (2002) (PD)",
+      "FileName": "5200Basic - Missile by Jeffry Johnston (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "CECB2B25",
+      "MD5": "ed9065a3-507e-7453-60c5-740c10087f48",
+      "SHA1": "5C84C1D0A33B997333DF79451611EB88BD1842FF"
+    },
+    {
+      "Name": "5200Basic - River Racer by Jeffry Johnston (2002) (PD)",
+      "FileName": "5200Basic - River Racer by Jeffry Johnston (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "7C13356D",
+      "MD5": "eee15ed1-c809-a91b-4b37-5dff2a71915a",
+      "SHA1": "A4474602B851A557948F0151ED6970AA52036DB8"
+    },
+    {
+      "Name": "Activision Decathlon, The (1984) (Activision) [b1]",
+      "FileName": "Activision Decathlon, The (1984) (Activision) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "1F9ED238",
+      "MD5": "cef7138f-5a7a-f1f5-ec75-0d6a0b44a222",
+      "SHA1": "F8886E19832C2CEF13C30CB6464B7631D70868A2"
+    },
+    {
+      "Name": "Activision Decathlon, The (1984) (Activision)",
+      "FileName": "Activision Decathlon, The (1984) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "F43E7CD0",
+      "MD5": "1284f845-3169-3637-4891-80c8ec3e9588",
+      "SHA1": "DB203973DF13B071DA46D52FDB078A76F4DB428D"
+    },
+    {
+      "Name": "Adventure 2 Demo (2002) (Ron Lloyd)",
+      "FileName": "Adventure 2 Demo (2002) (Ron Lloyd).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "518F8178",
+      "MD5": "3f2ab2a2-ca77-7ef2-a359-e49a7acc6b57",
+      "SHA1": "67406CB5DA7EA52D439FA191A8F372B693A1FCEE"
+    },
+    {
+      "Name": "AE (1984) (Atari) (Prototype)",
+      "FileName": "AE (1984) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "35484751",
+      "MD5": "4ecb7fa4-abed-1894-ea09-8bb431a407aa",
+      "SHA1": "E18A603B18B85E24F9C938B33B6077A767C1FA9C"
+    },
+    {
+      "Name": "Asteroids - Vector Edition (Asteroids Hack)",
+      "FileName": "Asteroids - Vector Edition (Asteroids Hack).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "C5BD8BAD",
+      "MD5": "7ca89c9a-6f2c-2860-0e86-f6cf4f22373c",
+      "SHA1": "2F1645A868B24301FBEEE4F7BCF725A01E511636"
+    },
+    {
+      "Name": "Asteroids (1983) (Atari) (Prototype) [!]",
+      "FileName": "Asteroids (1983) (Atari) (Prototype) [!].a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "38480891",
+      "MD5": "000b84fe-0020-113f-1022-eb45347baf38",
+      "SHA1": "18697DD8E640FA1578B3B4AE09AF484C14FB8410"
+    },
+    {
+      "Name": "Asteroids (1983) (Atari) (Prototype) [o1]",
+      "FileName": "Asteroids (1983) (Atari) (Prototype) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "8D2AAAB5",
+      "MD5": "e5e645cf-b0d9-f30e-2704-88185bc1e4b5",
+      "SHA1": "E523C5FB12F5328F9F2004482A91A57F9C16C3DC"
+    },
+    {
+      "Name": "Astro Chase (1982) (Parker Bros-First Star Software)",
+      "FileName": "Astro Chase (1982) (Parker Bros-First Star Software).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "4019ECEC",
+      "MD5": "e5c1e7ba-04eb-9ee1-f8d0-d0b5ce134332",
+      "SHA1": "67E405C37E55DEC4071018E8166AB4FAF9F21DF5"
+    },
+    {
+      "Name": "Atari Diagnostics V2.3 (1983) (Atari)",
+      "FileName": "Atari Diagnostics V2.3 (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "CE07D9AD",
+      "MD5": "ded0a632-174f-de28-e163-eb2d4b3f49f1",
+      "SHA1": "E086E9868AA913E87F94676FD600F003892E73A1"
+    },
+    {
+      "Name": "Ballblazer (1984) (Atari-Lucasfilm Games) [a1]",
+      "FileName": "Ballblazer (1984) (Atari-Lucasfilm Games) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "94D97D14",
+      "MD5": "c2d485a4-5104-daaa-7648-c649937f18d6",
+      "SHA1": "ED92FFD21ABD50339F5BE0CBFF9BDCC8FAFBC67F"
+    },
+    {
+      "Name": "Ballblazer (1984) (Atari-Lucasfilm Games)",
+      "FileName": "Ballblazer (1984) (Atari-Lucasfilm Games).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "DEF2A207",
+      "MD5": "8c17cdf5-a0be-7dae-8cf6-5b30cfd04225",
+      "SHA1": "1DFD9CB5EB608590C84E14376291F8C02FB1AB93"
+    },
+    {
+      "Name": "Barroom Baseball (1983) (Atari) (Prototype)",
+      "FileName": "Barroom Baseball (1983) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "21D19C8F",
+      "MD5": "9dadfbe3-7c96-0dec-8756-d9c07346a8fb",
+      "SHA1": "510CCB20DF2ECDBE7F8373DE6A9FC11493E8C3F2"
+    },
+    {
+      "Name": "Battlezone (1983) (Atari) (Prototype)",
+      "FileName": "Battlezone (1983) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "B3B8E314",
+      "MD5": "7c867685-fc2c-5c96-f152-be0468f684a7",
+      "SHA1": "A339CDDFC28477C21C58783D2D3B0CF0F4626DDF"
+    },
+    {
+      "Name": "Beamrider (1984) (Activision) [b1]",
+      "FileName": "Beamrider (1984) (Activision) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "02D9B87A",
+      "MD5": "af542945-5e9b-f99d-fa70-cd5cf9599a55",
+      "SHA1": "FC298BA5118061BCB390D8549D1FC7DEF0307002"
+    },
+    {
+      "Name": "Beamrider (1984) (Activision) [o1]",
+      "FileName": "Beamrider (1984) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "71FA5A79",
+      "MD5": "479e1a50-70a0-2ae8-cb28-4657bd137583",
+      "SHA1": "57254EE0E3D154635433713DBFDFDD157B59F76E"
+    },
+    {
+      "Name": "Beamrider (1984) (Activision)",
+      "FileName": "Beamrider (1984) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "9BAE58DC",
+      "MD5": "0b311319-441e-7fad-3b90-aeb16790a850",
+      "SHA1": "B75D555D059AD61992F9F5A234129ECBF9504C35"
+    },
+    {
+      "Name": "Berzerk (1983) (Atari) [b1]",
+      "FileName": "Berzerk (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32767,
+      "CRC": "CBF1A137",
+      "MD5": "a20e29e3-cc6a-4e85-e207-89d41d3588d6",
+      "SHA1": "A3EA767198256D920C8A64F8B4A8457998A2AB28"
+    },
+    {
+      "Name": "Berzerk (1983) (Atari) [o1]",
+      "FileName": "Berzerk (1983) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "CC740E26",
+      "MD5": "bd66cbe6-dd9a-2724-4414-33a0dbd60664",
+      "SHA1": "58541271ED2E5105C9C4EF0EDD59787E351A7673"
+    },
+    {
+      "Name": "Berzerk (1983) (Atari)",
+      "FileName": "Berzerk (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "BE3CD348",
+      "MD5": "b83d97f8-27dc-2e2c-5eb7-b8dbb5c0cc3b",
+      "SHA1": "E56CCC6BF427A832CE00540B02D065A2688260DC"
+    },
+    {
+      "Name": "Black Belt (1982) (Atari) (Prototype)",
+      "FileName": "Black Belt (1982) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "ED47B0D8",
+      "MD5": "e2768f42-b03c-99a4-b396-824ce0ff70e7",
+      "SHA1": "9B7ECD444B6239442EF1F54CD8E14C294C064DA2"
+    },
+    {
+      "Name": "Blueprint (1982) (CBS) [b1]",
+      "FileName": "Blueprint (1982) (CBS) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32767,
+      "CRC": "74A59340",
+      "MD5": "62f3e399-9b86-bca5-0b05-0d06416ae810",
+      "SHA1": "7F9CC441C4D37B62E24AE7F053BF8E7AF0B5B92F"
+    },
+    {
+      "Name": "Blueprint (1982) (CBS) [b2]",
+      "FileName": "Blueprint (1982) (CBS) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "40D08988",
+      "MD5": "599e4979-451b-69c1-65e6-8dc8a1020ea0",
+      "SHA1": "4475D737497369415D10040F075D529AD7C6D9A5"
+    },
+    {
+      "Name": "Blueprint (1982) (CBS) [b3]",
+      "FileName": "Blueprint (1982) (CBS) [b3].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "13734E17",
+      "MD5": "8eb00a79-348c-ff7b-058d-e29b5089c635",
+      "SHA1": "1EC1038C030F917863856569BA9888E0783EAAD8"
+    },
+    {
+      "Name": "Blueprint (1982) (CBS) [b3][o1]",
+      "FileName": "Blueprint (1982) (CBS) [b3][o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "613B9379",
+      "MD5": "e2619f98-1dbc-857a-12bb-81c2c2d169bd",
+      "SHA1": "46958241E9619A5AB34A493AC19C1B417BF67514"
+    },
+    {
+      "Name": "Blueprint (1982) (CBS) [b3][o2]",
+      "FileName": "Blueprint (1982) (CBS) [b3][o2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "69584E01",
+      "MD5": "94c6183c-56c7-717a-c669-62fd6281aca6",
+      "SHA1": "E08B100D9AD1BE22684A210F0E812589CECC29BD"
+    },
+    {
+      "Name": "Blueprint (1982) (CBS) [o1]",
+      "FileName": "Blueprint (1982) (CBS) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "746C3B89",
+      "MD5": "87d983b9-d2ff-2adf-01bf-0a811c1c9c9a",
+      "SHA1": "034CA9771250AD96EA9F917BD557661F2C049F82"
+    },
+    {
+      "Name": "Blueprint (1982) (CBS)",
+      "FileName": "Blueprint (1982) (CBS).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "0624E6E7",
+      "MD5": "3a392381-63e9-6b5f-c15d-dc3380b04328",
+      "SHA1": "1E1A20C104BF4D55ECA0CA1E72DC5DC64FA6B1B5"
+    },
+    {
+      "Name": "Boogie Demo (1982) (Atari) (Prototype) [o1]",
+      "FileName": "Boogie Demo (1982) (Atari) (Prototype) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "7A9D9F85",
+      "MD5": "70a4ff69-787c-676a-bcef-8364da4777d6",
+      "SHA1": "6425D1E2409A6EE62EE64A0300C8C7388DA8F318"
+    },
+    {
+      "Name": "Boogie Demo (1982) (Atari) (Prototype) [o2]",
+      "FileName": "Boogie Demo (1982) (Atari) (Prototype) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "4E75738A",
+      "MD5": "77e0f7b2-2a21-d8af-a221-107da9a2bfd5",
+      "SHA1": "9115686A6C617F2D359715DD1D0CAB126A3537AA"
+    },
+    {
+      "Name": "Boogie Demo (1982) (Atari) (Prototype)",
+      "FileName": "Boogie Demo (1982) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 4096,
+      "CRC": "3BD5FDD6",
+      "MD5": "d3e670a4-ccba-72e1-60f3-7097b2de88b1",
+      "SHA1": "5236BC13E4B06D2E16D70B0A0C98588E1726DA0C"
+    },
+    {
+      "Name": "Bounty Bob Strikes Back ($4000) (1984) (Big Five Software)",
+      "FileName": "Bounty Bob Strikes Back ($4000) (1984) (Big Five Software).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "74E6A611",
+      "MD5": "5f148c39-3163-f48b-b8d1-1b904f7b94d0",
+      "SHA1": "DF8FAD48C2F060ACE7408095DE969E6BF422FA87"
+    },
+    {
+      "Name": "Bounty Bob Strikes Back ($5000) (1984) (Big Five Software)",
+      "FileName": "Bounty Bob Strikes Back ($5000) (1984) (Big Five Software).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "EFA4915D",
+      "MD5": "5e3ab840-bcb8-ffa1-6324-e43d1b56fb37",
+      "SHA1": "DD75E5A0A766440A828989CEFF40318609B978A8"
+    },
+    {
+      "Name": "Bounty Bob Strikes Back ($A000) (1984) (Big Five Software)",
+      "FileName": "Bounty Bob Strikes Back ($A000) (1984) (Big Five Software).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "02931055",
+      "MD5": "e690cc68-7bea-1724-6512-c3bda97de1af",
+      "SHA1": "1F8B7651379976AFAE39201361CDA708C0121F61"
+    },
+    {
+      "Name": "Bounty Bob Strikes Back (Merged) (Big Five Software)",
+      "FileName": "Bounty Bob Strikes Back (Merged) (Big Five Software).a52",
+      "FileType": "Game",
+      "FileSize": 40960,
+      "CRC": "57E7945E",
+      "MD5": "af0d7981-f7f7-6a64-6c37-1c056622be9c",
+      "SHA1": "490B93950537C04ED28A9551A95475A22E1CC891"
+    },
+    {
+      "Name": "Buck Rogers - Planet of Zoom (1983) (Sega) [a1]",
+      "FileName": "Buck Rogers - Planet of Zoom (1983) (Sega) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "20DF4927",
+      "MD5": "18dd45f3-7998-d1f8-3e4c-8c5737279fa3",
+      "SHA1": "E394B4843856775176389B8B0B261E2EF5FDA880"
+    },
+    {
+      "Name": "Buck Rogers - Planet of Zoom (1983) (Sega) [a1][b1]",
+      "FileName": "Buck Rogers - Planet of Zoom (1983) (Sega) [a1][b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "A3F12CCE",
+      "MD5": "61a8bbdf-77f0-8797-f290-7672d6847c4f",
+      "SHA1": "BEC0696A4BDCBE71F399436773251C960D4F101E"
+    },
+    {
+      "Name": "Buck Rogers - Planet of Zoom (1983) (Sega) [b1]",
+      "FileName": "Buck Rogers - Planet of Zoom (1983) (Sega) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "C8035788",
+      "MD5": "e3152f41-542f-1b48-d858-3a0239df4eef",
+      "SHA1": "FF4E8CBAFE6B0D245541455D4DA88E4DF02E5425"
+    },
+    {
+      "Name": "Buck Rogers - Planet of Zoom (1983) (Sega)",
+      "FileName": "Buck Rogers - Planet of Zoom (1983) (Sega).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "04807705",
+      "MD5": "ffa174a0-160a-e0d1-34ee-314b85fa41e9",
+      "SHA1": "BC7C81F758DD3E224E42AC8A16C1A12D69AED722"
+    },
+    {
+      "Name": "Captain Beeble 5200 Conversion by Kenfuzed (2004) (InHome Software)",
+      "FileName": "Captain Beeble 5200 Conversion by Kenfuzed (2004) (InHome Software).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "9F1E1C14",
+      "MD5": "013521d6-ff9b-99b5-96c9-2819453664c0",
+      "SHA1": "0DE403AE063E873B2F80169EAF29ECE687C9F09B"
+    },
+    {
+      "Name": "Castle Blast (Demo V.03) (2002) (Ronen Habot)",
+      "FileName": "Castle Blast (Demo V.03) (2002) (Ronen Habot).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "FA0648EF",
+      "MD5": "d4d41fa0-a821-09df-342e-a2643bbb47ce",
+      "SHA1": "087EE6AB4A949195F1C7649DC048B54A84B845B5"
+    },
+    {
+      "Name": "Castle Blast (NAVA Demo) (2002) (Ronen Habot)",
+      "FileName": "Castle Blast (NAVA Demo) (2002) (Ronen Habot).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "2E0B4C50",
+      "MD5": "064b63a4-7c60-3b9d-fd20-ec611860bc69",
+      "SHA1": "527D478832DF8B06A7B2208A255D950F865D59DF"
+    },
+    {
+      "Name": "Castle Blast (Philly Classic 4) (2002) (Ronen Habot)",
+      "FileName": "Castle Blast (Philly Classic 4) (2002) (Ronen Habot).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "7C988054",
+      "MD5": "c8b46549-caac-c464-fac3-9a7c0763f611",
+      "SHA1": "C1A56A1FC51E09B1D8E93AF40DDD7596847E6164"
+    },
+    {
+      "Name": "Centipede (1982) (Atari)",
+      "FileName": "Centipede (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "536A70FE",
+      "MD5": "e8021726-acd9-45bf-d44b-b61fd8fa3e17",
+      "SHA1": "EB343B90D3DE696E69B1F039D4FB2C6AFB0D80C0"
+    },
+    {
+      "Name": "Choplifter (1984) (Atari) [o1]",
+      "FileName": "Choplifter (1984) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "0851D277",
+      "MD5": "0986b3d7-050a-b468-f3bd-62662f71b330",
+      "SHA1": "D4ED773FD1180EAA0262E817DA2C86287B498A28"
+    },
+    {
+      "Name": "Choplifter (1984) (Atari)",
+      "FileName": "Choplifter (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "9AD53BBC",
+      "MD5": "7e70f73f-3525-9b9c-cb23-26a5d8539852",
+      "SHA1": "9F1EE191319EF0261CC7074A81C0E6D6B7464CD2"
+    },
+    {
+      "Name": "Combat II Demo (2002) (Mean Hamster Software)",
+      "FileName": "Combat II Demo (2002) (Mean Hamster Software).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "2E3D0AD9",
+      "MD5": "0390c079-2512-cda8-0e4e-181c496eefaf",
+      "SHA1": "038D0CA61D0E1C17FB322957A2AFA91FCCA17546"
+    },
+    {
+      "Name": "Congo Bongo (1983) (Sega) [a1]",
+      "FileName": "Congo Bongo (1983) (Sega) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "F1F42BBD",
+      "MD5": "3e422057-75bd-9475-1a15-86466ba9beaf",
+      "SHA1": "E0203C2124127EBA2D679BE548FA257ECC5B2607"
+    },
+    {
+      "Name": "Congo Bongo (1983) (Sega) [a1][b1]",
+      "FileName": "Congo Bongo (1983) (Sega) [a1][b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "28EC8516",
+      "MD5": "639d854e-3ee6-a72b-a856-87937088e74a",
+      "SHA1": "5C4E6DC4298628CBD7A0EF869D73F5D9B6B9EFC1"
+    },
+    {
+      "Name": "Congo Bongo (1983) (Sega) [b1]",
+      "FileName": "Congo Bongo (1983) (Sega) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "7BB360F5",
+      "MD5": "da0c5536-5b6f-7394-d2fc-7917f0578d5f",
+      "SHA1": "F116BC9D8B7ECD894643487A79A4AF32723C8CFF"
+    },
+    {
+      "Name": "Congo Bongo (1983) (Sega)",
+      "FileName": "Congo Bongo (1983) (Sega).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "82B91800",
+      "MD5": "0e12ea88-77f1-d747-b567-ffa08b9fb578",
+      "SHA1": "BE69655CA0A36989DC9E2933DCBDC69107CE4546"
+    },
+    {
+      "Name": "Countermeasure (1983) (Atari) [o1]",
+      "FileName": "Countermeasure (1983) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "A993C86E",
+      "MD5": "70430d03-5731-b0fa-23ea-def6faba484c",
+      "SHA1": "F4FDB41A7F4EBE19BEF6652676F4E07595159EAC"
+    },
+    {
+      "Name": "Countermeasure (1983) (Atari)",
+      "FileName": "Countermeasure (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "FD541C80",
+      "MD5": "ffed641a-1652-f908-f4fa-9d7bdb355087",
+      "SHA1": "FA6D77E6E9AFD0EA42FC9F9807932BF9E8FB170E"
+    },
+    {
+      "Name": "Crystal Castles V0.6 by Clay Cowgill (2002) (PD) [b1]",
+      "FileName": "Crystal Castles V0.6 by Clay Cowgill (2002) (PD) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 24576,
+      "CRC": "EE054CD8",
+      "MD5": "57b1e007-ad18-8bdc-54c6-f23852c848de",
+      "SHA1": "B60248328658CEEE318CC9596E3875080395A4FA"
+    },
+    {
+      "Name": "Crystal Castles V0.6 by Clay Cowgill (2002) (PD)",
+      "FileName": "Crystal Castles V0.6 by Clay Cowgill (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "D3B10B5D",
+      "MD5": "6df40e55-09fa-b645-dd69-3b0fab6385a5",
+      "SHA1": "74B298DF85CDF128E866988CBB7369AE4A3CCDAE"
+    },
+    {
+      "Name": "DEBUG52 V1.10 by Jeffry Johnston (2002) (PD)",
+      "FileName": "DEBUG52 V1.10 by Jeffry Johnston (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "2A4B17C6",
+      "MD5": "9197dcac-7e97-e4f7-4022-6668daa66cf0",
+      "SHA1": "626B398CC2103DB6E6B57027E5091D0755506236"
+    },
+    {
+      "Name": "Defender (1982) (Atari) [b1]",
+      "FileName": "Defender (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 28672,
+      "CRC": "0D7454A1",
+      "MD5": "d98ca6bd-cd1f-cead-5fa2-25204271c048",
+      "SHA1": "FB101F9F2138300A3D24C0C1BA5BD60490B8464A"
+    },
+    {
+      "Name": "Defender (1982) (Atari) [b2]",
+      "FileName": "Defender (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "EBAD58BA",
+      "MD5": "b9db8ac3-ddef-d580-a9c4-4ad9274a7e79",
+      "SHA1": "6E589C0D8AD9F278E7725D4B92528231E6A6E4B6"
+    },
+    {
+      "Name": "Defender (1982) (Atari)",
+      "FileName": "Defender (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "BD52623B",
+      "MD5": "2bf3d527-460d-d8d3-0773-a2b505f95046",
+      "SHA1": "44F6DBF5013A70E646D5C5232981D517069FC449"
+    },
+    {
+      "Name": "Dig Dug (1983) (Atari) [b1]",
+      "FileName": "Dig Dug (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "D29BB9A9",
+      "MD5": "c0a3f06a-daee-4a14-6b3d-11dbde1bcacb",
+      "SHA1": "1FC1DDDF5AB581D3F0B2950723509B23392DD811"
+    },
+    {
+      "Name": "Dig Dug (1983) (Atari) [b2]",
+      "FileName": "Dig Dug (1983) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "EE7B80D1",
+      "MD5": "fb84da6d-448e-cf2e-3424-1ac0d1d91d69",
+      "SHA1": "79E746524520DA546249149C33614FC23A4F2A51"
+    },
+    {
+      "Name": "Dig Dug (1983) (Atari)",
+      "FileName": "Dig Dug (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "6A687F9C",
+      "MD5": "050cbd3a-7474-d4ba-6e45-f3d4e96eecee",
+      "SHA1": "387A76BA5912251E2285B7722004AD75E9EDE523"
+    },
+    {
+      "Name": "Dreadnaught Factor, The (1983) (Atari) [o1]",
+      "FileName": "Dreadnaught Factor, The (1983) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "7226FEE6",
+      "MD5": "c1ec7788-7f17-e4ea-b67e-ad62c9e1263d",
+      "SHA1": "894282D22BFC24469C0D16484A2A72BFC850B4E5"
+    },
+    {
+      "Name": "Dreadnaught Factor, The (1983) (Atari)",
+      "FileName": "Dreadnaught Factor, The (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "460DEF2D",
+      "MD5": "a5ca9c15-fc64-7224-afd1-f06665ec6d19",
+      "SHA1": "EA7B40CE1106378E1D409CAB6634FB2E483FF238"
+    },
+    {
+      "Name": "Final Legacy (1982) (Atari) (Prototype)",
+      "FileName": "Final Legacy (1982) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "D3BD3221",
+      "MD5": "653db62b-c8ef-2b68-c4df-ac0fd0a823be",
+      "SHA1": "48625AF4F3E9FE538DAB2A0B463887FC8C6B138D"
+    },
+    {
+      "Name": "FireFight (Koffi Yellow Kopter Demo) (2002) (Ron Lloyd)",
+      "FileName": "FireFight (Koffi Yellow Kopter Demo) (2002) (Ron Lloyd).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "830677FD",
+      "MD5": "fd50fdf1-1f8a-8cb3-93ce-d4256c54e361",
+      "SHA1": "92DB4DB418C3324EE09E8CD6D8F8E4FCE88DD390"
+    },
+    {
+      "Name": "Frisky Tom (1982) (Atari) (Prototype)",
+      "FileName": "Frisky Tom (1982) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "04B299A4",
+      "MD5": "049abd14-ea23-30fc-9033-3af916cfbce6",
+      "SHA1": "69DCC8F59CA449F13DC896B4B29B534762D97064"
+    },
+    {
+      "Name": "Frogger (1983) (Parker Bros) [a1]",
+      "FileName": "Frogger (1983) (Parker Bros) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "99DC4F40",
+      "MD5": "7f472c2f-aacb-4722-65ac-b3ca3ce10af6",
+      "SHA1": "D3B0F2C2FE712865786633BDE5CE80CE53D5CEA7"
+    },
+    {
+      "Name": "Frogger (1983) (Parker Bros) [b1]",
+      "FileName": "Frogger (1983) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "1062EF6A",
+      "MD5": "a56a7ebd-e228-37eb-d8af-28e174220c2c",
+      "SHA1": "279211D86C556D90164FB400102DD7FF79FEB3B7"
+    },
+    {
+      "Name": "Frogger (1983) (Parker Bros) [b1][o1]",
+      "FileName": "Frogger (1983) (Parker Bros) [b1][o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "8DB0DDE4",
+      "MD5": "38822b20-44cf-1300-bfcc-2877552c361a",
+      "SHA1": "866BD3740E142E83797D76824345261B25741830"
+    },
+    {
+      "Name": "Frogger (1983) (Parker Bros) [o1]",
+      "FileName": "Frogger (1983) (Parker Bros) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "0B7E77FC",
+      "MD5": "e9facb90-4514-86da-71a4-a8e96b9e7ace",
+      "SHA1": "5DCBA2E5791812FA381EA7A192DB38B937B19434"
+    },
+    {
+      "Name": "Frogger (1983) (Parker Bros) [o2]",
+      "FileName": "Frogger (1983) (Parker Bros) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "7936AA92",
+      "MD5": "c8aa2faa-522a-975c-8492-7524964c7705",
+      "SHA1": "1D92077B4A821CD68ECCDBB6201F76F3D0B81634"
+    },
+    {
+      "Name": "Frogger (1983) (Parker Bros)",
+      "FileName": "Frogger (1983) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "AE7E3444",
+      "MD5": "44c9892c-994f-7afd-c83f-88278e6772c6",
+      "SHA1": "D9A695757F0494AEE92A50AB8A49558745E0CEDF"
+    },
+    {
+      "Name": "Frogger 2 - Threedeep! (1984) (Parker Bros) [a1]",
+      "FileName": "Frogger 2 - Threedeep! (1984) (Parker Bros) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "DC1437D0",
+      "MD5": "4f03038e-2cc4-a5ea-f768-8af08c1f077c",
+      "SHA1": "0EF069DC39AAA0E440ACAF0F04A7123B2B77F2AC"
+    },
+    {
+      "Name": "Frogger 2 - Threedeep! (1984) (Parker Bros) [a1][o1]",
+      "FileName": "Frogger 2 - Threedeep! (1984) (Parker Bros) [a1][o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "110D6FBC",
+      "MD5": "70d2a9ac-122b-209e-dbe3-e5c9d3de2556",
+      "SHA1": "D5BDB5A33B18421AC330ABB0A509655E772E467D"
+    },
+    {
+      "Name": "Frogger 2 - Threedeep! (1984) (Parker Bros) [a1][o2]",
+      "FileName": "Frogger 2 - Threedeep! (1984) (Parker Bros) [a1][o2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "0FE438B3",
+      "MD5": "61b6a3d1-033b-6a71-f6ae-fe21d1bfdf07",
+      "SHA1": "5644F3D7E68379D7162DDEC30CFBE160688E660C"
+    },
+    {
+      "Name": "Frogger 2 - Threedeep! (1984) (Parker Bros) [b1]",
+      "FileName": "Frogger 2 - Threedeep! (1984) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "1418C44A",
+      "MD5": "2e298e17-e594-9803-e896-1438e4cb6cd7",
+      "SHA1": "ED21BFABFC02964192577C4D94F33428482C9310"
+    },
+    {
+      "Name": "Frogger 2 - Threedeep! (1984) (Parker Bros)",
+      "FileName": "Frogger 2 - Threedeep! (1984) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "0AF19345",
+      "MD5": "226263d8-93c9-71ca-ca09-04c8d89c4411",
+      "SHA1": "3D815594CF674694B04BB0FF90BF635D7D402FC2"
+    },
+    {
+      "Name": "Galaxian (1982) (Atari) [b1]",
+      "FileName": "Galaxian (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32766,
+      "CRC": "430F87D1",
+      "MD5": "c835c052-1171-2b75-c663-09e7cc2f0fdc",
+      "SHA1": "0A996B2C6C21171FC39C409BF86077BB48631B2F"
+    },
+    {
+      "Name": "Galaxian (1982) (Atari) [o1]",
+      "FileName": "Galaxian (1982) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "A6DFA355",
+      "MD5": "6f911da6-515e-510b-6f04-aa1259d36ae4",
+      "SHA1": "170D77A766B44DAC0DFCB0446B071E15AA0973F7"
+    },
+    {
+      "Name": "Galaxian (1982) (Atari) [o2]",
+      "FileName": "Galaxian (1982) (Atari) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "D4977E3B",
+      "MD5": "65f8f97e-69f1-9eb7-9d60-9886cb221d22",
+      "SHA1": "71A6AD7D5B3022AD7B82FDAA26438199317A5CB7"
+    },
+    {
+      "Name": "Galaxian (1982) (Atari)",
+      "FileName": "Galaxian (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "3EF4A23F",
+      "MD5": "597cce3a-881a-22af-bac0-c559bbb08f03",
+      "SHA1": "0DF0D7F11D89E2C5B59CC9F98D67D98E203831AA"
+    },
+    {
+      "Name": "Gorf (1982) (CBS) [o1]",
+      "FileName": "Gorf (1982) (CBS) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "97B15243",
+      "MD5": "85c5a265-0bd8-63a3-f22b-5ab7309e71bc",
+      "SHA1": "587F6DB470A8524E5C5EE8000AAB54EC2B6C18CB"
+    },
+    {
+      "Name": "Gorf (1982) (CBS)",
+      "FileName": "Gorf (1982) (CBS).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "E955DB74",
+      "MD5": "9224fe85-94e2-1550-0002-72a9fefc06e3",
+      "SHA1": "80926BB270EA66CB5CACC379DE1FC16D8A3D814B"
+    },
+    {
+      "Name": "Gremlins (1984) (Atari) [b1]",
+      "FileName": "Gremlins (1984) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "B1D4DC8E",
+      "MD5": "47de5c34-d832-8fee-0ef7-5e5253c11bdb",
+      "SHA1": "F2B4FFB2B16B3A47AEC160D2A5BAB6107D79C76A"
+    },
+    {
+      "Name": "Gremlins (1984) (Atari) [b2]",
+      "FileName": "Gremlins (1984) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "15D0CFC2",
+      "MD5": "78d48886-9d79-ee51-aec1-18a6666bb33d",
+      "SHA1": "9C15E327AB32DEFBBB0BE5EB10FCCF3337C000BF"
+    },
+    {
+      "Name": "Gremlins (1984) (Atari)",
+      "FileName": "Gremlins (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "063EC2C4",
+      "MD5": "471e27dc-475b-e866-0151-f1da5b764e52",
+      "SHA1": "F3C32B39580D589799DCEAD98BB206FBF3DF0504"
+    },
+    {
+      "Name": "Gyruss (1982) (Parker Bros)",
+      "FileName": "Gyruss (1982) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "CFD4A7F9",
+      "MD5": "820accda-eee8-080c-6971-f9d9bac14127",
+      "SHA1": "D0D8650EB07D1679004D491360C2C041E37C61CD"
+    },
+    {
+      "Name": "H.E.R.O. (1984) (Activision) [b1]",
+      "FileName": "H.E.R.O. (1984) (Activision) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "9AF4DB28",
+      "MD5": "ac3cf660-fd40-d0d2-24f1-4d8c4e7863a7",
+      "SHA1": "A452845F68F6E5B22B8446BF878CA781D1D7B349"
+    },
+    {
+      "Name": "H.E.R.O. (1984) (Activision) [o1]",
+      "FileName": "H.E.R.O. (1984) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "F145A21C",
+      "MD5": "510c6a7c-f918-474a-018e-00f2bf7dfeaf",
+      "SHA1": "1F30ACF5BABFFE9B5123FF6F0FEC3EC9337939B0"
+    },
+    {
+      "Name": "H.E.R.O. (1984) (Activision)",
+      "FileName": "H.E.R.O. (1984) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "18A73AF3",
+      "MD5": "a6e0f0f8-2fdc-e4fe-1b2a-2dd736cba4cd",
+      "SHA1": "D286ECB6793A0DDA9C9C68F6355DBE3ADE6922F9"
+    },
+    {
+      "Name": "Hello There James (1999) (PD)",
+      "FileName": "Hello There James (1999) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "110ECA83",
+      "MD5": "fb972046-ea97-9bb7-9ad8-04938c09f745",
+      "SHA1": "EDFE72128D550BDE5D45B8494E47244986B2702E"
+    },
+    {
+      "Name": "Hello World by Dan Boris (1998) (PD)",
+      "FileName": "Hello World by Dan Boris (1998) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "71DB5B70",
+      "MD5": "1577333e-7d25-a3c9-b358-81b3c0a0ea26",
+      "SHA1": "D6C6AD373B150C1F752CBECB8B94AB2640AF3DE9"
+    },
+    {
+      "Name": "Irata's Quest by John Swiderski (Dec 12) (2002) (PD)",
+      "FileName": "Irata's Quest by John Swiderski (Dec 12) (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "F43CCA95",
+      "MD5": "780520a6-9964-9a7f-e5e7-3a7fb26d0c5e",
+      "SHA1": "2140B60BA5908ADCD93851FE860B61C758F835BE"
+    },
+    {
+      "Name": "Irata's Quest by John Swiderski (Dec 16) (2002) (PD)",
+      "FileName": "Irata's Quest by John Swiderski (Dec 16) (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "5321D67B",
+      "MD5": "4ac0a5bc-f11e-6ece-c895-5efa2454d63a",
+      "SHA1": "96EFCC48D91A2D0EE05AD05978652879B0947AF4"
+    },
+    {
+      "Name": "Irata's Quest by John Swiderski (Dec 23) (2002) (PD)",
+      "FileName": "Irata's Quest by John Swiderski (Dec 23) (2002) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "9A5055AB",
+      "MD5": "529f7c06-274b-d5bd-a4e2-c9f7ab892e98",
+      "SHA1": "29BC826818F387CB1EA45E35CDA84C5B1BC979F8"
+    },
+    {
+      "Name": "James Bond 007 (1983) (Parker Bros) [a1][b1]",
+      "FileName": "James Bond 007 (1983) (Parker Bros) [a1][b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "6E70B70B",
+      "MD5": "0289e74b-4280-f640-4ebf-fa7672418a0d",
+      "SHA1": "0497D1C054BF1A92912746855B5A7F0404CAB966"
+    },
+    {
+      "Name": "James Bond 007 (1983) (Parker Bros) [b1]",
+      "FileName": "James Bond 007 (1983) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "4F1374B7",
+      "MD5": "17b3de85-6ddd-3557-dafe-3a13a64bf66a",
+      "SHA1": "AE6DE0CD4DB58D3C42703F1A62D4368215A72662"
+    },
+    {
+      "Name": "James Bond 007 (1983) (Parker Bros)",
+      "FileName": "James Bond 007 (1983) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "D9AE4518",
+      "MD5": "c0b76d93-6b8e-904b-2c58-5a529cb15fc5",
+      "SHA1": "AE765943AE8D909B6CA6FF1560BA027ADEEAA515"
+    },
+    {
+      "Name": "Joust (1983) (Atari) [b1]",
+      "FileName": "Joust (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "6B9B16DC",
+      "MD5": "9e314214-c910-6320-1d91-6c4e881b3d2a",
+      "SHA1": "CA7D5D0871BE19CA22D01019FD512B5836E3130A"
+    },
+    {
+      "Name": "Joust (1984) (Atari)",
+      "FileName": "Joust (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "BFD30C01",
+      "MD5": "f5decf25-9bbf-6112-66d5-394ae74a32e7",
+      "SHA1": "0F74125EDAC90FFD1274A128DF2970C239348FB5"
+    },
+    {
+      "Name": "Jr Pac-Man (1984) (Atari) [a1]",
+      "FileName": "Jr Pac-Man (1984) (Atari) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "59983C40",
+      "MD5": "048874bc-57f3-e928-8847-da6cdaf241a7",
+      "SHA1": "A3E760D09E4DC6053286967576B5B7D42EE2FD38"
+    },
+    {
+      "Name": "Jr Pac-Man (1984) (Atari) [b1]",
+      "FileName": "Jr Pac-Man (1984) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "3ECC921E",
+      "MD5": "a9209e72-8d47-a463-3777-10c49a06706b",
+      "SHA1": "122C0897E56976F00B06E5DA5240D20867715171"
+    },
+    {
+      "Name": "Jr Pac-Man (1984) (Atari) [b2]",
+      "FileName": "Jr Pac-Man (1984) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "4DA19779",
+      "MD5": "a4acffe0-b26e-7b02-893e-f1f93cfee36c",
+      "SHA1": "231DA71F7CE6B99709BBB8995B77AE69EDE52222"
+    },
+    {
+      "Name": "Jr Pac-Man (1984) (Atari)",
+      "FileName": "Jr Pac-Man (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "7C30592C",
+      "MD5": "a9fcf340-0578-a48d-6cd3-e63ea8d2412f",
+      "SHA1": "585F3D24C508F6ED101A7B040013C5DD183C6C81"
+    },
+    {
+      "Name": "Jum's Pong (2000) (PD)",
+      "FileName": "Jum's Pong (2000) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "AD95C112",
+      "MD5": "e9fe5d33-306d-95c2-9ea1-7fbc9a8c722f",
+      "SHA1": "704E743023CA98B8A61BA8BC0A7FFED67C597ECE"
+    },
+    {
+      "Name": "Jungle Hunt (1983) (Atari) [b1]",
+      "FileName": "Jungle Hunt (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "FDCCDE25",
+      "MD5": "c9a27a49-1da3-adda-70aa-4cd7ca22b6bf",
+      "SHA1": "E23FBF2350F2D661A514D89BF786862A8F7B4F38"
+    },
+    {
+      "Name": "Jungle Hunt (1983) (Atari)",
+      "FileName": "Jungle Hunt (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "2C676662",
+      "MD5": "fd674083-5dce-b809-6741-e41e7e491d6c",
+      "SHA1": "FA02EE04CFAD90C6CCF9D9B984E3B7B3327FEC12"
+    },
+    {
+      "Name": "KABOOM! (1983) (Activision) [o1]",
+      "FileName": "KABOOM! (1983) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "8591BE3D",
+      "MD5": "28a6a80b-9107-7755-6bc0-44f214352b0d",
+      "SHA1": "E34F5C1A55D11CE5F51859BD30F5CAA19AF4343F"
+    },
+    {
+      "Name": "KABOOM! (1983) (Activision)",
+      "FileName": "KABOOM! (1983) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 4096,
+      "CRC": "420F5D0B",
+      "MD5": "432ffd92-0abc-2fdf-7046-66b5244fadf1",
+      "SHA1": "A80F876A89A8CEACC71DA5D9C02B546970B17730"
+    },
+    {
+      "Name": "Kangaroo (1982) (Atari) [b1]",
+      "FileName": "Kangaroo (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "FECB2A41",
+      "MD5": "08aafaaf-c41c-ee7a-3cac-a2f9b3f6787d",
+      "SHA1": "40A5B74E41B1DB01D24CC3556D362546A06CC655"
+    },
+    {
+      "Name": "Kangaroo (1982) (Atari) [b2]",
+      "FileName": "Kangaroo (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "673C989F",
+      "MD5": "3b7e0922-e437-b6f1-8e86-ad3787575cab",
+      "SHA1": "708DF3437F75064FBD1631A566BA9A91A36F8A01"
+    },
+    {
+      "Name": "Kangaroo (1982) (Atari) [o1]",
+      "FileName": "Kangaroo (1982) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "DB292060",
+      "MD5": "bab626c4-7cfc-88a9-86c5-9637f20b0c8c",
+      "SHA1": "6BA0D478C6B16F67422A7C370D78739C4E505586"
+    },
+    {
+      "Name": "Kangaroo (1982) (Atari)",
+      "FileName": "Kangaroo (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "ECFA624F",
+      "MD5": "222c6d79-20f8-b05f-ce8f-1ee67c8eb2ca",
+      "SHA1": "C3DBEED7ADC0E282BF76332AB5A3209550E26D02"
+    },
+    {
+      "Name": "Keystone Kapers (1984) (Activision) [b1]",
+      "FileName": "Keystone Kapers (1984) (Activision) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "22163E26",
+      "MD5": "fc1ac5e3-ea75-5bc4-04ee-8dba0490c56d",
+      "SHA1": "B97F1B5C02E7DC1FC77C61BD099DCDF2F9C2860C"
+    },
+    {
+      "Name": "Keystone Kapers (1984) (Activision) [o1]",
+      "FileName": "Keystone Kapers (1984) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "E905ED94",
+      "MD5": "45313360-2590-fa06-31e8-7f7d1b6bf36c",
+      "SHA1": "A3B3718992151C0A89805D349D6FBD5020302C93"
+    },
+    {
+      "Name": "Keystone Kapers (1984) (Activision)",
+      "FileName": "Keystone Kapers (1984) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "8FE3BB2C",
+      "MD5": "47085af2-ea54-374d-c2fb-1dc8ca6dc51b",
+      "SHA1": "9F31C85A13E919135438590601E33BEF11A8DF8A"
+    },
+    {
+      "Name": "Koffi - Yellow Kopter Demo-Aug 31 (2002) (Ron Lloyd)",
+      "FileName": "Koffi - Yellow Kopter Demo-Aug 31 (2002) (Ron Lloyd).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "BA0CF38C",
+      "MD5": "22e368f1-174f-6806-3264-4db7c1f973cc",
+      "SHA1": "BB0567C399A848B746B5941820DE346E7949F4F8"
+    },
+    {
+      "Name": "Koffi - Yellow Kopter Demo-Feb 24 (2002) (Ron Lloyd)",
+      "FileName": "Koffi - Yellow Kopter Demo-Feb 24 (2002) (Ron Lloyd).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "917BE656",
+      "MD5": "cde3033b-e8a8-3baa-eed4-c9617010b010",
+      "SHA1": "9547C56E2951E1B3A713B0B99D3EDB43C9D3CDD8"
+    },
+    {
+      "Name": "Koffi - Yellow Kopter Demo-Nov 15 (2002) (Ron Lloyd)",
+      "FileName": "Koffi - Yellow Kopter Demo-Nov 15 (2002) (Ron Lloyd).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "EDFD0784",
+      "MD5": "ab61150e-3136-c36f-204c-99d725764b22",
+      "SHA1": "C45A39A13371A129C407A9400809F77784781F2C"
+    },
+    {
+      "Name": "Koffi - Yellow Kopter Demo-Sep 24 (2002) (Ron Lloyd)",
+      "FileName": "Koffi - Yellow Kopter Demo-Sep 24 (2002) (Ron Lloyd).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "D7047701",
+      "MD5": "f01b582d-1595-0b8f-f647-6d2e08ca459e",
+      "SHA1": "FFFE606187B572E8DC879515D2C937F3A63C69F8"
+    },
+    {
+      "Name": "K-razy Shoot-Out (1982) (CBS) [h1] (Two Port)",
+      "FileName": "K-razy Shoot-Out (1982) (CBS) [h1] (Two Port).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "5E8CBF78",
+      "MD5": "96729766-8cff-5b09-8cb7-55de3472b821",
+      "SHA1": "8AB1E1DB2FB042E9E463292E0B9E18082C325296"
+    },
+    {
+      "Name": "K-razy Shoot-Out (1982) (CBS) [o1]",
+      "FileName": "K-razy Shoot-Out (1982) (CBS) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "02CDFC70",
+      "MD5": "c5153045-ae19-5a34-4ef8-768f3d119056",
+      "SHA1": "F7DA930A8967082DCC195C52F2986AC7D21BFA83"
+    },
+    {
+      "Name": "K-razy Shoot-Out (1982) (CBS)",
+      "FileName": "K-razy Shoot-Out (1982) (CBS).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "EE702214",
+      "MD5": "5d409fb9-e7e8-0670-19bc-d18524ba0e0e",
+      "SHA1": "C7EB2B4A46A197ADFEDF33C2CCC17D8424D681C4"
+    },
+    {
+      "Name": "Last Starfighter, The (1984) (Atari) [b1]",
+      "FileName": "Last Starfighter, The (1984) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "3761527F",
+      "MD5": "ca96226d-88da-f2c2-86be-be909559adcb",
+      "SHA1": "B9DCB842EB68CA261E3E94F72341D07EFD652290"
+    },
+    {
+      "Name": "Last Starfighter, The (1984) (Atari)",
+      "FileName": "Last Starfighter, The (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "83517703",
+      "MD5": "864c2646-f3ed-6606-e285-53bd08369b83",
+      "SHA1": "4046F60602254A7D86D2A6EFD1A330455EAEC119"
+    },
+    {
+      "Name": "Looney Tunes Hotel (1983) (Atari) (Prototype) [b1]",
+      "FileName": "Looney Tunes Hotel (1983) (Atari) (Prototype) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "B9EA8F11",
+      "MD5": "a0a4f0e8-2d26-8bdd-b882-6a2fb1287648",
+      "SHA1": "E7D8B5146AC1E4CDE8E0DF0BDF7E563FE0B1AF15"
+    },
+    {
+      "Name": "Looney Tunes Hotel (1983) (Atari) (Prototype) [b2]",
+      "FileName": "Looney Tunes Hotel (1983) (Atari) (Prototype) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "57761B66",
+      "MD5": "62c518cd-966c-83fc-66c6-0cd439815acc",
+      "SHA1": "337BF6DAD1C210F16268F32FC483BBF3D85DD97D"
+    },
+    {
+      "Name": "Looney Tunes Hotel (1983) (Atari) (Prototype) [b3]",
+      "FileName": "Looney Tunes Hotel (1983) (Atari) (Prototype) [b3].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "B1CEC23F",
+      "MD5": "b098b489-c540-0f76-554d-ca6302581685",
+      "SHA1": "A4ED631E5EC86D418C8AC16245779D1151D6416A"
+    },
+    {
+      "Name": "Looney Tunes Hotel (1983) (Atari) (Prototype)",
+      "FileName": "Looney Tunes Hotel (1983) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "84DF4925",
+      "MD5": "4665a1d0-db25-3cdf-6b84-80c1ed17137f",
+      "SHA1": "BC4A536616AC45689B3AD790F6B1394EBBD8CC7E"
+    },
+    {
+      "Name": "Mario Brothers (1983) (Atari) [a1]",
+      "FileName": "Mario Brothers (1983) (Atari) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "6B3F1179",
+      "MD5": "0279d00a-9070-27c4-e9d9-39bad318d846",
+      "SHA1": "39CD2D87C4FEFD2FE12A4D6485101235FE55B070"
+    },
+    {
+      "Name": "Mario Brothers (1983) (Atari) [b1]",
+      "FileName": "Mario Brothers (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "D90F8119",
+      "MD5": "f28d8b44-e6f4-bc61-2477-71e7edad5053",
+      "SHA1": "518D3409B07840547A3D731DDEA85E42E7DABB4A"
+    },
+    {
+      "Name": "Mario Brothers (1983) (Atari)",
+      "FileName": "Mario Brothers (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "873742F1",
+      "MD5": "57ff0dd0-fa1b-c757-ff78-80c3ce03b178",
+      "SHA1": "A293B6B06050E11029D97137F2B1B36059567273"
+    },
+    {
+      "Name": "Meebzork (1983) (Atari)",
+      "FileName": "Meebzork (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "9FB13411",
+      "MD5": "74c033bc-b415-4626-cc81-3845b979d85a",
+      "SHA1": "FF0F1D9ED0AE45E3C81B252F3D0A335E03B0AA4B"
+    },
+    {
+      "Name": "Megamania (1983) (Activision) [o1]",
+      "FileName": "Megamania (1983) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "74163D4B",
+      "MD5": "79e73d67-4d5b-d3e2-0860-012f3188396b",
+      "SHA1": "BD7275D169A291687F417DB6E766B7D73B72F4FB"
+    },
+    {
+      "Name": "Megamania (1983) (Activision)",
+      "FileName": "Megamania (1983) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "240A1E1A",
+      "MD5": "e15c78ff-d62a-caf4-67f6-62598025c367",
+      "SHA1": "F5512460C6B6D3A1BAA0B23ADF6A3A37FE308EB3"
+    },
+    {
+      "Name": "Meteorites (1983) (Electra Concepts) [o1]",
+      "FileName": "Meteorites (1983) (Electra Concepts) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "6287FD9B",
+      "MD5": "d8b38167-6936-3634-e6fc-d4ebc54085cd",
+      "SHA1": "C2AF2EDD3C97D613D24B27859293E8EA59DB72DA"
+    },
+    {
+      "Name": "Meteorites (1983) (Electra Concepts)",
+      "FileName": "Meteorites (1983) (Electra Concepts).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "AB8E035B",
+      "MD5": "6874d61c-23d1-9221-0170-2eadaffd0275",
+      "SHA1": "32D86A381FEFF43149B66336DCC4BA2523273228"
+    },
+    {
+      "Name": "Microgammon SB (1983) (Atari) (Prototype) [b1]",
+      "FileName": "Microgammon SB (1983) (Atari) (Prototype) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "960CE5E2",
+      "MD5": "a777977d-3496-1ccf-0d45-c45b64375ac0",
+      "SHA1": "3DDF277BB7344B0173182A55BB8DF2BD8A2CD6EE"
+    },
+    {
+      "Name": "Microgammon SB (1983) (Atari) (Prototype)",
+      "FileName": "Microgammon SB (1983) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "931A454A",
+      "MD5": "d98d3424-7f28-5754-4ccc-40ee40d24a86",
+      "SHA1": "2F152A857A8A58D602B3C717612D9744423EE495"
+    },
+    {
+      "Name": "Millipede (1984) (Atari) [o1]",
+      "FileName": "Millipede (1984) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "FCB208A3",
+      "MD5": "5c7c185f-e979-6638-c922-89c2e595ad74",
+      "SHA1": "5A91F331C2A073C2F968BB5AD4FF23DB43CA4FF5"
+    },
+    {
+      "Name": "Millipede (1984) (Atari)",
+      "FileName": "Millipede (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "969CFE1A",
+      "MD5": "cd8bd884-feef-abe1-880a-5575c6aca45e",
+      "SHA1": "1243A8ECFC02A74AE4E1F4FCDA38502776F45CB0"
+    },
+    {
+      "Name": "Miner 2049 (1983) (Big Five Software) [o1]",
+      "FileName": "Miner 2049 (1983) (Big Five Software) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "F03D6B06",
+      "MD5": "eda77a2c-c5fb-19c2-9799-1616f7f321a1",
+      "SHA1": "95EDF282C2CEF2F8A0EEECA38146F8F708C7D521"
+    },
+    {
+      "Name": "Miner 2049 (1983) (Big Five Software)",
+      "FileName": "Miner 2049 (1983) (Big Five Software).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "7DF1ADFB",
+      "MD5": "f7bf59d8-6296-985e-0db1-840f15dec4b5",
+      "SHA1": "0564B1867A0B570D66DFCBC11ADC3E51A2C6F28C"
+    },
+    {
+      "Name": "Miniature Golf (1983) (Atari) [b1]",
+      "FileName": "Miniature Golf (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "621F8E89",
+      "MD5": "c70458a9-27c8-8926-0971-da5fb2828b43",
+      "SHA1": "3D6E153D4E17423E6998659E0BB0149AE3977DE6"
+    },
+    {
+      "Name": "Miniature Golf (1983) (Atari)",
+      "FileName": "Miniature Golf (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "C597C087",
+      "MD5": "a772d469-409f-494e-ad22-78df3c8a266e",
+      "SHA1": "EF4D3EE7B4DA2EF79C6F4D0D1833F10C1EB7725E"
+    },
+    {
+      "Name": "Missile Command (1983) (Atari) [b1]",
+      "FileName": "Missile Command (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "8DE027D5",
+      "MD5": "4b8bd6f6-3fe3-23f4-f4a5-3b0e1d51acbd",
+      "SHA1": "B7677E3FAA6CC5E4D53A7AFA930A00D761D86347"
+    },
+    {
+      "Name": "Missile Command (1983) (Atari) [b2]",
+      "FileName": "Missile Command (1983) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "915D6952",
+      "MD5": "bb988890-14f9-55ef-9054-90b103a9a18d",
+      "SHA1": "4AF5825B38CFC49F55E4CA03E0AE7BD3B8F46C9C"
+    },
+    {
+      "Name": "Missile Command (1983) (Atari) [b3]",
+      "FileName": "Missile Command (1983) (Atari) [b3].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "D3F15631",
+      "MD5": "15904720-d891-439f-dbba-06e924f2b7ec",
+      "SHA1": "B5E8A8AF06C401CDE5770FD5BECE4006764C0898"
+    },
+    {
+      "Name": "Missile Command (1983) (Atari)",
+      "FileName": "Missile Command (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "44D3FF6F",
+      "MD5": "0d6c2b97-55bf-ca01-cfdc-6665e86a796c",
+      "SHA1": "5C8EC22E131810CCAC08066CA96E9944CCFA4ECB"
+    },
+    {
+      "Name": "Montezuma's Revenge (1984) (Parker Bros) [b1]",
+      "FileName": "Montezuma's Revenge (1984) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "BCF677FB",
+      "MD5": "fd0f573a-1e0e-0107-a47b-5d93d715e399",
+      "SHA1": "F0C3F2189BE54914C73AA82A649599432B67B9FF"
+    },
+    {
+      "Name": "Montezuma's Revenge (1984) (Parker Bros)",
+      "FileName": "Montezuma's Revenge (1984) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "2A640143",
+      "MD5": "cc974869-980d-f2fc-f59e-ef788881f67d",
+      "SHA1": "7E2A05625598C7E6615F969AA695E64315CD9846"
+    },
+    {
+      "Name": "Moon Patrol (1983) (Atari) [o1]",
+      "FileName": "Moon Patrol (1983) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "A8C7D41E",
+      "MD5": "fab56d85-333c-fda4-ab0c-1c6700bd925f",
+      "SHA1": "91D30C5922D3F03528FF1B15F76788EDED5D4604"
+    },
+    {
+      "Name": "Moon Patrol (1983) (Atari)",
+      "FileName": "Moon Patrol (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "D0B2F285",
+      "MD5": "3a5a6e29-fd9e-894f-531e-9cf0259c903d",
+      "SHA1": "02DD5B9278C06AE8CBB6DACC094E238FBACF08D2"
+    },
+    {
+      "Name": "Mountain King (1984) (Sunrise Software) [h1] (Two Port)",
+      "FileName": "Mountain King (1984) (Sunrise Software) [h1] (Two Port).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "7E12BAF7",
+      "MD5": "29682923-e1e0-6531-41aa-6b5540b9ba2e",
+      "SHA1": "18F2D237A6A5BCB46A4B2466EFC507723FA64E6B"
+    },
+    {
+      "Name": "Mountain King (1984) (Sunrise Software) [o1]",
+      "FileName": "Mountain King (1984) (Sunrise Software) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "4992F047",
+      "MD5": "88e206b3-b6bd-be0e-0e2e-80ccfe2c54d7",
+      "SHA1": "950F3843180907571B3E044339A8CCF8A6FA62F5"
+    },
+    {
+      "Name": "Mountain King (1984) (Sunrise Software) [o2]",
+      "FileName": "Mountain King (1984) (Sunrise Software) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "F6C6FEAA",
+      "MD5": "f77e9cd6-600a-ac4a-c46e-d29df0e0b0bc",
+      "SHA1": "6F716BBF3C340E546A23F55EA312D45E4225029F"
+    },
+    {
+      "Name": "Mountain King (1984) (Sunrise Software)",
+      "FileName": "Mountain King (1984) (Sunrise Software).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "0F24243C",
+      "MD5": "b73e8e61-28ae-7610-8e1a-efed1bfdcec4",
+      "SHA1": "2E7AE57260624D1F5710D445A0936F0C280A6655"
+    },
+    {
+      "Name": "Mr. Do's Castle (1984) (Parker Bros) [b1]",
+      "FileName": "Mr. Do's Castle (1984) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "7F7EA877",
+      "MD5": "e76b83a6-0d2b-f775-a0c0-5f1bb567ca02",
+      "SHA1": "9F9D2D19CD832E423A18D208753F49BF951FD046"
+    },
+    {
+      "Name": "Mr. Do's Castle (1984) (Parker Bros) [b1][o1]",
+      "FileName": "Mr. Do's Castle (1984) (Parker Bros) [b1][o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "0D367519",
+      "MD5": "1ed9def9-51cc-c624-4cf0-61ba634b22b8",
+      "SHA1": "2C99D142B42D613905DE075C2FAD561DB2C5EFE7"
+    },
+    {
+      "Name": "Mr. Do's Castle (1984) (Parker Bros) [o1]",
+      "FileName": "Mr. Do's Castle (1984) (Parker Bros) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "457FB9B3",
+      "MD5": "344517f8-f312-7f9d-8f4b-2fd2848124c5",
+      "SHA1": "AC9D583CCA444C61F218F70385AA9EF53C75EBB2"
+    },
+    {
+      "Name": "Mr. Do's Castle (1984) (Parker Bros)",
+      "FileName": "Mr. Do's Castle (1984) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "AA55F9BE",
+      "MD5": "453687d1-e2fe-841e-b25d-c5e939d93e9b",
+      "SHA1": "002E6F8C7533B03F8041E7F1896589C0AB0E17A6"
+    },
+    {
+      "Name": "Ms. Pac-Man (1982) (Atari) [b1]",
+      "FileName": "Ms. Pac-Man (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "E9E2C34B",
+      "MD5": "2d0010c5-b7cc-df98-1fa5-523bb648b32f",
+      "SHA1": "09E77064EBC06B8AF70577A086CD175ADEEFD9A4"
+    },
+    {
+      "Name": "Ms. Pac-Man (1982) (Atari) [b2]",
+      "FileName": "Ms. Pac-Man (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "AF6091C1",
+      "MD5": "ec20900a-5126-dd98-0ae5-777e41655c8e",
+      "SHA1": "A62F44BBF1F2FA8054D95889023452B30313CCC9"
+    },
+    {
+      "Name": "Ms. Pac-Man (1982) (Atari)",
+      "FileName": "Ms. Pac-Man (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "752F5EFD",
+      "MD5": "0f929aef-f5fd-5492-6499-738ee911fc1e",
+      "SHA1": "F93D72444D76075273E508555423936530875148"
+    },
+    {
+      "Name": "Pac-Man (1982) (Atari) [b1]",
+      "FileName": "Pac-Man (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32766,
+      "CRC": "34B673ED",
+      "MD5": "bbc6c63c-d5be-55f0-a43a-04bdbdc7530f",
+      "SHA1": "DDB5F9D446DB1889AA6FC742457AEC257444BFB5"
+    },
+    {
+      "Name": "Pac-Man (1982) (Atari) [b2]",
+      "FileName": "Pac-Man (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 16383,
+      "CRC": "117368AF",
+      "MD5": "ff27a0f4-4a6c-be5a-9a6d-5b851d5409c3",
+      "SHA1": "FA135C811A6C803D86CB158B73768A3AD59DC4D2"
+    },
+    {
+      "Name": "Pac-Man (1982) (Atari) [b3]",
+      "FileName": "Pac-Man (1982) (Atari) [b3].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "E7952627",
+      "MD5": "fed88ec9-497c-4f74-0a13-9f5dc58bfcda",
+      "SHA1": "618C91BA081840D54FE205CCD1D8D048AF86942B"
+    },
+    {
+      "Name": "Pac-Man (1982) (Atari) [b4]",
+      "FileName": "Pac-Man (1982) (Atari) [b4].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "E270517E",
+      "MD5": "f6ea9aba-3b39-ba81-aa2b-ae7ead15d9b1",
+      "SHA1": "C96AA5887CEB0A796C9C33345F39B89EB73B2541"
+    },
+    {
+      "Name": "Pac-Man (1982) (Atari)",
+      "FileName": "Pac-Man (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "8873EF51",
+      "MD5": "2dd6a4f1-a99b-3365-5fa1-3354a6264623",
+      "SHA1": "EE4B3C6F08AA9FDFAB532EEC98136306B6923F75"
+    },
+    {
+      "Name": "PAM Diagnostics V2.0 (1983) (Atari)",
+      "FileName": "PAM Diagnostics V2.0 (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "E8B130C4",
+      "MD5": "bbbccc78-4d6b-b717-49eb-b012e4878008",
+      "SHA1": "5CC3B4245FAF01C30F77AC20B0B4940F4F8F83D8"
+    },
+    {
+      "Name": "PAM SALT V1.02 (1982) (Atari) [o1]",
+      "FileName": "PAM SALT V1.02 (1982) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "A3A8850A",
+      "MD5": "885a0aec-f1fd-d9d0-f17c-3d55a2ba1ef1",
+      "SHA1": "2071E69941A10EBEC44D0F39E9E43C74B6288FEE"
+    },
+    {
+      "Name": "PAM SALT V1.02 (1982) (Atari)",
+      "FileName": "PAM SALT V1.02 (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "7EA86E87",
+      "MD5": "f749ab21-e2c7-c145-e12e-606641788a45",
+      "SHA1": "AF81C400F1AF0EE13A24DA5E8B642442A0FC9479"
+    },
+    {
+      "Name": "Pengo (1983) (Atari) [b1]",
+      "FileName": "Pengo (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "968D727D",
+      "MD5": "0795758b-b617-572c-d341-5e0f2816fea3",
+      "SHA1": "4FF603FAD1F2C49C3F1B525725CEFA1EF2C5748B"
+    },
+    {
+      "Name": "Pengo (1983) (Atari)",
+      "FileName": "Pengo (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "E4F8BA8C",
+      "MD5": "49a401a3-20fc-34ad-5b04-932d3ca3ef54",
+      "SHA1": "19FF7622DBBC2915E3E98D8D966340E7E893FF34"
+    },
+    {
+      "Name": "Pete's Diagnostics (1982) (Atari) [o1]",
+      "FileName": "Pete's Diagnostics (1982) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "E9F826BD",
+      "MD5": "d6080b84-5fb2-4080-f167-c410a0c3aded",
+      "SHA1": "E1201A274D41A327FA03B1AD2A72ADA97E05F17B"
+    },
+    {
+      "Name": "Pete's Diagnostics (1982) (Atari)",
+      "FileName": "Pete's Diagnostics (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "28278CD6",
+      "MD5": "9e5ed3cc-b3a3-82c5-4214-d88a6d8d8f7e",
+      "SHA1": "D3FF99E080985C9C8E25389DFA74835E8C9BE508"
+    },
+    {
+      "Name": "Pitfall II - The Lost Caverns (1984) (Activision) [o1]",
+      "FileName": "Pitfall II - The Lost Caverns (1984) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "14DB6854",
+      "MD5": "a4fd2f98-9a44-3ca3-bf7d-8a0b35dcacab",
+      "SHA1": "69E4D56E1B202824F602F5E320DFC5D23CB4BA2E"
+    },
+    {
+      "Name": "Pitfall II - The Lost Caverns (1984) (Activision)",
+      "FileName": "Pitfall II - The Lost Caverns (1984) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "4B910461",
+      "MD5": "25d2277c-3ea1-8617-10ba-bf331a0759c0",
+      "SHA1": "B051F0FB2E816787AB6EED0CB008B9F8CC9963DC"
+    },
+    {
+      "Name": "Pitfall! (1982) (Activision) [h1] (Two Port)",
+      "FileName": "Pitfall! (1982) (Activision) [h1] (Two Port).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "17762954",
+      "MD5": "f375bf2e-2ae8-6eee-4414-8778da1d4906",
+      "SHA1": "5B39C6BBFF1B5A38236D59E7BF68F9605654D985"
+    },
+    {
+      "Name": "Pitfall! (1982) (Activision) [o1]",
+      "FileName": "Pitfall! (1982) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "72066F45",
+      "MD5": "7d53710a-e0b5-c5fc-9029-e0ecfc3f6c2c",
+      "SHA1": "0F355115EE9217BBDFBBB4B2BD4E1366C21654B9"
+    },
+    {
+      "Name": "Pitfall! (1982) (Activision)",
+      "FileName": "Pitfall! (1982) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "B2887833",
+      "MD5": "d26dbdec-10ab-d45d-3f98-476966bbf26c",
+      "SHA1": "D1C7DC3DE097A4BFAB82235ACEC69A97E6E05F18"
+    },
+    {
+      "Name": "Player & Missle Graphics Demo by Dan Boris (1998) (PD)",
+      "FileName": "Player & Missle Graphics Demo by Dan Boris (1998) (PD).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "06A35DB7",
+      "MD5": "e779b638-9a69-5a9a-14b1-3970d28ec55a",
+      "SHA1": "ADFCDAA185C4ACE8924F5906683857840188B808"
+    },
+    {
+      "Name": "Pole Position (1983) (Atari)",
+      "FileName": "Pole Position (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "ABC2D1E4",
+      "MD5": "a6be0cfd-18ad-4b19-e053-8844e3d7fdc9",
+      "SHA1": "D504764C5894EE99C0B5E2024CBE833EBBA3AB17"
+    },
+    {
+      "Name": "Popeye (1983) (Parker Bros) [b1]",
+      "FileName": "Popeye (1983) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "1CEE2326",
+      "MD5": "2a246043-b772-0308-1bd8-5b4fbc362132",
+      "SHA1": "6BB08CE601EFCD89BE0F7A6DE74ADE07579C3DC7"
+    },
+    {
+      "Name": "Popeye (1983) (Parker Bros)",
+      "FileName": "Popeye (1983) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "A18A9A40",
+      "MD5": "ade64add-34d6-aa52-fe7d-4fa752cd78ca",
+      "SHA1": "E615AAA0C1D56AC83B91F6087970FA708D6433BF"
+    },
+    {
+      "Name": "Q-bert (1983) (Parker Bros) [b1]",
+      "FileName": "Q-bert (1983) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "2FFE9622",
+      "MD5": "6d40690e-481d-16ac-52b2-8ebc9344f99a",
+      "SHA1": "B620006F022C673003138D284009A84F02C39DFA"
+    },
+    {
+      "Name": "Q-bert (1983) (Parker Bros) [o1]",
+      "FileName": "Q-bert (1983) (Parker Bros) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "3C33F26E",
+      "MD5": "e4f62c59-a909-6f0d-da02-76e85c254d55",
+      "SHA1": "524133E9A5EABD1A6D534847EFFD23469E90ACEA"
+    },
+    {
+      "Name": "Q-bert (1983) (Parker Bros)",
+      "FileName": "Q-bert (1983) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "3FE4A401",
+      "MD5": "43d144ce-fc41-e7c5-e4fb-7a04f77ffec9",
+      "SHA1": "E6966BDE5CD4167020C9D21BAB613AF1648B4D75"
+    },
+    {
+      "Name": "QIX (1982) (Atari) [b1]",
+      "FileName": "QIX (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "B346D4AB",
+      "MD5": "c9bf8a0f-b510-cc09-60a0-161ac795e8ec",
+      "SHA1": "FC5927C5F84FFFAA43E603B9EEF5300E9BD16AF3"
+    },
+    {
+      "Name": "QIX (1982) (Atari) [b2]",
+      "FileName": "QIX (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "85F750D4",
+      "MD5": "794ad354-cf26-d7fc-778f-38fc3fceb960",
+      "SHA1": "79C83E3C5C61AB95C11EFC389D38089FFE47AAB5"
+    },
+    {
+      "Name": "QIX (1982) (Atari)",
+      "FileName": "QIX (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "AEA6D2C2",
+      "MD5": "879d7d9b-934a-2533-82f3-4d1420e0f574",
+      "SHA1": "786CDF54D1625E0D3EA8814506FDEEBA5E4ECE48"
+    },
+    {
+      "Name": "Quest for Quintana Roo (1984) (Sunrise Software) [o1]",
+      "FileName": "Quest for Quintana Roo (1984) (Sunrise Software) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "9DBF341F",
+      "MD5": "b6de751d-cc95-3573-0f40-2c0092f70e87",
+      "SHA1": "4BBBF5EA988440D9613322062BB19E2066513574"
+    },
+    {
+      "Name": "Quest for Quintana Roo (1984) (Sunrise Software)",
+      "FileName": "Quest for Quintana Roo (1984) (Sunrise Software).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "B5F3402B",
+      "MD5": "ce069709-06dd-ce8a-d731-3ffa371d7ec3",
+      "SHA1": "17A41C5F9A32F8A71939CFAA0E96807B951AEDAD"
+    },
+    {
+      "Name": "Realsports Baseball (1983) (Atari) [o1]",
+      "FileName": "Realsports Baseball (1983) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "DE0FA87C",
+      "MD5": "c5423430-574d-8591-b1c8-2e80e8ce8362",
+      "SHA1": "BF01FB9ABD2D5B0C91586A4EE655FF3B55188435"
+    },
+    {
+      "Name": "Realsports Baseball (1983) (Atari)",
+      "FileName": "Realsports Baseball (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "44166592",
+      "MD5": "d728b92b-6e51-1c45-6b01-59ac413407de",
+      "SHA1": "A94D06739FA19453FA586A836EAACAE11FE93989"
+    },
+    {
+      "Name": "Realsports Basketball (1983) (Atari) [a1]",
+      "FileName": "Realsports Basketball (1983) (Atari) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "DB834F88",
+      "MD5": "2b98ca2d-e4a4-1579-8a2d-1a24a6257ec7",
+      "SHA1": "A8678F86B1D8CC8C6976DA426CB7CFE3BAED42C6"
+    },
+    {
+      "Name": "Realsports Basketball (1983) (Atari)",
+      "FileName": "Realsports Basketball (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "C90196FA",
+      "MD5": "2a5fd0cf-a10e-8706-18d1-149dbd1f19fa",
+      "SHA1": "9EDB066A37CA7657979952C946AB89BE7926F4F8"
+    },
+    {
+      "Name": "Realsports Football (1982) (Atari) [b1]",
+      "FileName": "Realsports Football (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "7A182F89",
+      "MD5": "e0e3ef92-9560-8350-6d5e-c21800971b48",
+      "SHA1": "885C5A2F490E304C9B293A691096589783645803"
+    },
+    {
+      "Name": "Realsports Football (1982) (Atari)",
+      "FileName": "Realsports Football (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "4336C2CC",
+      "MD5": "b5472c02-b025-7958-6841-134bb5c75a18",
+      "SHA1": "A0DBD654ED3BA2583CA175A1356924D9529884DF"
+    },
+    {
+      "Name": "Realsports Soccer (1982) (Atari) [a1]",
+      "FileName": "Realsports Soccer (1982) (Atari) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "3D75D4DC",
+      "MD5": "0d953238-b0f7-b057-2bd4-c83642a75d17",
+      "SHA1": "53533275D3CF8CE64399C11F3E798F375F07AF7B"
+    },
+    {
+      "Name": "Realsports Soccer (1982) (Atari) [b1]",
+      "FileName": "Realsports Soccer (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "13C459D5",
+      "MD5": "29d8cc59-e610-31d4-6d73-7a9b282ed851",
+      "SHA1": "E1A738D796AEF367B7A632D0292DC66288B65DAA"
+    },
+    {
+      "Name": "Realsports Soccer (1982) (Atari) [b2]",
+      "FileName": "Realsports Soccer (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "295435B6",
+      "MD5": "2baf1bfe-542c-0a89-1db3-260cb7633436",
+      "SHA1": "4C05CD4BEA310A580EDA58A919A0861756D309EA"
+    },
+    {
+      "Name": "Realsports Soccer (1982) (Atari)",
+      "FileName": "Realsports Soccer (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "ECBD1853",
+      "MD5": "d2fa7430-2990-568d-c67f-82e8588c5a8b",
+      "SHA1": "C911CC914F3923D5AEB1A897E6DC4A551A9A53DA"
+    },
+    {
+      "Name": "Realsports Tennis (1982) (Atari)",
+      "FileName": "Realsports Tennis (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "10F33C90",
+      "MD5": "573e687e-be1c-777c-f76a-1648f906b932",
+      "SHA1": "2E6C7472E37926CDFD3D855A4BD37A18FA83D8CF"
+    },
+    {
+      "Name": "Rescue on Fractalus (1984) (Atari-Lucasfilm Games)",
+      "FileName": "Rescue on Fractalus (1984) (Atari-Lucasfilm Games).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "762C591B",
+      "MD5": "5b4cc40d-82f0-4996-b7fe-c37cb0a8186b",
+      "SHA1": "9253D7286CF87999474B37DF242BA23B4358EF4A"
+    },
+    {
+      "Name": "River Raid (1983) (Activision) [b1]",
+      "FileName": "River Raid (1983) (Activision) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "6615D5DB",
+      "MD5": "e91d062c-c5cd-cb7f-801c-d2b307100f41",
+      "SHA1": "D6EB0413920ADF009E064740406DCBA6BE84EEDB"
+    },
+    {
+      "Name": "River Raid (1983) (Activision) [b2]",
+      "FileName": "River Raid (1983) (Activision) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "51C5BC75",
+      "MD5": "a5d0f316-35ea-fb2a-d857-ee918b70792a",
+      "SHA1": "2B8E157B8708EB2D3AEFE0154300680642684C33"
+    },
+    {
+      "Name": "River Raid (1983) (Activision) [o1]",
+      "FileName": "River Raid (1983) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "1F6730BA",
+      "MD5": "074adb36-bd87-a2b8-5fa2-2a6ba4693eb8",
+      "SHA1": "C7156F126BB396D92E4A9A6D0B81F927CA97FAE6"
+    },
+    {
+      "Name": "River Raid (1983) (Activision)",
+      "FileName": "River Raid (1983) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "09FC7648",
+      "MD5": "c378b901-f5fa-16d5-f300-f98c00377532",
+      "SHA1": "CE9BD3B0847C5E187C3E8F667C8F5EA771C49965"
+    },
+    {
+      "Name": "Roadrunner (1982) (Atari) [b1]",
+      "FileName": "Roadrunner (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "1B38DAC0",
+      "MD5": "04a34850-2d30-a7ee-9257-a03f409bb8d5",
+      "SHA1": "CF438E571E74E6A87D9895A9848FBF0BC73990BD"
+    },
+    {
+      "Name": "Roadrunner (1982) (Atari)",
+      "FileName": "Roadrunner (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "A97606AB",
+      "MD5": "4a83f7dd-0f42-aa1e-e20a-7a6255f80a99",
+      "SHA1": "0A7AAEF5B0EDE927CEA13E724906207E1DB48068"
+    },
+    {
+      "Name": "Robotron 2084 (1983) (Atari) [b1]",
+      "FileName": "Robotron 2084 (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32767,
+      "CRC": "538F2354",
+      "MD5": "d5667e07-ee97-de2d-f735-741edf2882fb",
+      "SHA1": "FE5DE14FAA2C508FCAFC82136B6DBF003BBAC1B6"
+    },
+    {
+      "Name": "Robotron 2084 (1983) (Atari) [o1]",
+      "FileName": "Robotron 2084 (1983) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "301A76B7",
+      "MD5": "595fa4ca-9665-22c1-0bb5-e02f490f238f",
+      "SHA1": "5F29DF45A68AB2BE0B9E71118834A2011B1688BE"
+    },
+    {
+      "Name": "Robotron 2084 (1983) (Atari) [o2]",
+      "FileName": "Robotron 2084 (1983) (Atari) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "EC80B709",
+      "MD5": "c5d7bf36-fc2f-6b56-5da8-bd3a8bd99d5d",
+      "SHA1": "38F9B99B1357E66D1E89F24254136427E8902AE1"
+    },
+    {
+      "Name": "Robotron 2084 (1983) (Atari)",
+      "FileName": "Robotron 2084 (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "4252ABD9",
+      "MD5": "475bba5d-7d8b-fda9-2c61-7e41fb5ccd31",
+      "SHA1": "9175E6DACA58102AC8B9729D7B0336CF09977D12"
+    },
+    {
+      "Name": "Space Dungeon (1983) (Atari)",
+      "FileName": "Space Dungeon (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "B68D61E8",
+      "MD5": "51e3246e-5894-cbc5-95a7-fd7711131f8d",
+      "SHA1": "127ED1C31C3E85D10212EEE7B9E6D71AEF7DD891"
+    },
+    {
+      "Name": "Space Invaders (1982) (Atari) [b1]",
+      "FileName": "Space Invaders (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "91FAE605",
+      "MD5": "6724d6f1-0273-c168-ba36-49d5529bf568",
+      "SHA1": "051A6C394128E7C36AC7332F9BE87143BADA980A"
+    },
+    {
+      "Name": "Space Invaders (1982) (Atari) [o1]",
+      "FileName": "Space Invaders (1982) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "218E1BE4",
+      "MD5": "27380a07-29cb-9437-75b9-56111b1244f9",
+      "SHA1": "1DAAE2688FEFB079B1F95EFB3EFB10385017426C"
+    },
+    {
+      "Name": "Space Invaders (1982) (Atari) [o2]",
+      "FileName": "Space Invaders (1982) (Atari) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "53C6C68A",
+      "MD5": "a19a5f5e-5778-1991-afeb-1be89672a1c8",
+      "SHA1": "38690F7335FA1C6A61D4FEDC5B834C3E50ADF015"
+    },
+    {
+      "Name": "Space Invaders (1982) (Atari)",
+      "FileName": "Space Invaders (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "DE5C354A",
+      "MD5": "68034358-c9d2-0019-83f9-5ce923f4c996",
+      "SHA1": "CF411DB770217B5AF5FCFA32725CC587A8B9E710"
+    },
+    {
+      "Name": "Space Shuttle - A Journey Into Space (1983) (Activision) [o1]",
+      "FileName": "Space Shuttle - A Journey Into Space (1983) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "404AEDAC",
+      "MD5": "e4d62c09-fa2b-da59-03fa-2d75cf53d2c1",
+      "SHA1": "0A3D7A47025CF7F42D6CBB7B09A6505EE4A884FE"
+    },
+    {
+      "Name": "Space Shuttle - A Journey Into Space (1983) (Activision)",
+      "FileName": "Space Shuttle - A Journey Into Space (1983) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "387365DC",
+      "MD5": "df112a80-a6cb-9c22-c2f9-3f0f3aaeb3aa",
+      "SHA1": "5AE20E767D9819FE601F3B1EA6D4506AE2F2CEEF"
+    },
+    {
+      "Name": "Spitfire (1984) (Atari) (Prototype) [a1]",
+      "FileName": "Spitfire (1984) (Atari) (Prototype) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "DB982C2F",
+      "MD5": "3b941d22-4310-bdf5-f2b0-f25282183404",
+      "SHA1": "A9388E44BF1665E2EA1CF4E3055A1DD953294B7D"
+    },
+    {
+      "Name": "Spitfire (1984) (Atari) (Prototype)",
+      "FileName": "Spitfire (1984) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "3C311303",
+      "MD5": "733f1ccd-342c-c432-a642-732182b1ea30",
+      "SHA1": "688133761C462D6865BF673ED298B4D828120940"
+    },
+    {
+      "Name": "Sport Goofy (1983) (Atari) (Prototype) [b1]",
+      "FileName": "Sport Goofy (1983) (Atari) (Prototype) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "97486A66",
+      "MD5": "e8f56996-44d2-5f60-85e6-d7a9f63b9c6e",
+      "SHA1": "0F00F8C1602127E9D16AE2D578481B025E88A807"
+    },
+    {
+      "Name": "Sport Goofy (1983) (Atari) (Prototype) [b2]",
+      "FileName": "Sport Goofy (1983) (Atari) (Prototype) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "EDE41A3F",
+      "MD5": "dda129be-3320-9e0f-e8f2-445137abf125",
+      "SHA1": "81A391FBC37349FCEC6ED7813E53B0FEBEC76D4D"
+    },
+    {
+      "Name": "Sport Goofy (1983) (Atari) (Prototype) [b3]",
+      "FileName": "Sport Goofy (1983) (Atari) (Prototype) [b3].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "7BB4A0AB",
+      "MD5": "3da1fdca-00d6-b548-f4f8-e3b78eb9b6fc",
+      "SHA1": "86CE1D1AC92484B2604DC9C17905D99EFECD56FA"
+    },
+    {
+      "Name": "Sport Goofy (1983) (Atari) (Prototype)",
+      "FileName": "Sport Goofy (1983) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "73B5B6FB",
+      "MD5": "e73b3e99-9e19-5cce-3e03-092e3b3c0d1d",
+      "SHA1": "5F0354D8792D652313E5A0FA5D395E091C801D97"
+    },
+    {
+      "Name": "Star Raiders (1982) (Atari) [b1]",
+      "FileName": "Star Raiders (1982) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32764,
+      "CRC": "19AA7A20",
+      "MD5": "50397dcf-c802-9ea8-e0a4-50f424fd1d20",
+      "SHA1": "05D7A6EC49A57AD41B5E1E50645F24A4263AD2F9"
+    },
+    {
+      "Name": "Star Raiders (1982) (Atari) [b2]",
+      "FileName": "Star Raiders (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "BF574B31",
+      "MD5": "8a193a5b-d46a-05e9-0086-1dac5bb35914",
+      "SHA1": "C97F0FAD01B26031C71A9BD91182FECCB43BC870"
+    },
+    {
+      "Name": "Star Raiders (1982) (Atari) [b3]",
+      "FileName": "Star Raiders (1982) (Atari) [b3].a52",
+      "FileType": "Game",
+      "FileSize": 16382,
+      "CRC": "78D28196",
+      "MD5": "98d9a5af-2aad-3780-9b51-0ea79ce79f7b",
+      "SHA1": "B016C3FE613DC7DB2B125D94FB9CA8F0AAF3AAD5"
+    },
+    {
+      "Name": "Star Raiders (1982) (Atari)",
+      "FileName": "Star Raiders (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "7D819A9F",
+      "MD5": "e5a3d3e2-b42b-f7e3-e489-acd9974d68e2",
+      "SHA1": "57DFC22C9805555F957ED51A2DC7BF35AD00C9D9"
+    },
+    {
+      "Name": "Star Trek - Strategic Operations Simulator (1983) (Sega) [b1]",
+      "FileName": "Star Trek - Strategic Operations Simulator (1983) (Sega) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "519A9574",
+      "MD5": "b931416d-97f0-2481-17bb-0889c6ce8470",
+      "SHA1": "3FF0DBE6359CD0709ED938A78323505B87649067"
+    },
+    {
+      "Name": "Star Trek - Strategic Operations Simulator (1983) (Sega)",
+      "FileName": "Star Trek - Strategic Operations Simulator (1983) (Sega).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "69F23548",
+      "MD5": "5bb659c9-20e7-3ba0-5479-650a3af5a511",
+      "SHA1": "19801454AB86F2A5CF691FCD577A71AD2B8DC7D5"
+    },
+    {
+      "Name": "Star Wars - ROTJ - Death Star Battle (1983) (Parker Bros) [b1]",
+      "FileName": "Star Wars - ROTJ - Death Star Battle (1983) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "08C8ED8A",
+      "MD5": "b57cee1d-88ae-2015-c666-3c9fc8fce986",
+      "SHA1": "D5DF523468C3BCB4617FCBADC548DAE457F3FDED"
+    },
+    {
+      "Name": "Star Wars - ROTJ - Death Star Battle (1983) (Parker Bros)",
+      "FileName": "Star Wars - ROTJ - Death Star Battle (1983) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "0675F0A5",
+      "MD5": "871483a2-0bab-640b-7aa5-90fb2b834dd9",
+      "SHA1": "BF77048ABC36BA2CBA5EEEAC812802D6A0EBA891"
+    },
+    {
+      "Name": "Star Wars - The Arcade Game (1983) (Parker Bros)",
+      "FileName": "Star Wars - The Arcade Game (1983) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "75F566DF",
+      "MD5": "84aabe00-c705-90fb-d86b-e5bb1b01ea66",
+      "SHA1": "AB676FFE054B23BDD43CEE2498AFEFAABBF9355B"
+    },
+    {
+      "Name": "Stargate (1984) (Atari) [b1]",
+      "FileName": "Stargate (1984) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "3229C915",
+      "MD5": "3e41766b-edc7-0c29-e05a-fef90d84f2ab",
+      "SHA1": "D5BD98688CE00660E021CBF3738DB5805E2EBCB0"
+    },
+    {
+      "Name": "Stargate (1984) (Atari)",
+      "FileName": "Stargate (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "1D1CEE27",
+      "MD5": "dc035759-9c45-1fd5-ed6e-2a191c462969",
+      "SHA1": "09D192A3598CDADFB61ECEB430B3D5892E40962F"
+    },
+    {
+      "Name": "Super Breakout (1982) (Atari) [b2]",
+      "FileName": "Super Breakout (1982) (Atari) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "54ED2EAD",
+      "MD5": "6108ac6e-8aca-963b-8fd1-0ece54f76a31",
+      "SHA1": "657D01BF47730398349AF04E7FCBED696017E83C"
+    },
+    {
+      "Name": "Super Breakout (1982) (Atari) [o1]",
+      "FileName": "Super Breakout (1982) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "6F4A78F6",
+      "MD5": "cfff0290-cccb-e425-d6e0-7925707427a6",
+      "SHA1": "068CC18668E3211928A9B5B32477253FF3A71788"
+    },
+    {
+      "Name": "Super Breakout (1982) (Atari) [o2]",
+      "FileName": "Super Breakout (1982) (Atari) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "1D02A598",
+      "MD5": "07009a15-43cf-523f-5b27-f724ed4f6ec5",
+      "SHA1": "A26F95C96637D2B724199E28C2842724AEEF30D2"
+    },
+    {
+      "Name": "Super Breakout (1982) (Atari)",
+      "FileName": "Super Breakout (1982) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 4096,
+      "CRC": "A0642110",
+      "MD5": "ff705586-5290-70c1-4f67-3e6222192336",
+      "SHA1": "F5F9C7F97BF09E5647E808D892B656F3EE1E19E0"
+    },
+    {
+      "Name": "Super Cobra (1983) (Parker Bros) [b1]",
+      "FileName": "Super Cobra (1983) (Parker Bros) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "D917C276",
+      "MD5": "509ed1bb-e865-362c-9629-71fc6849ed28",
+      "SHA1": "E07F7651DE297398AB98898778DAB7321F3B1BA3"
+    },
+    {
+      "Name": "Super Cobra (1983) (Parker Bros) [o1]",
+      "FileName": "Super Cobra (1983) (Parker Bros) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "F0A99787",
+      "MD5": "79be5800-2e38-5de1-2169-05366067f18f",
+      "SHA1": "6F3C94FCA88459CC2A3EC56D643EDFDDDE8C2D21"
+    },
+    {
+      "Name": "Super Cobra (1983) (Parker Bros) [o2]",
+      "FileName": "Super Cobra (1983) (Parker Bros) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "82E14AE9",
+      "MD5": "a8ade7a7-94bc-8c93-ce5d-e3cb73618ba7",
+      "SHA1": "0A691A56577C70B118A0EA412E7D67F9DDE9D4A6"
+    },
+    {
+      "Name": "Super Cobra (1983) (Parker Bros)",
+      "FileName": "Super Cobra (1983) (Parker Bros).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "97DEBCD2",
+      "MD5": "ae77cddf-4bc9-2753-28c3-d1fef1da9d85",
+      "SHA1": "8205093F5FB1FDF0CCB71D667EA0A3849FB0A0F2"
+    },
+    {
+      "Name": "Super Pac-Man (1982) (Atari) (Prototype) [h1]",
+      "FileName": "Super Pac-Man (1982) (Atari) (Prototype) [h1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "82E2981F",
+      "MD5": "a726f4f9-53d5-002f-d158-7f2ca4a218f5",
+      "SHA1": "857AD66951E118009C5CCFA7E4FB0F885AB88E8A"
+    },
+    {
+      "Name": "Super Pac-Man (1982) (Atari) (Prototype)",
+      "FileName": "Super Pac-Man (1982) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "0A4DDB1E",
+      "MD5": "3586ab7d-e71f-2f8c-5290-10a1ac83a4cf",
+      "SHA1": "238CB448555D8BB5C96AA0354718411E8777C613"
+    },
+    {
+      "Name": "Tempest (1983) (Atari) (Prototype) [!]",
+      "FileName": "Tempest (1983) (Atari) (Prototype) [!].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "1187342F",
+      "MD5": "006a6b49-c72b-49d7-c020-14f7ec6c303c",
+      "SHA1": "85FCEA0A4D4D1F22437801C96229BA96E0F6B711"
+    },
+    {
+      "Name": "Track and Field (1984) (Atari) [o1]",
+      "FileName": "Track and Field (1984) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "203D9CDE",
+      "MD5": "cc90d9af-10f5-be22-2c1e-349982efec95",
+      "SHA1": "0149A57B81A12267512BF3DF973ED9BE8420BA6D"
+    },
+    {
+      "Name": "Track and Field (1984) (Atari)",
+      "FileName": "Track and Field (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "0BA22ECE",
+      "MD5": "433f0533-9c2f-d34a-8b5d-02d1b485b5bd",
+      "SHA1": "9DFBB5D8B77504C66CE3AC4382DAF79820393DD8"
+    },
+    {
+      "Name": "Up N' Down 5200 Conversion by Kenfuzed (2004) (Sega)",
+      "FileName": "Up N' Down 5200 Conversion by Kenfuzed (2004) (Sega).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "B08CA999",
+      "MD5": "d2bf4936-8100-b961-825f-386dbaff88da",
+      "SHA1": "6E040FE026B1F8AF9CD7808304A5D2C10885858E"
+    },
+    {
+      "Name": "Vanguard (1983) (Atari) [b1]",
+      "FileName": "Vanguard (1983) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32767,
+      "CRC": "98B3123A",
+      "MD5": "fd95ffcb-2108-a466-6a3e-657f3e2c7a73",
+      "SHA1": "EA3278688EB9F910FF54259B51E33F50714EDEB7"
+    },
+    {
+      "Name": "Vanguard (1983) (Atari)",
+      "FileName": "Vanguard (1983) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "CAAEA0A4",
+      "MD5": "d6666a55-7f73-790f-3821-e702547bc051",
+      "SHA1": "6C633DE50E6CC0C0C40061CD24E6F78F552A438F"
+    },
+    {
+      "Name": "Wizard of Wor (1982) (CBS) [b1]",
+      "FileName": "Wizard of Wor (1982) (CBS) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "60CFE8D6",
+      "MD5": "41169c04-1e1d-f17c-9ff5-8b84e1b9907b",
+      "SHA1": "C729E83FDD2BED6F07DA83779008BD08FEF889F6"
+    },
+    {
+      "Name": "Wizard of Wor (1982) (CBS) [o1]",
+      "FileName": "Wizard of Wor (1982) (CBS) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "A4BF0093",
+      "MD5": "85d271fc-e30b-6a4f-0404-667e6af375af",
+      "SHA1": "A73E72BE4F3F1892BA0A4E37424D93F392214806"
+    },
+    {
+      "Name": "Wizard of Wor (1982) (CBS)",
+      "FileName": "Wizard of Wor (1982) (CBS).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "D6F7DDFD",
+      "MD5": "b7680b56-30f8-4477-4a57-ebe9f932905a",
+      "SHA1": "49DEBDF3C133FDE9905D6D9137DA5D8DFF8D6283"
+    },
+    {
+      "Name": "Xari Arena (1983) (Atari) (Prototype) [b1]",
+      "FileName": "Xari Arena (1983) (Atari) (Prototype) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "C36CC9B2",
+      "MD5": "2c0bde53-7891-2dc5-699a-c778f79f1bda",
+      "SHA1": "519D5A07CB609787840035A0F2175BF666F52E8A"
+    },
+    {
+      "Name": "Xari Arena (1983) (Atari) (Prototype) [b2]",
+      "FileName": "Xari Arena (1983) (Atari) (Prototype) [b2].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "78861424",
+      "MD5": "9a731380-765d-99b7-c085-aa90bd51bfee",
+      "SHA1": "425FA8284C84253A47B4FC190AEA728D22636C1D"
+    },
+    {
+      "Name": "Xari Arena (1983) (Atari) (Prototype)",
+      "FileName": "Xari Arena (1983) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "B8FAAEC3",
+      "MD5": "c2586c4f-418c-1ef3-3a15-15fe1e5d15af",
+      "SHA1": "8B5512D3D2A952C99B9377919F0E06481161D81E"
+    },
+    {
+      "Name": "Xevious (1984) (Atari) (Prototype) [b1]",
+      "FileName": "Xevious (1984) (Atari) (Prototype) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32767,
+      "CRC": "135655A9",
+      "MD5": "71104cef-21d3-d87d-137d-f49f3877842d",
+      "SHA1": "C4B484570BEC576D594974D0371776200BCBCE50"
+    },
+    {
+      "Name": "Xevious (1984) (Atari) (Prototype)",
+      "FileName": "Xevious (1984) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "382634DC",
+      "MD5": "90fad053-13d9-4608-7721-2a240c5affbd",
+      "SHA1": "C3CF33216DFA484309B923F21829D040486BC481"
+    },
+    {
+      "Name": "Yellow Submarine Demo (1982) (Atari) (Prototype) [o1]",
+      "FileName": "Yellow Submarine Demo (1982) (Atari) (Prototype) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "12CC298F",
+      "MD5": "f15e3508-901e-9750-62a7-a25a4b62ddca",
+      "SHA1": "B284E4BADDD4F3977327C341190A2296437B3615"
+    },
+    {
+      "Name": "Yellow Submarine Demo (1982) (Atari) (Prototype) [o2]",
+      "FileName": "Yellow Submarine Demo (1982) (Atari) (Prototype) [o2].a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "3CD986C5",
+      "MD5": "02c27f3e-f6ef-b5b1-c767-e854b6ae52f7",
+      "SHA1": "4342CB2EDAF69FD5DA213B84D487A0491856C705"
+    },
+    {
+      "Name": "Yellow Submarine Demo (1982) (Atari) (Prototype)",
+      "FileName": "Yellow Submarine Demo (1982) (Atari) (Prototype).a52",
+      "FileType": "Game",
+      "FileSize": 4096,
+      "CRC": "F47BC091",
+      "MD5": "9c251ad0-37c8-69db-62a0-8f9262f58f9b",
+      "SHA1": "E58E1F257923694DBEB586C860F385E74E460F90"
+    },
+    {
+      "Name": "Zaxxon (1984) (Sega) [a1]",
+      "FileName": "Zaxxon (1984) (Sega) [a1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "8304AEFC",
+      "MD5": "66856112-6abf-887e-ac9c-147524b183a5",
+      "SHA1": "621356518F216291A7B4CABC0E1806B75F1C54A2"
+    },
+    {
+      "Name": "Zaxxon (1984) (Sega)",
+      "FileName": "Zaxxon (1984) (Sega).a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "741746D1",
+      "MD5": "4e05ee9f-4b7d-39a2-2f4b-a0cb73fc99a5",
+      "SHA1": "4A4C4A25C8ED1B0AE79CA22684D7D311A564A7B5"
+    },
+    {
+      "Name": "Zenji (1984) (Atari) [b1]",
+      "FileName": "Zenji (1984) (Atari) [b1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "1AB5E425",
+      "MD5": "98838387-b61b-5a96-7f91-16da1a64d76f",
+      "SHA1": "00D47C2D839F7026CECE1E1EA17796278F6FDC55"
+    },
+    {
+      "Name": "Zenji (1984) (Atari) [o1]",
+      "FileName": "Zenji (1984) (Atari) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "CA1A962A",
+      "MD5": "ccdeaa26-c5b7-4327-5f16-6df384a870b7",
+      "SHA1": "7FAF5222837B2EB348C0E07936F966DB3BA9309B"
+    },
+    {
+      "Name": "Zenji (1984) (Atari)",
+      "FileName": "Zenji (1984) (Atari).a52",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "DA228530",
+      "MD5": "34eebe77-465b-5647-3e20-fd896231bd47",
+      "SHA1": "55DA563B4394508C23D866FB1E543262FB45536D"
+    },
+    {
+      "Name": "Zone Ranger (1984) (Activision) [o1]",
+      "FileName": "Zone Ranger (1984) (Activision) [o1].a52",
+      "FileType": "Game",
+      "FileSize": 32768,
+      "CRC": "02C9ABC6",
+      "MD5": "2a9d71c3-88ec-607c-99df-ba1ad16bf33f",
+      "SHA1": "E5FE85212E7B5851CC4C9D23B4DAE142C787576B"
+    },
+    {
+      "Name": "Zone Ranger (1984) (Activision)",
+      "FileName": "Zone Ranger (1984) (Activision).a52",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "2959D827",
+      "MD5": "8baf45dc-9609-6acb-9418-8b0be3be2e17",
+      "SHA1": "18315BEC1E62102290FEEB77FB290E1266CF5BFC"
+    }
+  ]
+}

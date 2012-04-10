@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             this.CloseBtn = new System.Windows.Forms.Button();
-            this.OutputText = new System.Windows.Forms.TextBox();
             this.AddBtn = new System.Windows.Forms.Button();
             this.DropFilesLabel = new System.Windows.Forms.Label();
             this.SortDataFileBtn = new System.Windows.Forms.Button();
+            this.ProgressLabel = new System.Windows.Forms.Label();
+            this.OutputText = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // CloseBtn
@@ -45,18 +46,6 @@
             this.CloseBtn.TabIndex = 0;
             this.CloseBtn.Text = "Close";
             this.CloseBtn.UseVisualStyleBackColor = true;
-            // 
-            // OutputText
-            // 
-            this.OutputText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.OutputText.Location = new System.Drawing.Point(12, 12);
-            this.OutputText.Multiline = true;
-            this.OutputText.Name = "OutputText";
-            this.OutputText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.OutputText.Size = new System.Drawing.Size(642, 386);
-            this.OutputText.TabIndex = 1;
             // 
             // AddBtn
             // 
@@ -92,6 +81,26 @@
             this.SortDataFileBtn.UseVisualStyleBackColor = true;
             this.SortDataFileBtn.Click += new System.EventHandler(this.SortDataFileBtn_Click);
             // 
+            // ProgressLabel
+            // 
+            this.ProgressLabel.AutoSize = true;
+            this.ProgressLabel.Location = new System.Drawing.Point(321, 417);
+            this.ProgressLabel.Name = "ProgressLabel";
+            this.ProgressLabel.Size = new System.Drawing.Size(35, 13);
+            this.ProgressLabel.TabIndex = 5;
+            this.ProgressLabel.Text = "label1";
+            // 
+            // OutputText
+            // 
+            this.OutputText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.OutputText.Location = new System.Drawing.Point(12, 12);
+            this.OutputText.Name = "OutputText";
+            this.OutputText.Size = new System.Drawing.Size(642, 387);
+            this.OutputText.TabIndex = 6;
+            this.OutputText.Text = "";
+            // 
             // GenerateForm
             // 
             this.AcceptButton = this.CloseBtn;
@@ -99,10 +108,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.CloseBtn;
             this.ClientSize = new System.Drawing.Size(666, 440);
+            this.Controls.Add(this.OutputText);
+            this.Controls.Add(this.ProgressLabel);
             this.Controls.Add(this.SortDataFileBtn);
             this.Controls.Add(this.DropFilesLabel);
             this.Controls.Add(this.AddBtn);
-            this.Controls.Add(this.OutputText);
             this.Controls.Add(this.CloseBtn);
             this.Name = "GenerateForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -115,9 +125,10 @@
         #endregion
 
         private System.Windows.Forms.Button CloseBtn;
-        private System.Windows.Forms.TextBox OutputText;
         private System.Windows.Forms.Button AddBtn;
         private System.Windows.Forms.Label DropFilesLabel;
         private System.Windows.Forms.Button SortDataFileBtn;
+        private System.Windows.Forms.Label ProgressLabel;
+        private System.Windows.Forms.RichTextBox OutputText;
     }
 }

@@ -1,5 +1,5 @@
 {
-  "Name": "Magnavox Odyssey2 / Philips Videopac G7000",
+  "Name": "Magnavox Odyssey2 / Philips Videopac G7000 / Philips Videopac+ G7400",
   "Version": "1.0",
   "Files": [
     {
@@ -37,6 +37,15 @@
       "CRC": "D158EEBA",
       "MD5": "4df4b191-28f0-4711-1325-35d9ea1d5590",
       "SHA1": "85C567C8F38239350A5D04F8CFD9DD7872F448C9"
+    },
+    {
+      "Name": "Air Battle + (E)",
+      "FileName": "Air Battle Plus (E).bin",
+      "FileType": "Game",
+      "FileSize": 12288,
+      "CRC": "D94D4109",
+      "MD5": "8d8c9d1c-9ec6-8e31-e72f-596b1f994682",
+      "SHA1": "66837BBD0B9DF12C89215F533A1EC8B5A42D5610"
     },
     {
       "Name": "Alien Invaders + (E)(U)",
@@ -111,6 +120,15 @@
       "SHA1": "14A37A38C582D8822CB78FB0AACE221A2FA9A44C"
     },
     {
+      "Name": "Billard Americain + (F)",
+      "FileName": "Billard Americain Plus (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "4CEC1404",
+      "MD5": "e19be550-df80-fe3b-cd1f-2239a9f0d860",
+      "SHA1": "004EA921B691DB6B310F5B51C495DF9B86BE3AA8"
+    },
+    {
       "Name": "Billard Electrique (F)",
       "FileName": "Billard Electrique (F).bin",
       "FileType": "Game",
@@ -118,6 +136,15 @@
       "CRC": "54BF4750",
       "MD5": "1b65713f-99df-d49a-14b0-f122f643078a",
       "SHA1": "D12A242D273C4F4417806C3BCD868A9A0F553854"
+    },
+    {
+      "Name": "Billard Electrique + (F)",
+      "FileName": "Billard Electrique Plus (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "AC5C74E6",
+      "MD5": "bfb4a05a-61f0-cd06-d5d8-b370bfe65de9",
+      "SHA1": "215439C1044B93888B71BD6A210EBFDA93D97C22"
     },
     {
       "Name": "Billiard Americain (F)",
@@ -165,6 +192,24 @@
       "SHA1": "2630C304B6BEB0F8021578277BE68E837202895D"
     },
     {
+      "Name": "Bowling / Basketball + (E)(U)[h]",
+      "FileName": "Bowling + Basketball Plus (E)(U)[h].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "82996B1F",
+      "MD5": "422bdbdb-95ae-ca85-ba54-6a57f4e1f165",
+      "SHA1": "DB1715BBAD11E44DE26614963E4E4DDA5FF9ED92"
+    },
+    {
+      "Name": "Brandt Jopac BIOS (F)",
+      "FileName": "Brandt Jopac BIOS (F).bin",
+      "FileType": "BIOS",
+      "FileSize": 1024,
+      "CRC": "11647CA5",
+      "MD5": "e4089027-dba0-c52d-f1c0-48853b033828",
+      "SHA1": "54B8D2C1317628DE51A85FC1C424423A986775E4"
+    },
+    {
       "Name": "Buraco Negro (B)",
       "FileName": "Buraco Negro (B).bin",
       "FileType": "Game",
@@ -210,6 +255,15 @@
       "SHA1": "7162359313F66FE759BDD8A34755A5F62F3CADFB"
     },
     {
+      "Name": "Chez Maxime (F)",
+      "FileName": "Chez Maxime (F).bin",
+      "FileType": "Game",
+      "FileSize": 4096,
+      "CRC": "0F46CF66",
+      "MD5": "f0c8078d-3d34-148f-b474-7d1d33c63466",
+      "SHA1": "CD58D267FE5BAB82F5DAB01DBB08D5ADF0053108"
+    },
+    {
       "Name": "Chinese Logic (E)",
       "FileName": "Chinese Logic (E).bin",
       "FileType": "Game",
@@ -226,6 +280,24 @@
       "CRC": "FD179F6D",
       "MD5": "8c6cea77-8352-067b-99ca-50d26a181043",
       "SHA1": "C07C1206DB8D4FB5142B38EAD52082D4682D70BE"
+    },
+    {
+      "Name": "Clay Pigeon + (E)(Prototype)",
+      "FileName": "Clay Pigeon Plus (E)(Prototype).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "6FABCB7E",
+      "MD5": "66b007c1-d194-4d8c-702d-0404cf65c93b",
+      "SHA1": "3F6DBEF6BF13427A52F4F7324D9C33CFCE52ADB0"
+    },
+    {
+      "Name": "Clay Pigeon + (E)(Prototype)[a]",
+      "FileName": "Clay Pigeon Plus (E)(Prototype)[a].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "7C989567",
+      "MD5": "40ab361f-67c4-c6a2-c9ee-965e581c0c1d",
+      "SHA1": "431547D04D5C57B0730B1136F8E68B0AC44B755F"
     },
     {
       "Name": "Comando Noturno (B)",
@@ -309,6 +381,15 @@
       "SHA1": "DCCBF881E21DD02CBAF15EC049E0801118FB9C96"
     },
     {
+      "Name": "Cosmic Conflict + (E)",
+      "FileName": "Cosmic Conflict Plus (E).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "A8DBED92",
+      "MD5": "2e7fa69d-6c5d-8689-99cb-eeb51738e1fb",
+      "SHA1": "99932BE5496A0DAA7DFFC70C7A3AB85BFA726043"
+    },
+    {
       "Name": "Course de Voitures / Autodrome / Cryptogramme (F)",
       "FileName": "Course de Voitures + Autodrome + Cryptogramme (F).bin",
       "FileType": "Game",
@@ -318,6 +399,15 @@
       "SHA1": "9E44CA9FC9E5DEF58C61B24274F0CBFB57D559EE"
     },
     {
+      "Name": "Course de Voitures / Autodrome / Cryptogramme + (F)",
+      "FileName": "Course de Voitures + Autodrome + Cryptogramme Plus (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "9BC04EBB",
+      "MD5": "9e75f123-1669-882e-f034-c533d33604f7",
+      "SHA1": "E69E524EBA10976310333787EAFEF1D18DA6D568"
+    },
+    {
       "Name": "Demon Attack (E)(U)",
       "FileName": "Demon Attack (E)(U).bin",
       "FileType": "Game",
@@ -325,6 +415,24 @@
       "CRC": "9BFC3E01",
       "MD5": "1caf55ef-6471-8a94-245e-eb71f804bed8",
       "SHA1": "2D78CCBB56E8B43BB8101B2A1932F5E778B9DBC3"
+    },
+    {
+      "Name": "Demon Attack + (E)(U)[h]",
+      "FileName": "Demon Attack Plus (E)(U)[h].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "9884EF36",
+      "MD5": "942d2941-e84f-6563-ffe0-a7952b75dd13",
+      "SHA1": "B81A15194E0AC0544B4BC8567B862E4F2B6997D2"
+    },
+    {
+      "Name": "Demon Attack + (F)",
+      "FileName": "Demon Attack Plus (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "50AF9D45",
+      "MD5": "c8bb2a2a-ae19-e611-cc7c-4a7af3930f8f",
+      "SHA1": "CFD1337C8D5A40F2F4E1AB49158A8963764919DA"
     },
     {
       "Name": "Depth Charge / Marksman (E)",
@@ -363,6 +471,33 @@
       "SHA1": "3A032C9BE1081DB58F28F906940641D74D6BAE2B"
     },
     {
+      "Name": "Exojet + (F)",
+      "FileName": "Exojet + (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "CFCA6F39",
+      "MD5": "fc52d02d-222e-e5ca-11a2-20ff7e101411",
+      "SHA1": "8AAFCD055A2EF45C3D85804C8A3EA04D9A9732AB"
+    },
+    {
+      "Name": "Exojet + [h2]",
+      "FileName": "Exojet Plus [h2].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "32AAC006",
+      "MD5": "2b842443-b4b1-006f-6c4c-407107d59bc2",
+      "SHA1": "DA07D7BAA91DAEBF814CE9B9446E63634577DC1D"
+    },
+    {
+      "Name": "Flash Point +",
+      "FileName": "Flash Point Plus.bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "06861A9C",
+      "MD5": "4a708d7b-55e8-6db6-17a9-4c186963b8a0",
+      "SHA1": "6810CCC1508244216860271417A866618A731AE2"
+    },
+    {
       "Name": "Football (E)(U)",
       "FileName": "Football (E)(U).bin",
       "FileType": "Game",
@@ -388,6 +523,15 @@
       "CRC": "54736B74",
       "MD5": "b54559d8-c3e8-427e-98bd-962d87728580",
       "SHA1": "AD11F3FAD2DFD3716445FEF3B7D83D479EDEE0ED"
+    },
+    {
+      "Name": "Freedom Fighters + (E)",
+      "FileName": "Freedom Fighters Plus (E).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "1931F5C5",
+      "MD5": "d8884da1-5c0f-47aa-8124-5ef2cde27279",
+      "SHA1": "3F8D6CD5BED5244B400C69640065C77EC103A6CD"
     },
     {
       "Name": "Frogger (B)",
@@ -417,6 +561,15 @@
       "SHA1": "C2BF8D92B8827E3071D6CE4C43E34B21AFC54F8D"
     },
     {
+      "Name": "Guerre de l'Espace (F)",
+      "FileName": "Guerre de l'Espace (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "105231F8",
+      "MD5": "ab174594-bcf1-5990-a82d-efa5b1ce8958",
+      "SHA1": "9220DC32D3BB9225292F3E709D1320B9B1052140"
+    },
+    {
       "Name": "Guerre Laser (F)",
       "FileName": "Guerre Laser (F).bin",
       "FileType": "Game",
@@ -433,6 +586,15 @@
       "CRC": "ABE368BF",
       "MD5": "ad02c008-c53c-d9b4-163a-d3ea4a7508c7",
       "SHA1": "B5EC5ED9373372DE6D70620094AF06282C48968D"
+    },
+    {
+      "Name": "Helicopter Rescue + (E)",
+      "FileName": "Helicopter Rescue Plus (E).bin",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "C4134DF8",
+      "MD5": "52c480b1-5aa8-859e-28c2-c08d4ad64bc0",
+      "SHA1": "7369A2D3FB81DDC4C8086BBCD245C11EA7AAA331"
     },
     {
       "Name": "Hockey / Soccer (E)(U)",
@@ -478,6 +640,15 @@
       "CRC": "A7E97958",
       "MD5": "c56a41a8-3f49-70ac-8482-25dbbca1fd35",
       "SHA1": "30CBBEC570FA0872C13E89DDC312B2F74E3749FB"
+    },
+    {
+      "Name": "Jeu de Quilles / Basketball + (F)",
+      "FileName": "Jeu de Quilles + Basketball Plus (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "B5FB1416",
+      "MD5": "e79b2ee9-ce6e-26a8-5ded-122fb68d00a9",
+      "SHA1": "C341ED24346546B75DE2AB24AF1A9223CA2D1AAC"
     },
     {
       "Name": "Jumping Acrobats (E)",
@@ -534,6 +705,15 @@
       "SHA1": "8276CA41E571478EAE2DD6ADD7F79BC7F8BD60DE"
     },
     {
+      "Name": "Kill The Attacking Aliens + (Final)",
+      "FileName": "Kill The Attacking Aliens Plus (Final).bin",
+      "FileType": "Game",
+      "FileSize": 12288,
+      "CRC": "4E2CC6D3",
+      "MD5": "4a759d67-33b2-b072-c018-38e95bce62d9",
+      "SHA1": "42AD0C57BD16B7F24C242F60B5C0E9988D8DFBA8"
+    },
+    {
       "Name": "Killer Bees (U)",
       "FileName": "Killer Bees (U).bin",
       "FileType": "Game",
@@ -570,6 +750,15 @@
       "SHA1": "04543BDBEA8112F7CC55CAEF5DA9445D08D65E46"
     },
     {
+      "Name": "La Ruche Infernale (F)",
+      "FileName": "La Ruche Infernale (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "20E2F7BE",
+      "MD5": "8815871a-b864-ee77-2faf-0f9246db3784",
+      "SHA1": "34F91468BF42B26EB237AF342164043C16D173CA"
+    },
+    {
       "Name": "Las Vegas (F)",
       "FileName": "Las Vegas (F).bin",
       "FileType": "Game",
@@ -604,6 +793,15 @@
       "CRC": "D38153F6",
       "MD5": "6718cf02-212c-d0e2-e68d-331507be9de1",
       "SHA1": "FF0EBE9EFC275011A0534FD98CA1F4112DAE3DAB"
+    },
+    {
+      "Name": "Le Tresor Englouti + (F)",
+      "FileName": "Le Tresor Englouti Plus (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "B2F0F0B4",
+      "MD5": "fd4b7666-b688-c438-1de8-4b6e1989748e",
+      "SHA1": "C0FCAEF6A18026E0ACC04C3D48443D768043CB03"
     },
     {
       "Name": "Loony Balloon (E)(Prototype)",
@@ -714,6 +912,15 @@
       "SHA1": "11065DFBC22DD9ED7609CBCC7F8C6D3BC5B004EE"
     },
     {
+      "Name": "Moto Crash + (F)",
+      "FileName": "Moto Crash Plus (F).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "68560DC7",
+      "MD5": "9b4faf7a-d4ec-b66e-ef0b-e4771783d948",
+      "SHA1": "F6DE2F95E5CF4849A4D7071B1A470C3EF0634E5F"
+    },
+    {
       "Name": "Munchkin (E)",
       "FileName": "Munchkin (E).bin",
       "FileType": "Game",
@@ -739,6 +946,24 @@
       "CRC": "D03EFA86",
       "MD5": "d5a70ff6-0eed-6a8e-262f-0136db60268a",
       "SHA1": "0A91BDB293F52AC37414A63F71D90C6338A4A91A"
+    },
+    {
+      "Name": "Neutron Star + (E)",
+      "FileName": "Neutron Star Plus (E).bin",
+      "FileType": "Game",
+      "FileSize": 12288,
+      "CRC": "BE11157C",
+      "MD5": "05ab19a6-751d-4f93-a06f-339c61250a00",
+      "SHA1": "FDE3E0791B9CBEF91A8462764EBF09A457FFE038"
+    },
+    {
+      "Name": "Neutron Star + [h]",
+      "FileName": "Neutron Star Plus [h].bin",
+      "FileType": "Game",
+      "FileSize": 12288,
+      "CRC": "2038F56C",
+      "MD5": "23f2e3f1-7167-5c4c-09e6-8df0527a4238",
+      "SHA1": "B7C941C0FD395A734B0E5601CE881811C73D8BB6"
     },
     {
       "Name": "Newscaster (E)",
@@ -858,6 +1083,15 @@
       "SHA1": "A6120AED50831C9C0D95DBDF707820F601D9452E"
     },
     {
+      "Name": "Philips Videopac+ BIOS (E)",
+      "FileName": "Philips Videopac+ BIOS (E).bin",
+      "FileType": "BIOS",
+      "FileSize": 1024,
+      "CRC": "E20A9F41",
+      "MD5": "71ff00c5-6023-e068-dc0d-0603d265ae76",
+      "SHA1": "5130243429B40B01A14E1304D0394B8459A6FBAE"
+    },
+    {
       "Name": "Pick Axe Pete (E)(U)",
       "FileName": "Pick Axe Pete (E)(U).bin",
       "FileType": "Game",
@@ -874,6 +1108,15 @@
       "CRC": "B2FFB353",
       "MD5": "d9dd386a-6e02-d71d-56be-f1f0995d8106",
       "SHA1": "182829B4CD5184AB3705D26F75E3D8C497B5ABF6"
+    },
+    {
+      "Name": "Pick Axe Pete + (E)[h]",
+      "FileName": "Pick Axe Pete Plus (E)[h].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "81C20196",
+      "MD5": "6912321b-5a73-04cb-652d-bfebf16bd20f",
+      "SHA1": "9FD3A2D51A014E320CF8F0E9DA539E0371B9F5C7"
     },
     {
       "Name": "Pinball (U)(Prototype)",
@@ -975,15 +1218,6 @@
       "SHA1": "2FC0080D132E0063E21FD72D501EEF94D3EEFAB8"
     },
     {
-      "Name": "Restaurant",
-      "FileName": "Restaurant.bin",
-      "FileType": "Game",
-      "FileSize": 4096,
-      "CRC": "0F46CF66",
-      "MD5": "f0c8078d-3d34-148f-b474-7d1d33c63466",
-      "SHA1": "CD58D267FE5BAB82F5DAB01DBB08D5ADF0053108"
-    },
-    {
       "Name": "Robot City (E)(Prototype)",
       "FileName": "Robot City (E)(Prototype).bin",
       "FileType": "Game",
@@ -1065,6 +1299,15 @@
       "SHA1": "FC798F3CF770E8BF5F9A4064B6A4CA66E5A4EB71"
     },
     {
+      "Name": "Smithereens + [U][h2]",
+      "FileName": "Smithereens Plus [U][h2].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "25057C11",
+      "MD5": "45836cee-d66c-a348-cf6e-682e07e455c9",
+      "SHA1": "249676A79B913DC366447A5A632CAB4D3280CA68"
+    },
+    {
       "Name": "Speedway / Spin-Out / Crypto-Logic (E)(U)",
       "FileName": "Speedway + Spin-Out + Crypto-Logic (E)(U).bin",
       "FileType": "Game",
@@ -1072,6 +1315,15 @@
       "CRC": "4EDA4917",
       "MD5": "63ab66bc-5cfb-4ae0-79ae-f9e8fa445225",
       "SHA1": "29D078F587BE2AFA4612800C64A5AF72705E5681"
+    },
+    {
+      "Name": "Speedway / Spin-Out / Crypto-Logic + (E)(U)[h]",
+      "FileName": "Speedway + Spin-Out + Crypto-Logic Plus (E)(U)[h].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "2DA28C17",
+      "MD5": "58628534-720b-cbf2-8338-61e7262ecc1a",
+      "SHA1": "1FBD947B7534CFEC55A353C2DC22A178DFC99027"
     },
     {
       "Name": "Speedway / Spin-Out / Crypto-Logic + (E)",
@@ -1110,6 +1362,15 @@
       "SHA1": "50763429D12206D7BF9FAD6A6BD6076A34D54B51"
     },
     {
+      "Name": "Stone Sling + (E)",
+      "FileName": "Stone Sling Plus (E).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "2391C2FB",
+      "MD5": "5d6a33db-ce86-f8e7-ffcc-00c8cfd508da",
+      "SHA1": "D358FCC6A0FA6469D7063114AA0DC143AF14E3E9"
+    },
+    {
       "Name": "Super Bee (B)",
       "FileName": "Super Bee (B).bin",
       "FileType": "Game",
@@ -1146,6 +1407,15 @@
       "SHA1": "5521FF83E3BE32C38205472B2DF49EB507249DC2"
     },
     {
+      "Name": "Syracuse (F)",
+      "FileName": "Syracuse (F).bin",
+      "FileType": "Game",
+      "FileSize": 4096,
+      "CRC": "280D08F4",
+      "MD5": "d3443210-332b-c0fc-dc63-abc8a1c797d3",
+      "SHA1": "37AA11CBF0A32ECE89D1D2C500B74660830377DF"
+    },
+    {
       "Name": "Take the Money and Run (E)(U)",
       "FileName": "Take the Money and Run (E)(U).bin",
       "FileType": "Game",
@@ -1153,6 +1423,15 @@
       "CRC": "11FF50AD",
       "MD5": "dc10d8b2-7eb9-1938-2a6d-d3d213dbce10",
       "SHA1": "8C181F4835D53A358ECB8E4385E087EE942B4B4F"
+    },
+    {
+      "Name": "Tenpin Bowling / Basketball + (E)(Prototype)",
+      "FileName": "Tenpin Bowling + Basketball Plus (E)(Prototype).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "E5FB4260",
+      "MD5": "8475d950-f85c-250f-add0-bdeb0a704a92",
+      "SHA1": "29D5C9B252E65D257F1472E343039ED8C47EEB05"
     },
     {
       "Name": "Terrahawks + (E)",
@@ -1209,8 +1488,35 @@
       "SHA1": "D0070E12D6B0F406DAB6E1FA550AB01509C9362E"
     },
     {
-      "Name": "Transamerican Rally + [b]",
-      "FileName": "Transamerican Rally Plus [b].bin",
+      "Name": "Thunderball + (E)(Prototype)",
+      "FileName": "Thunderball Plus (E)(Prototype).bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "2FCE9245",
+      "MD5": "cf099663-dbc3-aa3f-7598-63292e4998a4",
+      "SHA1": "6510B54E3E9BF9BC7AE558D1D16FA73294701DDB"
+    },
+    {
+      "Name": "Thunderball + (E)[h]",
+      "FileName": "Thunderball Plus (E)[h].bin",
+      "FileType": "Game",
+      "FileSize": 8192,
+      "CRC": "0A2F0F58",
+      "MD5": "b1a2ed2a-59a8-4e2f-2adb-2c59a8af9297",
+      "SHA1": "42E1C5A7BDCD5327619EDB640BBB8286B637D516"
+    },
+    {
+      "Name": "Trans American Rally + (E)",
+      "FileName": "Trans American Rally Plus (E).bin",
+      "FileType": "Game",
+      "FileSize": 16384,
+      "CRC": "0D2D721D",
+      "MD5": "e1d571ed-4664-a457-d612-3a5855b2862a",
+      "SHA1": "BE8A9F2AA66ACB4F5E288D1A77AFADA9565B530A"
+    },
+    {
+      "Name": "Transamerican Rally + (E)[b]",
+      "FileName": "Transamerican Rally Plus (E)[b].bin",
       "FileType": "Game",
       "FileSize": 8192,
       "CRC": "E246A812",

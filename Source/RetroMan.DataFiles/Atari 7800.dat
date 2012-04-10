@@ -1,0 +1,1653 @@
+{
+  "Name": "Atari 7800",
+  "Version": "1.0",
+  "Files": [
+    {
+      "Name": "3D Asteroids (1987) (Atari) (Prototype) [a1]",
+      "FileName": "3D Asteroids (1987) (Atari) (Prototype) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "2C985A3D",
+      "MD5": "9b167ae6-643a-3432-2ac9-cbf9e6f95873",
+      "SHA1": "7874A9C33BCFDEA480932C34307A7623891C27DE"
+    },
+    {
+      "Name": "3D Asteroids (1987) (Atari) (Prototype)",
+      "FileName": "3D Asteroids (1987) (Atari) (Prototype).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "C05513E1",
+      "MD5": "6bfb4e86-e343-ef6b-50d0-1d381ca7bd83",
+      "SHA1": "02107190AAEEB578F5C11180E20B5061D51306CF"
+    },
+    {
+      "Name": "7800 DEV OS BIOS (PD)",
+      "FileName": "7800 DEV OS BIOS (PD).a78",
+      "FileType": "Game",
+      "FileSize": 4224,
+      "CRC": "A13C2E50",
+      "MD5": "e1779fca-5b76-5913-4dce-49b575e3052e",
+      "SHA1": "CE7856AB8BF947B2D9DDC4080FA9FA2C24C3BB29"
+    },
+    {
+      "Name": "7800Kern Demo (2004) (Christopher Tumber)",
+      "FileName": "7800Kern Demo (2004) (Christopher Tumber).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "45E29298",
+      "MD5": "7110e32d-3d4c-2f8c-e49e-5aec26eb28e3",
+      "SHA1": "54C3B69E8ED46A4FDACCEAB9A899A2542D55F81F"
+    },
+    {
+      "Name": "A7800 KDEMO (2002) (PD)",
+      "FileName": "A7800 KDEMO (2002) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "6C08F1F3",
+      "MD5": "f48380a9-cd81-0530-459a-79caff5e6a7d",
+      "SHA1": "58505CF44E6BD9B2B7BCE7751C1A21070C3FD5FD"
+    },
+    {
+      "Name": "Ace of Aces (1988) (Atari) (PAL)",
+      "FileName": "Ace of Aces (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "AA4752DC",
+      "MD5": "d75917c3-5471-6696-54d4-14eaf1f5283c",
+      "SHA1": "EC308D7EAA759BF1CC3F12B07537699C8EAFD59D"
+    },
+    {
+      "Name": "Ace of Aces (1988) (Atari)",
+      "FileName": "Ace of Aces (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "E682C28F",
+      "MD5": "996dd94d-22c1-b18b-fcae-8c1b5c239197",
+      "SHA1": "384311F2B20C256D755FE470FB82CE8AD094BCA0"
+    },
+    {
+      "Name": "Alien Brigade (1990) (Atari) (CC2 Hack)",
+      "FileName": "Alien Brigade (1990) (Atari) (CC2 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "1107B301",
+      "MD5": "0761e3de-05de-ad26-2346-6735504ce729",
+      "SHA1": "44D76EB108DCCE80A3CC575E416C31A0E82FE43A"
+    },
+    {
+      "Name": "Alien Brigade (1990) (Atari) (PAL) (CC2 Hack)",
+      "FileName": "Alien Brigade (1990) (Atari) (PAL) (CC2 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "C041F211",
+      "MD5": "cdc2906a-3e22-9f23-b0e3-80b99e21d7c9",
+      "SHA1": "BFDB4A0D5AD932C638F7DF5E9D6E69153FF66031"
+    },
+    {
+      "Name": "Alien Brigade (1990) (Atari) (PAL)",
+      "FileName": "Alien Brigade (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "0F24DDF1",
+      "MD5": "f826584e-debc-aeca-3258-cce2da57c569",
+      "SHA1": "176A0F60CDD6D07D52BD222CDE90C5F96226E3DF"
+    },
+    {
+      "Name": "Alien Brigade (1990) (Atari) [!]",
+      "FileName": "Alien Brigade (1990) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "3CEF22CA",
+      "MD5": "2ef9f58b-a2d9-c876-2139-c47c9875fd17",
+      "SHA1": "EEC0C56FF4CD107101E0D44BC55913E6D886DA94"
+    },
+    {
+      "Name": "Alien Brigade (1990) (Atari) [b1]",
+      "FileName": "Alien Brigade (1990) (Atari) [b1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "9F08ED1E",
+      "MD5": "9b5ee4dc-a7f3-3c73-d20d-a9ce6970ad17",
+      "SHA1": "E0AB2C70D89F7AA30A27A16BC48BD0910E328211"
+    },
+    {
+      "Name": "Asteroids (1987) (Atari)",
+      "FileName": "Asteroids (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "EAC69CF0",
+      "MD5": "7c58b585-945a-dd06-d079-aa6879093cf7",
+      "SHA1": "244136DCE7F71C146C4EB8C19B1C56AC3F71F646"
+    },
+    {
+      "Name": "Ballblazer (1987) (Atari-Lucasfilm) (PAL)",
+      "FileName": "Ballblazer (1987) (Atari-Lucasfilm) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "48F75A89",
+      "MD5": "ca044055-5c43-2ea0-b519-086f45e44033",
+      "SHA1": "CA675C16174F491A99427C25F6AAE1F7CBE8E8C5"
+    },
+    {
+      "Name": "Ballblazer (1987) (Atari-Lucasfilm)",
+      "FileName": "Ballblazer (1987) (Atari-Lucasfilm).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "44615260",
+      "MD5": "cf9f65a6-6d53-1960-48f5-7767aef65741",
+      "SHA1": "28ADAB7DE3AF3CE8658A62A6E95B44F10324EE26"
+    },
+    {
+      "Name": "Barnyard Blaster (1988) (Atari) (PAL) [!]",
+      "FileName": "Barnyard Blaster (1988) (Atari) (PAL) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "AC94BE39",
+      "MD5": "49598513-6294-8dd8-390d-7cf93b344f5f",
+      "SHA1": "8F8E37D9B6859953FDCD03BEADAC1166ECF026E0"
+    },
+    {
+      "Name": "Barnyard Blaster (1988) (Atari) [!]",
+      "FileName": "Barnyard Blaster (1988) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "C086ED30",
+      "MD5": "39784798-0ae0-619f-7a97-a0e91a6ff0b1",
+      "SHA1": "FF9679A3F2F98D4C5E4A9F5C232F88D2DB2BFA92"
+    },
+    {
+      "Name": "Basketbrawl (1990) (Atari) (PAL)",
+      "FileName": "Basketbrawl (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "E4E438A1",
+      "MD5": "81afa77d-1b92-d261-757d-796a9ff3814c",
+      "SHA1": "87B0740A5F042A61A0C38B25C0425638EEBEB11F"
+    },
+    {
+      "Name": "Basketbrawl (1990) (Atari)",
+      "FileName": "Basketbrawl (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "FD3AEC38",
+      "MD5": "82a0b043-53f3-9f91-83e4-b37203af280f",
+      "SHA1": "6CCEB878627FBCAE67AE1C7E0FBDBBD7A9DD0693"
+    },
+    {
+      "Name": "Beef Drop 7800 (Nov 03-Rev 09) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Nov 03-Rev 09) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "D4F3411C",
+      "MD5": "7d0c50fa-c603-8871-9256-aa0118969702",
+      "SHA1": "8EDF841480EC4577F683A4074877AE70E270B557"
+    },
+    {
+      "Name": "Beef Drop 7800 (Nov 04-Rev 10) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Nov 04-Rev 10) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "E9550A8B",
+      "MD5": "2d3b0bca-b0a0-22e2-fbd1-7bd393b0bb7d",
+      "SHA1": "C317ADF4AF005F6B5E1B2D714B1C9536252AFBBB"
+    },
+    {
+      "Name": "Beef Drop 7800 (Nov 05-Rev 11) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Nov 05-Rev 11) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "ED68CBC2",
+      "MD5": "1eeb925a-d1bf-cfee-a5cf-46139fafbdd0",
+      "SHA1": "1AFAFEE683E45FA4C950FE81A4DBDEAA6323CAB0"
+    },
+    {
+      "Name": "Beef Drop 7800 (Nov 05-Rev 12) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Nov 05-Rev 12) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "D5B6C16F",
+      "MD5": "3cc9596a-30cb-6f41-7759-8c60cbbd3a43",
+      "SHA1": "5AAFFDF44B54AFC494422BA740E6080E133DBA9A"
+    },
+    {
+      "Name": "Beef Drop 7800 (Nov 06-Rev 13) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Nov 06-Rev 13) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "67DEB9FC",
+      "MD5": "40af97ca-1efc-d8e7-ff58-8fd9e20eb6ce",
+      "SHA1": "FDF214EDF9EB6055F22188845FDF6D36F88D0DA0"
+    },
+    {
+      "Name": "Beef Drop 7800 (Nov 09-Rev 14) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Nov 09-Rev 14) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "F0AC6312",
+      "MD5": "cd4fb42e-429b-e046-5ae5-dbae633f9f5f",
+      "SHA1": "8E73B2D1A29BA733FD1CB946B68CE26E9CD15C24"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 19-Rev 01) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Oct 19-Rev 01) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "BEB4CC09",
+      "MD5": "89da3003-ec15-d0f4-0caf-f5e43bbe96b2",
+      "SHA1": "585ABB2FC9AEB0BF92CEB93BBAAD153D16DD29C4"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 19-Rev 02) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Oct 19-Rev 02) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "2C05E5CB",
+      "MD5": "60db2fa6-a182-313e-4fe7-ae7983898e14",
+      "SHA1": "5824FEA1546A64AFECC2C6E817DCE77B4C80F870"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 20-Rev 03) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Oct 20-Rev 03) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "44DD54CA",
+      "MD5": "17528371-d299-7510-803b-d9e944b4d0fc",
+      "SHA1": "66420526956011EF890F4D281A0B2023EEDE413E"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 22-Rev 04) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Oct 22-Rev 04) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "BA0826B1",
+      "MD5": "041eb9db-fee3-c586-80c4-8272c9c417a8",
+      "SHA1": "0C80954EB7F1BBA868E60436349EB20D29680195"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 26-Rev 05) (2004) (PD) [a1]",
+      "FileName": "Beef Drop 7800 (Oct 26-Rev 05) (2004) (PD) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "35244737",
+      "MD5": "9a17f0d4-1829-2160-f7bc-b07a25e0c7cf",
+      "SHA1": "4AB521B0E07AFBAB159C4C74172E11F13F5A54BF"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 26-Rev 05) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Oct 26-Rev 05) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "20316E46",
+      "MD5": "f10bdc0e-f835-f38d-faa3-7170e02b925c",
+      "SHA1": "DF54F66EBAB486DF6A8D5734FCFE6E0329BD4E7E"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 28-Rev 06) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Oct 28-Rev 06) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "80AF238B",
+      "MD5": "4c0d475b-043f-c50a-8cb6-07dcf0a80f79",
+      "SHA1": "01D8EF76DC2EB2845418BBE5D1D57AA1D591FD63"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 29-Rev 07) (2004) (PD)",
+      "FileName": "Beef Drop 7800 (Oct 29-Rev 07) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "F90959E8",
+      "MD5": "44d2942a-dcb6-bbc2-1957-94a30723374b",
+      "SHA1": "93ED412867351C4DDAF79FB3F61DAEBC0821FF36"
+    },
+    {
+      "Name": "Beef Drop 7800 (Oct 30-Rev 08) (2004) (CC2 Hack)",
+      "FileName": "Beef Drop 7800 (Oct 30-Rev 08) (2004) (CC2 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "E437491E",
+      "MD5": "cabb2df9-503e-4ca7-a8b8-51be02f94ecb",
+      "SHA1": "75466954E39ABD99BCC24C647865766EE6CE3F16"
+    },
+    {
+      "Name": "Centipede (1987) (Atari) (PAL)",
+      "FileName": "Centipede (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "CC7061E4",
+      "MD5": "0b57ef57-9585-dfbc-0e26-bc9b5b109b41",
+      "SHA1": "A4D28B28960A9473D97D266A69F413834FB4F588"
+    },
+    {
+      "Name": "Centipede (1987) (Atari)",
+      "FileName": "Centipede (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "5F94939E",
+      "MD5": "bbb11276-3230-370d-d79b-7f48b16430b2",
+      "SHA1": "8F395F48971ED55E97F41F2286E10DCC5A14C066"
+    },
+    {
+      "Name": "Choplifter (1987) (Atari) (PAL)",
+      "FileName": "Choplifter (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "9F3A7A83",
+      "MD5": "57678c02-52a2-1982-ea39-b26c35b953dc",
+      "SHA1": "A7FDC4ABFD6C47D867E3C9B165AD902829D723A9"
+    },
+    {
+      "Name": "Choplifter (1987) (Atari)",
+      "FileName": "Choplifter (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "D3BA607F",
+      "MD5": "5b512608-d9e7-1fbc-ea26-a7d6063667c1",
+      "SHA1": "6457DD40AEADB9733602C4AD3498780EBD7BF0D1"
+    },
+    {
+      "Name": "Color Selector Demo (2003) (PD)",
+      "FileName": "Color Selector Demo (2003) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 8320,
+      "CRC": "E79309C9",
+      "MD5": "19b5b151-ffe9-f26c-d43d-135cb91cc15b",
+      "SHA1": "90106BB2CCAD6499F2879864BA452439F7740B48"
+    },
+    {
+      "Name": "Commando (1989) (Atari) (PAL)",
+      "FileName": "Commando (1989) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "2DC7CCC5",
+      "MD5": "c5dc9ed5-3b3c-4e1e-565f-f7234a5d37a6",
+      "SHA1": "7D56547DB021ED5AB5511BA1015F395BA1D6C70F"
+    },
+    {
+      "Name": "Commando (1989) (Atari)",
+      "FileName": "Commando (1989) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "81C6C079",
+      "MD5": "c7ead595-04b8-cbf3-1950-e0d19a03afe7",
+      "SHA1": "3314CE17DF8B1B6FC52E13CCF8D6EA1AADBC66C4"
+    },
+    {
+      "Name": "Crack'ed (1988) (Atari) (PAL)",
+      "FileName": "Crack'ed (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "A2257DD0",
+      "MD5": "69491091-040a-72e2-d28e-e80d12329bc9",
+      "SHA1": "39836C29772E91ACB3DB84E526DC62E2BD726FBF"
+    },
+    {
+      "Name": "Crack'ed (1988) (Atari)",
+      "FileName": "Crack'ed (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "61DCC763",
+      "MD5": "4744835a-248c-0062-d0ef-987557aae3cd",
+      "SHA1": "255E287A2F475731BAFE5B7F1CF5075C8723D647"
+    },
+    {
+      "Name": "Crossbow (1988) (Atari) (CC2 Hack)",
+      "FileName": "Crossbow (1988) (Atari) (CC2 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "0831669A",
+      "MD5": "14d0ea2b-a384-e913-7c9a-c1d6819e9f5c",
+      "SHA1": "BFDCD6F5C4FA69BE1CE1133989B3A0B472462873"
+    },
+    {
+      "Name": "Crossbow (1988) (Atari) (PAL) (CC2 Hack)",
+      "FileName": "Crossbow (1988) (Atari) (PAL) (CC2 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "05C5EC30",
+      "MD5": "c8e9a76e-574a-167d-6930-0df5e9510809",
+      "SHA1": "5C98DBD88C18F76C69F1CC23BADD25E3344CDB78"
+    },
+    {
+      "Name": "Crossbow (1988) (Atari) (PAL)",
+      "FileName": "Crossbow (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "08E6C2CC",
+      "MD5": "6b6549ff-8d24-77d2-f9d7-5dcca0a30116",
+      "SHA1": "4F2CD2FDD900C26B4D56BC55349B8C34497E761D"
+    },
+    {
+      "Name": "Crossbow (1988) (Atari)",
+      "FileName": "Crossbow (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 147584,
+      "CRC": "A2678E2D",
+      "MD5": "6a79ae68-00d7-32df-2628-ce9dfc82e802",
+      "SHA1": "520B6D9EF2EF4EDAE9A8CDF8DA57C85810908A9A"
+    },
+    {
+      "Name": "Dark Chambers (1988) (Atari) (PAL)",
+      "FileName": "Dark Chambers (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "3FB402B1",
+      "MD5": "cf6c0326-b266-7f74-d00d-3884a528614c",
+      "SHA1": "72C77E330825C0B82AF7F6DF310304152A54631C"
+    },
+    {
+      "Name": "Dark Chambers (1988) (Atari)",
+      "FileName": "Dark Chambers (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "B5A87D19",
+      "MD5": "a2394bb9-e0ec-bc24-79ad-350914219a72",
+      "SHA1": "8E1866B33515D742BC0E1DB0DF0165F1C55694B9"
+    },
+    {
+      "Name": "Desert Falcon (1987) (Atari) (PAL)",
+      "FileName": "Desert Falcon (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "5A117708",
+      "MD5": "a58ce7a1-1bdd-ce84-5a96-ab1590abfef1",
+      "SHA1": "97FEA37888741279CF21E09EC46F6325E87AC2AE"
+    },
+    {
+      "Name": "Desert Falcon (1987) (Atari)",
+      "FileName": "Desert Falcon (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "A6A62E78",
+      "MD5": "ae381fec-5e5b-8e63-1ac8-4016ee1c0019",
+      "SHA1": "0BF324702DAF1A033FD8FFE57ECB9E066826780C"
+    },
+    {
+      "Name": "Desert Falcon (2004) (Atari) (HSC Hack) [a1]",
+      "FileName": "Desert Falcon (2004) (Atari) (HSC Hack) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "975B193B",
+      "MD5": "51a96051-f6e8-8d7d-6005-9c8af30c4b61",
+      "SHA1": "F34C561271EED3E5AEAFDCE4AD354D3C0345CCD4"
+    },
+    {
+      "Name": "Desert Falcon (2004) (Atari) (HSC Hack)",
+      "FileName": "Desert Falcon (2004) (Atari) (HSC Hack).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "4B130C88",
+      "MD5": "86519a56-e628-ef55-a96e-722b01ca16af",
+      "SHA1": "7EF881097EE95CC1869A830309D5F6C3C2608931"
+    },
+    {
+      "Name": "Diagnostic Test Cartridge (19xx) (Atari) [!]",
+      "FileName": "Diagnostic Test Cartridge (19xx) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "F6CC9B1C",
+      "MD5": "05c1f58d-da17-001c-1072-fd5526e4a683",
+      "SHA1": "F1DA35DB85F99DB8803AE088499CB9DC148FE0C6"
+    },
+    {
+      "Name": "Dig Dug (1987) (Atari) (PAL)",
+      "FileName": "Dig Dug (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "D0DF6F91",
+      "MD5": "ef7932fa-d384-a9f6-df15-1ff578fcffe5",
+      "SHA1": "3A0614B5ED04E878D63143FEC23A75B778B9FD9B"
+    },
+    {
+      "Name": "Dig Dug (1987) (Atari)",
+      "FileName": "Dig Dug (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "8EAD573D",
+      "MD5": "f2ab7639-9d9e-a06a-00bf-f8268c0d534e",
+      "SHA1": "DD8D50B1B72953D7535AEC08880270F3B5245E12"
+    },
+    {
+      "Name": "Donkey Kong (1988) (Atari) (PAL)",
+      "FileName": "Donkey Kong (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "BF164AAD",
+      "MD5": "89824a12-770e-ca23-9af7-c8c063c503ab",
+      "SHA1": "5A5A0ADB9A081972040EB608051D7E5EDD28EE30"
+    },
+    {
+      "Name": "Donkey Kong (1988) (Atari)",
+      "FileName": "Donkey Kong (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "D7A55F95",
+      "MD5": "5bbeea35-2a95-734f-3b90-4f73511f884d",
+      "SHA1": "46AA055A2CC950F075CF6833E1338C73027459D4"
+    },
+    {
+      "Name": "Donkey Kong Jr (1988) (Atari) (PAL)",
+      "FileName": "Donkey Kong Jr (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "CD5EB9CD",
+      "MD5": "c7a321c9-8f02-ec03-2469-b92fa4b08d42",
+      "SHA1": "90D491E1DCB5AAE2BC82E851ACE60A5EED7C3B4F"
+    },
+    {
+      "Name": "Donkey Kong Jr (1988) (Atari)",
+      "FileName": "Donkey Kong Jr (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "6E989686",
+      "MD5": "260b94c4-d652-54a6-cbbe-cfb59495ba24",
+      "SHA1": "2D02B7EC0EF958DF5FBE11C1764C8932452E7451"
+    },
+    {
+      "Name": "Double Dragon (1989) (Activision) (PAL)",
+      "FileName": "Double Dragon (1989) (Activision) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "3B1F47A2",
+      "MD5": "37fa4e99-63ac-710a-20b9-a86629c8a613",
+      "SHA1": "8C782AA3FAAEF83F76F53E446A676881A4F44EB0"
+    },
+    {
+      "Name": "Double Dragon (1989) (Activision) [!]",
+      "FileName": "Double Dragon (1989) (Activision) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "CFCB73FD",
+      "MD5": "28d6efa8-566f-bc33-1d50-70d4b821f34b",
+      "SHA1": "DEB9CD96D1B0CE9B266B5458F7472BB62742B1ED"
+    },
+    {
+      "Name": "Double Dragon (1989) (Activision) [b1]",
+      "FileName": "Double Dragon (1989) (Activision) [b1].a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "D81059DB",
+      "MD5": "33281901-2341-6b04-0f5f-621956837e9c",
+      "SHA1": "A83FD5FA9EF368E216C03F11DBF6C9838C3C9572"
+    },
+    {
+      "Name": "F-18 Hornet (1988) (Absolute) (PAL)",
+      "FileName": "F-18 Hornet (1988) (Absolute) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "799F3F3D",
+      "MD5": "b0096d4f-1622-b536-6014-e4756f4a9b17",
+      "SHA1": "8F76D508C35F94DDDAEA0B70B7B0CB81E33A6291"
+    },
+    {
+      "Name": "F-18 Hornet (1988) (Absolute) [!]",
+      "FileName": "F-18 Hornet (1988) (Absolute) [!].a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "2B4CB599",
+      "MD5": "7f77c2c6-bbfb-2376-2f45-6acca4c1cd45",
+      "SHA1": "D7975AA89C97DE8ECAF7391B60C9973F0400BD3A"
+    },
+    {
+      "Name": "F-18 Hornet (1988) (Absolute) [b1]",
+      "FileName": "F-18 Hornet (1988) (Absolute) [b1].a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "6B58FBD6",
+      "MD5": "df40a32b-2968-f22f-cb20-773ace47b749",
+      "SHA1": "D60230712F924F386EE72F5512DBF41588B7FDA2"
+    },
+    {
+      "Name": "F-18 Hornet (1988) (Absolute) [b2]",
+      "FileName": "F-18 Hornet (1988) (Absolute) [b2].a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "78A02F88",
+      "MD5": "44020ff8-7656-d2f6-6cb7-7583d189aa0a",
+      "SHA1": "B9B673C6CC4ABC1F1BFB0D27D07BE72B9976A1DD"
+    },
+    {
+      "Name": "Fatal Run (1990) (Atari) (PAL)",
+      "FileName": "Fatal Run (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "8A840C36",
+      "MD5": "601255c9-a8a5-9ee7-38ac-d8294c791f5a",
+      "SHA1": "010773E4D837C4FE4E27B8996C3005435566E656"
+    },
+    {
+      "Name": "Fatal Run (1990) (Atari)",
+      "FileName": "Fatal Run (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "718232BB",
+      "MD5": "74cd28fb-107d-1421-8580-10f6eb16ab35",
+      "SHA1": "AAC1881255B4429A2FA13FCB003C2290BCE5687C"
+    },
+    {
+      "Name": "Fight Night (1988) (Atari) (PAL)",
+      "FileName": "Fight Night (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "4B75AD7A",
+      "MD5": "6e9e1057-284e-c252-3440-300ad27ce3cb",
+      "SHA1": "25B8664F51E0E816C9A1C94397BDE03AC256686D"
+    },
+    {
+      "Name": "Fight Night (1988) (Atari)",
+      "FileName": "Fight Night (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "28E38BD7",
+      "MD5": "c1b14fc6-e281-b8d8-0718-1bb3c0fffbe9",
+      "SHA1": "48D87DB3DFC85B20C04410104023694D60BAF8A1"
+    },
+    {
+      "Name": "Food Fight (1987) (Atari) (PAL)",
+      "FileName": "Food Fight (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "05B23D02",
+      "MD5": "302ea668-5422-f431-a789-dbc957bc28ff",
+      "SHA1": "41C8DF367C77F15457383140D590C5E6A0EE5F76"
+    },
+    {
+      "Name": "Food Fight (1987) (Atari)",
+      "FileName": "Food Fight (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "03EC1894",
+      "MD5": "ee19389a-8df5-b5dd-50fe-997e7e6abee2",
+      "SHA1": "1D08C9791803E7BACDC0F36414CCABD1FA6B07A0"
+    },
+    {
+      "Name": "Galaga (1987) (Atari) (PAL)",
+      "FileName": "Galaga (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "50C37611",
+      "MD5": "bf252271-f432-8418-8375-012c91bb8554",
+      "SHA1": "759D582FDBFA92F451B6C4A8BC739FC3E9F7128E"
+    },
+    {
+      "Name": "Galaga (1987) (Atari)",
+      "FileName": "Galaga (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "CFFAA1B7",
+      "MD5": "0c7bd21d-03af-e3d6-948d-3be16ac30792",
+      "SHA1": "93A3B9C5348BBFD3BAD6EC2BD922857A66DBB73A"
+    },
+    {
+      "Name": "Gato (198x) (Atari) (Prototype) [a1]",
+      "FileName": "Gato (198x) (Atari) (Prototype) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "8FF17C43",
+      "MD5": "f905d3af-06d9-c635-372b-51f057b0401e",
+      "SHA1": "E064DE4CCA7E721A2A7B09B684F0A07F8B2D440A"
+    },
+    {
+      "Name": "Gato (198x) (Atari) (Prototype) [a2]",
+      "FileName": "Gato (198x) (Atari) (Prototype) [a2].a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "51323DFA",
+      "MD5": "74fbedaa-9249-df53-5216-eebbc5f75f22",
+      "SHA1": "1ACDC709880DCECAA20BCE46FBF3B88105CD5C03"
+    },
+    {
+      "Name": "Gato (198x) (Atari) (Prototype)",
+      "FileName": "Gato (198x) (Atari) (Prototype).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "9FFF1924",
+      "MD5": "3cf35af9-7924-ee8a-a0a2-e4497bf97197",
+      "SHA1": "BC8EE7ADEB01C875EEEDA51D707C533CC4329668"
+    },
+    {
+      "Name": "Hat Trick (1987) (Atari) (PAL)",
+      "FileName": "Hat Trick (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "BF258A76",
+      "MD5": "2b70bff7-99d6-f55d-ec7e-377fd17b2689",
+      "SHA1": "F1A01335E1311A96561FF799EDB05F2C1AD1EF0B"
+    },
+    {
+      "Name": "Hat Trick (1987) (Atari)",
+      "FileName": "Hat Trick (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "6247EFA8",
+      "MD5": "ea9b00e3-5670-424f-dea6-51aa6fb89bd2",
+      "SHA1": "9A154C4FAEB10167EEAC65206892AD9A1B9F8364"
+    },
+    {
+      "Name": "Ikari Warriors (1989) (Atari) (PAL)",
+      "FileName": "Ikari Warriors (1989) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "9E43A69E",
+      "MD5": "e28f5b60-cd5f-815a-66f8-58f48bd3e454",
+      "SHA1": "5A9CB92D46A8F66D848DF0915C0533F32DB12B62"
+    },
+    {
+      "Name": "Ikari Warriors (1989) (Atari)",
+      "FileName": "Ikari Warriors (1989) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "AA0CFB30",
+      "MD5": "8567ab09-f272-95c2-3a7d-da3cc3cda0df",
+      "SHA1": "D276034AD0CB78233F41D62F26AE8C13941B347F"
+    },
+    {
+      "Name": "Impossible Mission (1987) (Atari) (PAL)",
+      "FileName": "Impossible Mission (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "DC1F3987",
+      "MD5": "963ab5f9-0aad-8d40-37fa-1f1e745ac2df",
+      "SHA1": "AA46B44BB579A82A85A03307BC474A6F19F209AB"
+    },
+    {
+      "Name": "Impossible Mission (1987) (Atari) [!]",
+      "FileName": "Impossible Mission (1987) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "DB73A803",
+      "MD5": "f41f1cf2-f383-313a-62dd-e303684afe45",
+      "SHA1": "30B155596836659D7EE1A793F601288425A938C6"
+    },
+    {
+      "Name": "Impossible Mission (1987) (Atari) [a1]",
+      "FileName": "Impossible Mission (1987) (Atari) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "5458F254",
+      "MD5": "dd639840-d285-9e1c-e615-7edeaf73861f",
+      "SHA1": "8EDB423291B3D954B1A04A0FA8704856F3F8A2C3"
+    },
+    {
+      "Name": "Impossible Mission (1987) (Atari) [f1]",
+      "FileName": "Impossible Mission (1987) (Atari) [f1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "9A38DD12",
+      "MD5": "40a52579-35f3-686b-6e9e-a89f920d5522",
+      "SHA1": "C438E1C71DB704E158037CA32A535AF0033084E4"
+    },
+    {
+      "Name": "Jinks (1989) (Atari) (PAL)",
+      "FileName": "Jinks (1989) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "7A2FA209",
+      "MD5": "3b0d6393-6932-410f-27ed-de9993163cba",
+      "SHA1": "6B1A67A8639C89BB9AE8E1200C1FA910E9D55476"
+    },
+    {
+      "Name": "Jinks (1989) (Atari)",
+      "FileName": "Jinks (1989) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "9571C998",
+      "MD5": "8fa8eaf4-4ba3-8c60-5b52-1ddf821173c4",
+      "SHA1": "E8E731A2F19F8CB83617A91C4AAAFF28BB89EF7D"
+    },
+    {
+      "Name": "Joust (1987) (Atari) (PAL)",
+      "FileName": "Joust (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "9958FF37",
+      "MD5": "e443c61c-40ef-ca15-8b4c-ac53ac9f8d72",
+      "SHA1": "63470ED89BF256FBE33E081BF2793E9C947619FE"
+    },
+    {
+      "Name": "Joust (1987) (Atari)",
+      "FileName": "Joust (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "FDA13F77",
+      "MD5": "b86dcb6a-d27b-b74a-eecd-bef2f206b384",
+      "SHA1": "04E1355F0109864D470A0FF6F8345436A7665B93"
+    },
+    {
+      "Name": "Karateka (1987) (Atari) (PAL)",
+      "FileName": "Karateka (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "1FFA97DF",
+      "MD5": "05d7df36-4d19-1f33-f828-866b7e8ca0ef",
+      "SHA1": "E6B6972937D3A77A9BADD0DDD32021A2D8EFFF04"
+    },
+    {
+      "Name": "Karateka (1987) (Atari)",
+      "FileName": "Karateka (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "7089A354",
+      "MD5": "90078ea5-29cf-e340-3343-daacee0bc864",
+      "SHA1": "EF839309A2770EFD09955ED3467F0970A64D8243"
+    },
+    {
+      "Name": "Klax (1992) (Atari) (Prototype) [a1]",
+      "FileName": "Klax (1992) (Atari) (Prototype) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "0346AF6B",
+      "MD5": "6a9bac62-3093-b68b-5ca8-158b2100ff34",
+      "SHA1": "EF5DE81827DBF03FEC742206E99904E8C47724DE"
+    },
+    {
+      "Name": "Klax (1992) (Atari) (Prototype) [f1]",
+      "FileName": "Klax (1992) (Atari) (Prototype) [f1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "10BAD215",
+      "MD5": "ba11074f-6460-dfd1-bc59-96d38b689576",
+      "SHA1": "BA5FCF238C7CCBAF82A2F8FEE0FED17B98694C30"
+    },
+    {
+      "Name": "Klax (1992) (Atari) (Prototype)",
+      "FileName": "Klax (1992) (Atari) (Prototype).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "0AE5C4D3",
+      "MD5": "48bfa33f-0b51-c3d3-464e-6cc18864b8d8",
+      "SHA1": "3CA412FDB435B49F3558C2E0649AC67F513484C7"
+    },
+    {
+      "Name": "Klax (2004) (Impossible Level 1 Hack)",
+      "FileName": "Klax (2004) (Impossible Level 1 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "48F48507",
+      "MD5": "23c70fcf-f05f-a323-4757-7f8e07f7ff1e",
+      "SHA1": "B7BA364BFCBF2B8A8C9B27D8ECF7D1DA0A5827C8"
+    },
+    {
+      "Name": "Klax (2004) (Impossible Level 2 Hack)",
+      "FileName": "Klax (2004) (Impossible Level 2 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "7DBDBCCA",
+      "MD5": "6117c1e5-c5c9-f2f7-6b7f-454d60e67325",
+      "SHA1": "240DE4D9AFD1A280724627F12D0B278F7CE6FEF4"
+    },
+    {
+      "Name": "Klax (2004) (Impossible Level 3 Hack)",
+      "FileName": "Klax (2004) (Impossible Level 3 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "F73341E8",
+      "MD5": "c6df9aa4-6890-f56f-3e49-13b6804dee8f",
+      "SHA1": "52D18767DFB2745CB3D0ABAF15B2A52717D0BCBC"
+    },
+    {
+      "Name": "Kung Fu Master (1989) (Absolute) (PAL)",
+      "FileName": "Kung Fu Master (1989) (Absolute) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "00B75654",
+      "MD5": "4cc5928c-23a4-66f8-886a-7955bc5d6996",
+      "SHA1": "0AB29674E371DB040E41060AE5B3512A3C7F5120"
+    },
+    {
+      "Name": "Kung Fu Master (1989) (Absolute) [!]",
+      "FileName": "Kung Fu Master (1989) (Absolute) [!].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "37816887",
+      "MD5": "a813951d-a8d2-ca37-ca7b-b4e9884a87cb",
+      "SHA1": "624A8F70B433F04942D5544289AC156D50B93610"
+    },
+    {
+      "Name": "Mario Brothers (1988) (Atari) (PAL)",
+      "FileName": "Mario Brothers (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "04D779F4",
+      "MD5": "646b80fc-a6f8-3d69-5b84-5eef69603188",
+      "SHA1": "3F2905AE606D5E7C2E05D1BF6BB6525F88AF31BA"
+    },
+    {
+      "Name": "Mario Brothers (1988) (Atari)",
+      "FileName": "Mario Brothers (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "4D072A3E",
+      "MD5": "e551114e-148e-caff-2a44-5d46981dab65",
+      "SHA1": "B0216F9979D0CF75D2F00C2715170B7ACF3D92F9"
+    },
+    {
+      "Name": "Mat Mania Challenge (1989) (Atari) (PAL)",
+      "FileName": "Mat Mania Challenge (1989) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "71B58DDB",
+      "MD5": "02becbd5-0e76-130f-aacf-2fb0808d968a",
+      "SHA1": "E83DFC8C1546527AA79176444937AF1897AFF80E"
+    },
+    {
+      "Name": "Mat Mania Challenge (1989) (Atari)",
+      "FileName": "Mat Mania Challenge (1989) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "33BB15AC",
+      "MD5": "30ec4fb3-81a2-66a0-c409-8c44709f30ae",
+      "SHA1": "D84A0F727E2176A58EC222C3B4A3364DDD6C4E30"
+    },
+    {
+      "Name": "Mean 18 Golf (1988) (Atari) (PAL)",
+      "FileName": "Mean 18 Golf (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "D7F1D5A5",
+      "MD5": "29f6a0a5-297c-6114-62bc-d6db7d30790e",
+      "SHA1": "34E8AE5ECBED5A27635CE0B7AA5E1C154F7C8A6C"
+    },
+    {
+      "Name": "Mean 18 Golf (1988) (Atari) [!]",
+      "FileName": "Mean 18 Golf (1988) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "D22F4B02",
+      "MD5": "3c7a46a2-6575-0105-0a37-e9a687de57d5",
+      "SHA1": "C1F1D13B0A3CFF210A6B8FE73EFB5588CB4DE3C6"
+    },
+    {
+      "Name": "Meltdown (1990) (Atari) (PAL)",
+      "FileName": "Meltdown (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "3CE19444",
+      "MD5": "a837ba56-e017-34f4-bbec-9e9274b84d36",
+      "SHA1": "8F626B39072ACDE7D01470D72DBED547824ED0A0"
+    },
+    {
+      "Name": "Meltdown (1990) (Atari)",
+      "FileName": "Meltdown (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "14502302",
+      "MD5": "3c748c54-0532-5089-d507-861d7993d425",
+      "SHA1": "816073F9DD490C34E64DB4B246BCA0EC0E0834FB"
+    },
+    {
+      "Name": "Midnight Mutants (1990) (Atari) (PAL)",
+      "FileName": "Midnight Mutants (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "F68C312A",
+      "MD5": "2cb46763-dbe5-970d-f8ff-994225254e35",
+      "SHA1": "D0A24C0238520F666D9B558C79A8EE5131983FEE"
+    },
+    {
+      "Name": "Midnight Mutants (1990) (Atari)",
+      "FileName": "Midnight Mutants (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "E7157222",
+      "MD5": "6851cce0-10d9-7c55-01d3-c95173ec7d0a",
+      "SHA1": "C56E2180B8AD1D37767D01C22BFB098D995F192E"
+    },
+    {
+      "Name": "Motor Psycho (1990) (Atari) (PAL)",
+      "FileName": "Motor Psycho (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "AF9AC9D6",
+      "MD5": "83f2fa42-e9fe-61fd-acf0-691f349e929e",
+      "SHA1": "363006E26A7C30D7140B8172FAEAAD4DC5F265D5"
+    },
+    {
+      "Name": "Motor Psycho (1990) (Atari)",
+      "FileName": "Motor Psycho (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "FC414689",
+      "MD5": "7770b206-8f56-52e7-9d2d-0bdfdd974854",
+      "SHA1": "F59F5081979B69B30A6F3CF9F2BE5345747EE14E"
+    },
+    {
+      "Name": "Ms. Pac-Man (1987) (Atari) (PAL)",
+      "FileName": "Ms. Pac-Man (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "9E186149",
+      "MD5": "1e4cb291-b313-649b-9d80-efe1d9b742ae",
+      "SHA1": "E878BDE9200CD8BCFE82E3EF51E20D16983328DB"
+    },
+    {
+      "Name": "Ms. Pac-Man (1987) (Atari)",
+      "FileName": "Ms. Pac-Man (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "5EC9C910",
+      "MD5": "3c48a612-d257-0d06-1d07-eed2f4cb63dd",
+      "SHA1": "AAD5C4B0B2E372F13FFA0A291023C9FEEE86785D"
+    },
+    {
+      "Name": "Ninja Golf (1990) (Atari) (PAL)",
+      "FileName": "Ninja Golf (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "0B070229",
+      "MD5": "69f77623-18c6-803f-bf4b-791a57dc1554",
+      "SHA1": "C8513193616984B872A4E4892ABE5CE85611AAB9"
+    },
+    {
+      "Name": "Ninja Golf (1990) (Atari)",
+      "FileName": "Ninja Golf (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "9E5D3625",
+      "MD5": "831455bb-14d1-c5dc-bae7-aaa892ee856a",
+      "SHA1": "BF0801510A0835E327B1B2EDD2D56399551BC047"
+    },
+    {
+      "Name": "NTSC Encryption Backdoor Test (2000) (PD)",
+      "FileName": "NTSC Encryption Backdoor Test (2000) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "703007BA",
+      "MD5": "6eebdb17-b0b0-82cb-ed1d-66e855d02c5a",
+      "SHA1": "0728021230E72EC7BECBF2D6638415C1CFCD9268"
+    },
+    {
+      "Name": "One-on-One Basketball (1987) (Atari) (PAL)",
+      "FileName": "One-on-One Basketball (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "15C95320",
+      "MD5": "1701c9c6-da1f-e111-deba-32ccff1a218d",
+      "SHA1": "E360EA84AD560E649852A7CB0220F552C5D8C442"
+    },
+    {
+      "Name": "One-on-One Basketball (1987) (Atari)",
+      "FileName": "One-on-One Basketball (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "34646E22",
+      "MD5": "09785448-2f2c-2e19-af29-ca199b753d16",
+      "SHA1": "B89B8E550AE9C58880EF05E2E7D6EC6DE40E96CE"
+    },
+    {
+      "Name": "Pete Rose Baseball (1989) (Absolute) (PAL) [b1]",
+      "FileName": "Pete Rose Baseball (1989) (Absolute) (PAL) [b1].a78",
+      "FileType": "Game",
+      "FileSize": 32878,
+      "CRC": "522D86D2",
+      "MD5": "0325883c-10c7-f627-4e7e-e7630e765aa9",
+      "SHA1": "7144CB51E759168FC0E02D02776CDE9C4DA76EA1"
+    },
+    {
+      "Name": "Pete Rose Baseball (1989) (Absolute) (PAL)",
+      "FileName": "Pete Rose Baseball (1989) (Absolute) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "A8189E81",
+      "MD5": "feb8df3d-b320-0085-acdb-cf158cdba11a",
+      "SHA1": "776513B6408BB81EC3436CC8006DB826A5BC83FD"
+    },
+    {
+      "Name": "Pete Rose Baseball (1989) (Absolute) [!]",
+      "FileName": "Pete Rose Baseball (1989) (Absolute) [!].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "ECECE40B",
+      "MD5": "4ddb49e7-db81-3c28-1b66-28181504b1b8",
+      "SHA1": "80ED091B4081C134EA57B8E96FC3825B1D98E7B2"
+    },
+    {
+      "Name": "Pete Rose Baseball (1989) (Absolute) [o1]",
+      "FileName": "Pete Rose Baseball (1989) (Absolute) [o1].a78",
+      "FileType": "Game",
+      "FileSize": 32904,
+      "CRC": "E37C03B0",
+      "MD5": "32783a26-ee65-9e51-7808-90dd7a3f4c8d",
+      "SHA1": "A1BFA87625CF06217F7728375601909A5118CC63"
+    },
+    {
+      "Name": "Pit Fighter (1992) (Atari) (Prototype) [a1]",
+      "FileName": "Pit Fighter (1992) (Atari) (Prototype) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "7EB8B329",
+      "MD5": "f1d0060d-b407-f81b-3733-031059835c2c",
+      "SHA1": "70EB9CBC1166C6EE46E100C8C73F979A66BA6CB3"
+    },
+    {
+      "Name": "Pit Fighter (1992) (Atari) (Prototype) [a2]",
+      "FileName": "Pit Fighter (1992) (Atari) (Prototype) [a2].a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "F29E8142",
+      "MD5": "c4e55271-703f-250b-3480-d324affb6792",
+      "SHA1": "56134E14414EFFE6E37D75935DBD9DDA00888FF8"
+    },
+    {
+      "Name": "Pit Fighter (1992) (Atari) (Prototype)",
+      "FileName": "Pit Fighter (1992) (Atari) (Prototype).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "5C9AC595",
+      "MD5": "09e92eb2-db19-ebbc-1cef-af0f83179a4d",
+      "SHA1": "D1AD56C792597A83FA51D29E8236AD5B818ADA87"
+    },
+    {
+      "Name": "Planet Smashers (1990) (Atari) (PAL)",
+      "FileName": "Planet Smashers (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "E8929246",
+      "MD5": "f92824dd-32f0-8efc-ed7e-2047820b41a3",
+      "SHA1": "1E040AC9F9DA1F0806DBE0F687FF045C8ACD3060"
+    },
+    {
+      "Name": "Planet Smashers (1990) (Atari)",
+      "FileName": "Planet Smashers (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "46342CD3",
+      "MD5": "60e93e92-0a2e-5ff4-e5d2-131dfd78214c",
+      "SHA1": "58A82FF0BBBE418D1C2D950C9ECFF7F5C549618F"
+    },
+    {
+      "Name": "Pole Position II (1987) (Atari) (PAL)",
+      "FileName": "Pole Position II (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "9D44A452",
+      "MD5": "9999f0a0-60a9-dfc4-88eb-be652b286c2e",
+      "SHA1": "F77E284DBFC472B74177FF0E4A012B44EF2EFA6E"
+    },
+    {
+      "Name": "Pole Position II (1987) (Atari)",
+      "FileName": "Pole Position II (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "4BF501CB",
+      "MD5": "892f4f8a-e78e-9395-e2fc-30061526ca08",
+      "SHA1": "319702E597F1FC419C1A530ED8CFF2EA6C76E8FB"
+    },
+    {
+      "Name": "Q-Bert Demo (200x) (PD)",
+      "FileName": "Q-Bert Demo (200x) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "2309A1EE",
+      "MD5": "b6cd9d58-b971-f463-0eff-6caece3a6ad3",
+      "SHA1": "54624FD7862FCD471ECEC08F9EF5E937B02E97CA"
+    },
+    {
+      "Name": "Rampage (1989) (Activision) [!]",
+      "FileName": "Rampage (1989) (Activision) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "5CB41CBD",
+      "MD5": "904769f1-a043-1298-bae0-6c866c39a6ad",
+      "SHA1": "037A276D455F75DF8F8B410A446D845C84C1D001"
+    },
+    {
+      "Name": "Rampage (1989) (Activision) [b1]",
+      "FileName": "Rampage (1989) (Activision) [b1].a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "4DC6D044",
+      "MD5": "c7692957-9179-0862-add0-9d31b7e2f1af",
+      "SHA1": "5D09622379FF37FE4C9F71700E8832B2EBCEAD61"
+    },
+    {
+      "Name": "Rampage (1989) (Activision) [b1][o1]",
+      "FileName": "Rampage (1989) (Activision) [b1][o1].a78",
+      "FileType": "Game",
+      "FileSize": 49288,
+      "CRC": "97986568",
+      "MD5": "7395fd47-b164-fb4a-4a95-e9c670377d77",
+      "SHA1": "E50FB1311C71FC4BFC710D601638B41C4D81925A"
+    },
+    {
+      "Name": "RealSports Baseball (1988) (Atari) [o1]",
+      "FileName": "RealSports Baseball (1988) (Atari) [o1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "F5FDE147",
+      "MD5": "64369bf3-5d54-131a-af40-a9656c463bfe",
+      "SHA1": "AB96B82D698BD59D07D8004F0445699E26137817"
+    },
+    {
+      "Name": "RealSports Baseball (1988) (Atari)",
+      "FileName": "RealSports Baseball (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "F33BD4FD",
+      "MD5": "151ca983-4f7d-13eb-c351-3b158d6c825f",
+      "SHA1": "D2B8B6DBB600B2E8B70ABBABC10984C5A6E391BA"
+    },
+    {
+      "Name": "Rescue on Fractalus (1984) (Atari) (Prototype) (CC2 Hack)",
+      "FileName": "Rescue on Fractalus (1984) (Atari) (Prototype) (CC2 Hack).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "968647D1",
+      "MD5": "25de90a8-5c41-a586-8461-3a9e27cbdc47",
+      "SHA1": "0B4C23D54646FCB49A1D272C6B05F7EB472BE7BC"
+    },
+    {
+      "Name": "Rescue on Fractalus (1984) (Atari) (Prototype)",
+      "FileName": "Rescue on Fractalus (1984) (Atari) (Prototype).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "9F596F05",
+      "MD5": "2afd7dae-6b9d-9132-b04a-70f02cd07d7b",
+      "SHA1": "2C09C217D31C9E3DBABCC8927BB723CA9DBB1083"
+    },
+    {
+      "Name": "Robot Finds Kitten 7800 (2004) (PD)",
+      "FileName": "Robot Finds Kitten 7800 (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "72A744C9",
+      "MD5": "3a1dc9d6-7a5b-8fc5-4d3d-974c1611a676",
+      "SHA1": "E9116D29A4C990CDDB18753703C91D34B1FE5F87"
+    },
+    {
+      "Name": "Robotron 2084 (1987) (Atari)",
+      "FileName": "Robotron 2084 (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "AB7BC9CE",
+      "MD5": "82aac35a-a13d-a9a7-738c-208161fbca57",
+      "SHA1": "77C3445993F2D0A2ACF0A453EF80BC31E047B932"
+    },
+    {
+      "Name": "Scrapyard Dog (1990) (Atari) (PAL)",
+      "FileName": "Scrapyard Dog (1990) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "B435A5CB",
+      "MD5": "f4f0b2c3-db62-66bf-d0c8-c5c6e457d603",
+      "SHA1": "39D2388D4B68C04B905EAA2E5456769DA60C11BD"
+    },
+    {
+      "Name": "Scrapyard Dog (1990) (Atari)",
+      "FileName": "Scrapyard Dog (1990) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "DB61AE81",
+      "MD5": "790b1aeb-583c-e2b2-cacc-01b843aebfed",
+      "SHA1": "5FEC935AA0E284E6373F456E5FB9158892D0F4E8"
+    },
+    {
+      "Name": "Senso 7800 DX2 (2001) (Karolj Nadj) (PD)",
+      "FileName": "Senso 7800 DX2 (2001) (Karolj Nadj) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "936DA76C",
+      "MD5": "a6b3aa95-ec7e-e347-346a-3d34d72e2312",
+      "SHA1": "01A7072157B714DAB4379F205FAF1CEDE172FABC"
+    },
+    {
+      "Name": "Senso 7800 DX3 (2003) (Karolj Nadj) (PD)",
+      "FileName": "Senso 7800 DX3 (2003) (Karolj Nadj) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "664AA5D1",
+      "MD5": "76476f0d-1a13-fd4a-ebde-b072570cea62",
+      "SHA1": "064FDB39AF45D7A12731AE8904E129FA3F449CF5"
+    },
+    {
+      "Name": "Senso 7800 DX4 (2003) (Karolj Nadj) (PD)",
+      "FileName": "Senso 7800 DX4 (2003) (Karolj Nadj) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "1E7C3D8B",
+      "MD5": "b31dae89-c1ed-c8b9-d7af-f8af593528ad",
+      "SHA1": "678D7CA5AA01EA2F8A1C3D05239A66485DCB688D"
+    },
+    {
+      "Name": "Senso 7800 Test 5 (2001) (Karolj Nadj) (PD)",
+      "FileName": "Senso 7800 Test 5 (2001) (Karolj Nadj) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 45440,
+      "CRC": "6CEFE5FD",
+      "MD5": "f263246d-01e1-0c96-29ae-f1ef9d2de0be",
+      "SHA1": "7FC7DFA46D6189422E008D978C09EA1E96734ED9"
+    },
+    {
+      "Name": "Sentinel (1988) (Atari) [!]",
+      "FileName": "Sentinel (1988) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "51DF6E83",
+      "MD5": "982dd6a3-d9db-433d-d3ac-04fbb35ef1f9",
+      "SHA1": "BFBF9BE9AD0788F5C54428CC70CA8B75816EB4A9"
+    },
+    {
+      "Name": "Sentinel (1991) (Atari) (PAL) [!]",
+      "FileName": "Sentinel (1991) (Atari) (PAL) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "BA588FF0",
+      "MD5": "d8097d96-39c0-cf83-92df-73cabbeeea0e",
+      "SHA1": "BF414CE1962F57016B26F545321D49FE13CF1E1E"
+    },
+    {
+      "Name": "Space War (Mar 18) (2004) (PD) [a1]",
+      "FileName": "Space War (Mar 18) (2004) (PD) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 4224,
+      "CRC": "B9156B6D",
+      "MD5": "f0793a4d-cfe9-4083-65aa-ef55382fe5c9",
+      "SHA1": "081970E0F79DCB579339BEE321A405DC5469E42B"
+    },
+    {
+      "Name": "Space War (Mar 18) (2004) (PD)",
+      "FileName": "Space War (Mar 18) (2004) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 4224,
+      "CRC": "56DD68C8",
+      "MD5": "7285af45-9c85-883f-3bc4-1a9a004ad8c8",
+      "SHA1": "85D6471CF423E4F16ED415BFE529605A39AEE0F2"
+    },
+    {
+      "Name": "Space War (Oct 18) (2003) (PD) [a1]",
+      "FileName": "Space War (Oct 18) (2003) (PD) [a1].a78",
+      "FileType": "Game",
+      "FileSize": 4224,
+      "CRC": "146FCAC4",
+      "MD5": "a363655f-4bc4-4b7e-88ea-ac5259740a5e",
+      "SHA1": "99B11EE548CFF6237ADC50A5A25E4F858D83C570"
+    },
+    {
+      "Name": "Space War (Oct 18) (2003) (PD)",
+      "FileName": "Space War (Oct 18) (2003) (PD).a78",
+      "FileType": "Game",
+      "FileSize": 4224,
+      "CRC": "CFEC0544",
+      "MD5": "485df075-6fb3-1434-4c07-0852e1af261b",
+      "SHA1": "738F43E30FBA8A32ED74A45067FA21AB15E564BD"
+    },
+    {
+      "Name": "Summer Games (1987) (Atari) [!]",
+      "FileName": "Summer Games (1987) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "05D35694",
+      "MD5": "750a9e55-6166-836b-6447-18f6f501e7a8",
+      "SHA1": "86383E6553453A353FB641B60F7021662BFC6553"
+    },
+    {
+      "Name": "Super Huey UH-IX (1989) (Atari) (PAL)",
+      "FileName": "Super Huey UH-IX (1989) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "5E625072",
+      "MD5": "bc78ca38-3fcd-1b18-3a83-3e2bcecd921f",
+      "SHA1": "35A03C8A15E63E53F5CC4334450BC7D695B7BEA8"
+    },
+    {
+      "Name": "Super Huey UH-IX (1989) (Atari)",
+      "FileName": "Super Huey UH-IX (1989) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "F1991B27",
+      "MD5": "d61db881-9223-be55-35c1-d9bd2ce701c6",
+      "SHA1": "8FE3620DE6D630E8A1AEB30291940F7589532956"
+    },
+    {
+      "Name": "Super Skateboardin' (1989) (Absolute) (PAL)",
+      "FileName": "Super Skateboardin' (1989) (Absolute) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "B91C65C4",
+      "MD5": "d8b9c4bb-1de8-a546-6ffb-9b94fa4e4848",
+      "SHA1": "8283A91B59B4A3B25EF479BA855B4AF1B3B72A2D"
+    },
+    {
+      "Name": "Super Skateboardin' (1989) (Absolute) [!]",
+      "FileName": "Super Skateboardin' (1989) (Absolute) [!].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "FAA12091",
+      "MD5": "79a70312-3836-f086-17e1-424a1d90481a",
+      "SHA1": "FBF1848DF9DEF28DF693A3B85589FFB72273519A"
+    },
+    {
+      "Name": "Super Skateboardin' (1989) (Absolute) [o1]",
+      "FileName": "Super Skateboardin' (1989) (Absolute) [o1].a78",
+      "FileType": "Game",
+      "FileSize": 32904,
+      "CRC": "14389A0C",
+      "MD5": "6eadcaad-d26a-8495-4334-395d70a52ea6",
+      "SHA1": "C0517BFEBF4E81AC61BBF9C5DDD49A1E8FB49A88"
+    },
+    {
+      "Name": "Symbolic Debugger & Downloader (1988) (Atari) (Crypt Hack)",
+      "FileName": "Symbolic Debugger & Downloader (1988) (Atari) (Crypt Hack).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "1D241371",
+      "MD5": "e88d6c4b-38af-8d6a-97c7-30ead43d6d0a",
+      "SHA1": "0681D8C118E689DF77E8710E71008810DA8F7A4C"
+    },
+    {
+      "Name": "Symbolic Debugger & Downloader (1988) (Atari)",
+      "FileName": "Symbolic Debugger & Downloader (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "C6C94823",
+      "MD5": "830e9e01-2d25-f654-db71-b5b4f0e9a710",
+      "SHA1": "14AA61B94E624E1A40739B4C9C2A7CCCD28F2E77"
+    },
+    {
+      "Name": "Tank Command (1988) (Froggo) [!]",
+      "FileName": "Tank Command (1988) (Froggo) [!].a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "9FFC9515",
+      "MD5": "2704f966-ab6d-87ed-fe79-f18f794c6dd0",
+      "SHA1": "807505A3AF7458622C5DFFC62DA1D608826F917A"
+    },
+    {
+      "Name": "Tank Command (1988) (Froggo) [b1]",
+      "FileName": "Tank Command (1988) (Froggo) [b1].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "45D68B1E",
+      "MD5": "d277c7b8-6263-d15d-135c-215f27b92fcc",
+      "SHA1": "7BC65AB655FF9360ECB4C12ADEA430B0FFDA7404"
+    },
+    {
+      "Name": "Tank Command (1988) (Froggo) [o1]",
+      "FileName": "Tank Command (1988) (Froggo) [o1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "C9A2139C",
+      "MD5": "17cdac43-7c51-1b00-8183-c8ec12882ec6",
+      "SHA1": "B071DDBAE6F71B93CF250AF6940458E86B024E06"
+    },
+    {
+      "Name": "Title Match Pro Wrestling (1989) (Absolute) (PAL)",
+      "FileName": "Title Match Pro Wrestling (1989) (Absolute) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "D0FF1A1A",
+      "MD5": "d3467677-2f85-3242-b43f-e22f77063e1b",
+      "SHA1": "80CC587F905781D50DC32B64AC2C3DAF7D159A74"
+    },
+    {
+      "Name": "Title Match Pro Wrestling (1989) (Absolute) [!]",
+      "FileName": "Title Match Pro Wrestling (1989) (Absolute) [!].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "A5742A96",
+      "MD5": "c7714b57-5bcc-c70b-7467-19cc8ffcf8ef",
+      "SHA1": "6FF9937E199BA98934A27170413CB962F5FC1218"
+    },
+    {
+      "Name": "Title Match Pro Wrestling (1989) (Absolute) [o1]",
+      "FileName": "Title Match Pro Wrestling (1989) (Absolute) [o1].a78",
+      "FileType": "Game",
+      "FileSize": 32904,
+      "CRC": "CB0215A8",
+      "MD5": "05ec2713-e7f9-52e9-96e0-78d1ca82e322",
+      "SHA1": "EC9E08F2FE5BA8E5D9CF60FC327094F6B1B92294"
+    },
+    {
+      "Name": "Tomcat - The F-14 (1989) (Absolute) (PAL)",
+      "FileName": "Tomcat - The F-14 (1989) (Absolute) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "957BF79C",
+      "MD5": "74d6f96b-228a-b60c-ff15-0f575b24aa14",
+      "SHA1": "3E95E46A1E5B54908A8CF814478037F745E605D9"
+    },
+    {
+      "Name": "Tomcat - The F-14 (1989) (Absolute) [!]",
+      "FileName": "Tomcat - The F-14 (1989) (Absolute) [!].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "AB48F361",
+      "MD5": "78636e17-d0f1-69e7-dc61-45fdde0a5081",
+      "SHA1": "CF5774E0EC2F127B40759E184572EAB22B0AC635"
+    },
+    {
+      "Name": "Touchdown Football (1988) (Atari)",
+      "FileName": "Touchdown Football (1988) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "4162E98F",
+      "MD5": "5d8057d2-0c29-3ac0-b750-fae960ca74d7",
+      "SHA1": "4A7AFA496AD97BC2B840AC60EB2827A743B01074"
+    },
+    {
+      "Name": "Tower Toppler (1988) (Atari) (PAL)",
+      "FileName": "Tower Toppler (1988) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "B9269ACB",
+      "MD5": "46505736-7095-4846-6396-e943d10fef9f",
+      "SHA1": "601818803CA6CFA55B7C0154FC9841001D7B379F"
+    },
+    {
+      "Name": "Tower Toppler (1988) (Atari) [!]",
+      "FileName": "Tower Toppler (1988) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "F701BD43",
+      "MD5": "a9152525-a1fe-6a97-9916-7a40df1e77a3",
+      "SHA1": "E4B5A0DD8BFC9319289076EF0AA4543D94019E5C"
+    },
+    {
+      "Name": "Tower Toppler (1988) (Atari) [o1]",
+      "FileName": "Tower Toppler (1988) (Atari) [o1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "C915F181",
+      "MD5": "7a3cc355-3bac-9331-6312-a1697b0263b3",
+      "SHA1": "7C5E2A16E8C8D88B044E5FF26355C56510830188"
+    },
+    {
+      "Name": "Tubes (2004) (Bruce Tomlin)",
+      "FileName": "Tubes (2004) (Bruce Tomlin).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "DDD79983",
+      "MD5": "d8d3e2b0-c25d-5b27-efa7-ad530d395e81",
+      "SHA1": "2542B6FC59F40D891FAB6443311F9626F88FC8F0"
+    },
+    {
+      "Name": "Tubes (Nov 3) (2004) (Bruce Tomlin)",
+      "FileName": "Tubes (Nov 3) (2004) (Bruce Tomlin).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "ACDAF4F2",
+      "MD5": "572506b0-ebd5-9968-9d93-e42db6fce574",
+      "SHA1": "96313A291F3EDBB9BA1B1E202A20E517D6C66C2D"
+    },
+    {
+      "Name": "Tubes (Nov 3-Signed) (2004) (Bruce Tomlin)",
+      "FileName": "Tubes (Nov 3-Signed) (2004) (Bruce Tomlin).a78",
+      "FileType": "Game",
+      "FileSize": 16512,
+      "CRC": "023B6003",
+      "MD5": "e897f254-f785-730a-e46d-714fa139d552",
+      "SHA1": "A4000C40C7B72EB218BC45D790FEF6F623FE062E"
+    },
+    {
+      "Name": "Water Ski (1988) (Froggo) [b1]",
+      "FileName": "Water Ski (1988) (Froggo) [b1].a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "5DB957A6",
+      "MD5": "fa05df70-920f-92c3-59c0-667cbd27baf4",
+      "SHA1": "6BB0205B88886F3079F50A25D7E6708BAB32A49A"
+    },
+    {
+      "Name": "Water Ski (1988) (Froggo) [o1]",
+      "FileName": "Water Ski (1988) (Froggo) [o1].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "E4497285",
+      "MD5": "8a710cb8-6bca-089d-7bbd-5d42d6925967",
+      "SHA1": "AD52027A4EF5822FF126F3D74350B8215E863F89"
+    },
+    {
+      "Name": "Water Ski (1988) (Froggo)",
+      "FileName": "Water Ski (1988) (Froggo).a78",
+      "FileType": "Game",
+      "FileSize": 65664,
+      "CRC": "09A27634",
+      "MD5": "39c013a4-cb45-2706-b7f5-515dd6e9ea41",
+      "SHA1": "169EE9E4F0181108BCDCDF7A92983627D07BA63E"
+    },
+    {
+      "Name": "Winter Games (1987) (Atari) [!]",
+      "FileName": "Winter Games (1987) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "68DB3611",
+      "MD5": "fd2e672c-f5b4-fdea-1b2e-f10ea1ec4185",
+      "SHA1": "42283B1297237E04C6EF69234770D093FFEF8949"
+    },
+    {
+      "Name": "Xenophobe (1989) (Atari) (PAL)",
+      "FileName": "Xenophobe (1989) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "73783E53",
+      "MD5": "1f05c6c6-0570-58c0-2006-5426907f5390",
+      "SHA1": "B0499B57A42741DDD672FF7FF1B9AC3BC068AC58"
+    },
+    {
+      "Name": "Xenophobe (1989) (Atari) [!]",
+      "FileName": "Xenophobe (1989) (Atari) [!].a78",
+      "FileType": "Game",
+      "FileSize": 131200,
+      "CRC": "96EE8584",
+      "MD5": "9d90a746-b11f-8add-d4a6-ae1c251cef33",
+      "SHA1": "D70BF96175E9A496B3041C149B727B23FE44E91E"
+    },
+    {
+      "Name": "Xevious (1987) (Atari) (PAL)",
+      "FileName": "Xevious (1987) (Atari) (PAL).a78",
+      "FileType": "Game",
+      "FileSize": 49280,
+      "CRC": "42AAF1FF",
+      "MD5": "c9fbb3a9-adab-89ad-fa62-a28702adcba0",
+      "SHA1": "F2A76E8F8D1B79A4859BC9D7A90B4C1F7E013F8A"
+    },
+    {
+      "Name": "Xevious (1987) (Atari)",
+      "FileName": "Xevious (1987) (Atari).a78",
+      "FileType": "Game",
+      "FileSize": 32896,
+      "CRC": "44584FA2",
+      "MD5": "e1eca56f-7ff9-c265-07b8-c252ee49f97c",
+      "SHA1": "652E633776F608A3C2A1030A6796BA0C8669D8F0"
+    }
+  ]
+}

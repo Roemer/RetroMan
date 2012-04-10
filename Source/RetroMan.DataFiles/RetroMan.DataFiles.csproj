@@ -43,6 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Atari 2600.dat" />
+    <None Include="Atari 5200.dat" />
+    <None Include="Atari 7800.dat" />
     <None Include="Magnavox Odyssey2.dat" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
