@@ -5,14 +5,62 @@ using Newtonsoft.Json;
 using RetroMan.Core;
 using RetroMan.Database;
 using RetroMan.Tools;
+using System.ComponentModel;
+using System.Collections.Generic;
+using System.Text;
 
 namespace RetroMan.UI
 {
     public partial class GenerateForm : Form
     {
+        private class ProgressState
+        {
+            public int FoldersFound { get; set; }
+            public int ArchivesFound { get; set; }
+            public int FilesFound { get; set; }
+        }
+
+        private BackgroundWorker _generateBackgroundWorker;
+
         public GenerateForm()
         {
             InitializeComponent();
+
+            _generateBackgroundWorker = new BackgroundWorker();
+            _generateBackgroundWorker.WorkerReportsProgress = true;
+            _generateBackgroundWorker.DoWork += new DoWorkEventHandler(_generateBackgroundWorker_DoWork);
+            _generateBackgroundWorker.ProgressChanged += new ProgressChangedEventHandler(_generateBackgroundWorker_ProgressChanged);
+            _generateBackgroundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(_generateBackgroundWorker_RunWorkerCompleted);
+        }
+
+        private void _generateBackgroundWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            ProgressState progress = new ProgressState();
+            List<FileDataObject> resultList = new List<FileDataObject>();
+            string[] files = (string[])e.Argument;
+            foreach (string fileName in files)
+            {
+                ProcessPath(fileName, resultList, progress);
+            }
+            e.Result = resultList;
+        }
+
+        private void _generateBackgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            ProgressState progress = (ProgressState)e.UserState;
+            ProgressLabel.Text = string.Format("Folder: {0}, Archives: {1}, Files: {2}", progress.FoldersFound, progress.ArchivesFound, progress.FilesFound);
+        }
+
+        private void _generateBackgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            List<FileDataObject> resultList = (List<FileDataObject>)e.Result;
+            StringBuilder sb = new StringBuilder();
+            foreach (FileDataObject fo in resultList)
+            {
+                sb.AppendLine(JsonConvert.SerializeObject(fo, Formatting.Indented) + ",");
+            }
+
+            OutputText.Text += sb.ToString();
         }
 
         private void AddBtn_Click(object sender, EventArgs e)
@@ -24,10 +72,7 @@ namespace RetroMan.UI
 
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
-                    foreach (string fileName in dlg.FileNames)
-                    {
-                        ProcessPath(fileName);
-                    }
+                    StartProcessing(dlg.FileNames);
                 }
             }
         }
@@ -54,26 +99,29 @@ namespace RetroMan.UI
         {
             DropFilesLabel.BorderStyle = BorderStyle.None;
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop, false);
-            foreach (string fileName in files)
-            {
-                ProcessPath(fileName);
-            }
+            StartProcessing(files);
         }
 
-        private void ProcessPath(string path)
+        private void StartProcessing(string[] files)
+        {
+            _generateBackgroundWorker.RunWorkerAsync(files);
+        }
+
+        private void ProcessPath(string path, List<FileDataObject> objList, ProgressState progress)
         {
             FileAttributes attr = File.GetAttributes(path);
             if ((attr & FileAttributes.Directory) == FileAttributes.Directory)
             {
+                progress.FoldersFound++;
                 // Process Sub-Directories
                 foreach (string innerPath in Directory.GetDirectories(path))
                 {
-                    ProcessPath(innerPath);
+                    ProcessPath(innerPath, objList, progress);
                 }
                 // Process Files in the Directory
                 foreach (string innerPath in Directory.GetFiles(path))
                 {
-                    ProcessPath(innerPath);
+                    ProcessPath(innerPath, objList, progress);
                 }
             }
             else
@@ -81,16 +129,17 @@ namespace RetroMan.UI
                 // Process File
                 if (Path.GetExtension(path).Equals(".7z") || Path.GetExtension(path).Equals(".zip") || Path.GetExtension(path).Equals(".rar"))
                 {
+                    progress.ArchivesFound++;
                     string tempFolder = SevenZipTool.ExtractToTemp(path);
                     // Process Sub-Directories
                     foreach (string innerPath in Directory.GetDirectories(tempFolder))
                     {
-                        ProcessPath(innerPath);
+                        ProcessPath(innerPath, objList, progress);
                     }
                     // Process Files in the Directory
                     foreach (string innerPath in Directory.GetFiles(tempFolder))
                     {
-                        ProcessPath(innerPath);
+                        ProcessPath(innerPath, objList, progress);
                     }
                     // Delete the Temp Folder
                     Directory.Delete(tempFolder, true);
@@ -98,9 +147,11 @@ namespace RetroMan.UI
                 else
                 {
                     FileDataObject fo = ConvertFile(path);
-                    AddFileObject(fo);
+                    objList.Add(fo);
+                    progress.FilesFound++;
                 }
             }
+            _generateBackgroundWorker.ReportProgress(0, progress);
         }
 
         private FileDataObject ConvertFile(string filePath)
@@ -114,11 +165,6 @@ namespace RetroMan.UI
             fo.SHA1 = HashTool.GetSHA1(filePath);
             fo.FileType = FileType.Game;
             return fo;
-        }
-
-        private void AddFileObject(FileDataObject fo)
-        {
-            OutputText.Text += JsonConvert.SerializeObject(fo, Formatting.Indented) + "," + Environment.NewLine;
         }
 
         private void SortDataFileBtn_Click(object sender, EventArgs e)

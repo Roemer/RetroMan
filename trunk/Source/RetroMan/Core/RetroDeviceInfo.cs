@@ -74,6 +74,26 @@ namespace RetroMan.Core
             int unknownFiles = 0;
             foreach (string filePath in Directory.GetFiles(DataFileSetting.RomFolderPath))
             {
+                // Check if it is compressed
+                if (Path.GetExtension(filePath).Equals(".7z") || Path.GetExtension(filePath).Equals(".zip") || Path.GetExtension(filePath).Equals(".rar"))
+                {
+                    // TODO: Either extract OR use CRC from inside archive
+                    string tempFolder = SevenZipTool.ExtractToTemp(filePath);
+                    // Process Files in the Directory
+                    foreach (string innerPath in Directory.GetFiles(tempFolder))
+                    {
+                        //TODODODODO
+                        //ProcessPath(innerPath);
+                    }
+                    // Delete the Temp Folder
+                    Directory.Delete(tempFolder, true);
+                }
+                else
+                {
+                    // Normal File
+                }
+
+
                 // Get the MD5 of the File
                 Guid md5 = HashTool.GetMD5(filePath);
                 // Try to find the appropriate File in the Dictionary
