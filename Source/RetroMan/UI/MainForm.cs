@@ -147,15 +147,16 @@ namespace RetroMan.UI
 
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
-                    // Load the Device from the Data File
-                    DeviceDataObject deviceObject = JsonConvert.DeserializeObject<DeviceDataObject>(File.ReadAllText(dlg.FileName));
-                    // Create the Data File
-                    DataFileSetting dataFile = new DataFileSetting() { Name = deviceObject.Name, DataFilePath = dlg.FileName };
+                    DataFileSetting dataFile = new DataFileSetting() { Name = "ToDo", DataFilePath = dlg.FileName };
+                    // Load the Info
+                    RetroDeviceInfo info = new RetroDeviceInfo(dataFile);
+                    // Assign the Name
+                    dataFile.Name = info.Name;
                     // Add the Device to the Settings
                     RetroSettings.Instance.DataFiles.Add(dataFile);
                     RetroSettings.Instance.Save();
                     // Add the Objects to the Manager
-                    deviceList.Add(new RetroDeviceInfo(dataFile));
+                    deviceList.Add(info);
                     // Assign the Model to the View
                     treeListView1.SetObjects(deviceList);
                 }
@@ -219,17 +220,10 @@ namespace RetroMan.UI
 
         private void treeListView1_FormatRow(object sender, FormatRowEventArgs e)
         {
-            if (e.Model is RetroFileInfo)
+            var file = e.Model as RetroFileInfo;
+            if (file != null)
             {
-                RetroFileInfo file = (RetroFileInfo)e.Model;
-                if (file.IsAvailable)
-                {
-                    e.Item.ForeColor = Color.Black;
-                }
-                else
-                {
-                    e.Item.ForeColor = Color.Gray;
-                }
+                e.Item.ForeColor = file.IsAvailable ? Color.Black : Color.Gray;
             }
         }
     }
