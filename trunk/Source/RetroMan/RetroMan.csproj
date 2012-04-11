@@ -66,6 +66,7 @@
     <Compile Include="Tools\HashTool.cs" />
     <Compile Include="Tools\JsonSettings.cs" />
     <Compile Include="Tools\SevenZipTool.cs" />
+    <Compile Include="Tools\TosecFileParser.cs" />
     <Compile Include="Tools\Utils.cs" />
     <Compile Include="UI\Controls\SplitContainerEx.cs">
       <SubType>Component</SubType>

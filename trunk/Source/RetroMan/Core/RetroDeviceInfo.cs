@@ -47,8 +47,14 @@ namespace RetroMan.Core
             // Assign the DataFileSetting
             DataFileSetting = dataFileSetting;
 
-            // Create and assign the Device-Object
-            DeviceObject = JsonConvert.DeserializeObject<DeviceDataObject>(File.ReadAllText(DataFileSetting.DataFilePath));
+            // Try the TOSEC File
+            DeviceObject = TosecFileParser.ParseFile(DataFileSetting.DataFilePath);
+
+            // Try the custom Database Format
+            if (DeviceObject == null)
+            {
+                DeviceObject = JsonConvert.DeserializeObject<DeviceDataObject>(File.ReadAllText(DataFileSetting.DataFilePath));
+            }
 
             // Create the Dictionary
             FileDict = new Dictionary<Guid, RetroFileInfo>();
