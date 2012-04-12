@@ -29,37 +29,76 @@ namespace RetroMan.Tools
                 if (key == "clrmamepro")
                 {
                     // Header
-                    MatchCollection subMatches = keyValueRegex.Matches(value);
-                    foreach (Match subMatch in subMatches)
-                    {
-                        string subkey = subMatch.Groups[1].Captures[0].Value;
-                        string subvalue = subMatch.Groups[2].Captures[0].Value;
-                        if (subkey == "name")
-                        {
-                            ddo.Name = subvalue;
-                        }
-                    }
+                    ParseMetaInformation(value, ddo);
                 }
                 else if (key == "game")
                 {
-                    // Rom
-                    FileDataObject fdo = new FileDataObject();
-                    MatchCollection subMatches = keyValueRegex.Matches(value);
-                    foreach (Match subMatch in subMatches)
-                    {
-                        string subkey = subMatch.Groups[1].Captures[0].Value;
-                        string subvalue = subMatch.Groups[2].Captures[0].Value;
-                        if (subkey == "name")
-                        {
-                            fdo.Name = subvalue;
-                            // TODO:
-                            fdo.MD5 = Guid.NewGuid();
-                        }
-                    }
-                    ddo.Files.Add(fdo);
+                    // Game
+                    FileDataObject dfo = new FileDataObject();
+                    ParseGameInformation(value, dfo);
+                    ddo.Files.Add(dfo);
                 }
             }
             return ddo;
+        }
+
+        private static void ParseMetaInformation(string value, DeviceDataObject ddo)
+        {
+            MatchCollection subMatches = keyValueRegex.Matches(value);
+            foreach (Match subMatch in subMatches)
+            {
+                string subkey = subMatch.Groups[1].Captures[0].Value;
+                string subvalue = subMatch.Groups[2].Captures[0].Value;
+                if (subkey == "name")
+                {
+                    ddo.Name = subvalue;
+                }
+            }
+        }
+
+        private static void ParseGameInformation(string value, FileDataObject dfo)
+        {
+            MatchCollection subMatches = keyValueRegex.Matches(value);
+            foreach (Match subMatch in subMatches)
+            {
+                string subkey = subMatch.Groups[1].Captures[0].Value;
+                string subvalue = subMatch.Groups[2].Captures[0].Value;
+                if (subkey == "name")
+                {
+                    dfo.Name = subvalue;
+                }
+                else if (subkey == "rom")
+                {
+                    // Rom
+                    ParseRomInformation(subvalue, dfo);
+                }
+            }
+        }
+
+        private static void ParseRomInformation(string value, FileDataObject dfo)
+        {
+            MatchCollection subMatches = keyValueRegex.Matches(value);
+            foreach (Match subMatch in subMatches)
+            {
+                string subkey = subMatch.Groups[1].Captures[0].Value;
+                string subvalue = subMatch.Groups[2].Captures[0].Value;
+                if (subkey == "name")
+                {
+                    dfo.FileName = subvalue;
+                }
+                else if (subkey == "size")
+                {
+                    dfo.FileSize = Convert.ToInt64(subvalue);
+                }
+                else if (subkey == "crc")
+                {
+                    dfo.CRC = subvalue;
+                }
+                else if (subkey == "md5")
+                {
+                    dfo.MD5 = new Guid(subvalue);
+                }
+            }
         }
     }
 }
