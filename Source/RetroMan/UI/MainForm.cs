@@ -32,9 +32,9 @@ namespace RetroMan.UI
             imgList.Images.Add(Resources.video);
             imgList.Images.Add(Resources.application);
             imgList.Images.Add(Resources.education);
-            treeListView1.SmallImageList = imgList;
+            OverviewList.SmallImageList = imgList;
 
-            treeListView1.CanExpandGetter = delegate(object x)
+            OverviewList.CanExpandGetter = delegate(object x)
             {
                 if (x is RetroDeviceInfo)
                 {
@@ -42,7 +42,7 @@ namespace RetroMan.UI
                 }
                 return false;
             };
-            treeListView1.ChildrenGetter = delegate(object x)
+            OverviewList.ChildrenGetter = delegate(object x)
             {
                 if (x is RetroDeviceInfo)
                 {
@@ -50,6 +50,18 @@ namespace RetroMan.UI
                 }
                 return null;
             };
+
+            olvColumn1.AspectGetter = delegate(object x)
+            {
+                if (x is RetroDeviceInfo)
+                {
+                    RetroDeviceInfo dev = (RetroDeviceInfo)x;
+                    return string.Format("{0} ({1} files)", dev.Name, dev.FileCount);
+                }
+                RetroFileInfo file = (RetroFileInfo)x;
+                return file.Name;
+            };
+
             olvColumn1.ImageGetter = delegate(object x)
             {
                 if (x is RetroDeviceInfo)
@@ -72,13 +84,23 @@ namespace RetroMan.UI
                 }
                 return 1;
             };
+
+            olvColumn2.Renderer = new BarRenderer(0, 2);
+            olvColumn2.AspectGetter = delegate(object x)
+            {
+                return 1;
+            };
         }
 
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
 
+            // Setup the Logger
+            Logger.Instance.OnLog += new Action<LogEntry>(Instance_OnLog);
+
             // Initialize Settings
+            Logger.Instance.Add(LogType.Debug, "Loading Settings");
             RetroSettings.Instance = RetroSettings.Load();
             if (string.IsNullOrWhiteSpace(RetroSettings.Instance.SevenZipPath))
             {
@@ -87,13 +109,30 @@ namespace RetroMan.UI
             }
 
             // Process the DataFiles
+            Logger.Instance.Add(LogType.Debug, "Found {0} Datafile(s)", RetroSettings.Instance.DataFiles.Count);
             deviceList = new List<RetroDeviceInfo>();
             foreach (DataFileSetting dataFile in RetroSettings.Instance.DataFiles)
             {
                 deviceList.Add(new RetroDeviceInfo(dataFile));
             }
             // Assign the Model to the View
-            treeListView1.SetObjects(deviceList);
+            OverviewList.SetObjects(deviceList);
+        }
+
+        private void Instance_OnLog(LogEntry logEntry)
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action<LogEntry>(Instance_OnLog), logEntry);
+            }
+            else
+            {
+                ListViewItem newItem = new ListViewItem();
+                newItem.Text = logEntry.Time.ToString();
+                newItem.SubItems.Add(logEntry.Type.ToString());
+                newItem.SubItems.Add(logEntry.Message);
+                LogList.Items.Insert(0, newItem);
+            }
         }
 
         private string SearchForSevenZip()
@@ -158,7 +197,7 @@ namespace RetroMan.UI
                     // Add the Objects to the Manager
                     deviceList.Add(info);
                     // Assign the Model to the View
-                    treeListView1.SetObjects(deviceList);
+                    OverviewList.SetObjects(deviceList);
                 }
             }
         }
@@ -177,6 +216,15 @@ namespace RetroMan.UI
                     DeviceCtx.Tag = rowItem;
                     DeviceCtx.Show(treeList, e.Location);
                 }
+            }
+        }
+
+        private void treeListView1_FormatRow(object sender, FormatRowEventArgs e)
+        {
+            var file = e.Model as RetroFileInfo;
+            if (file != null)
+            {
+                e.Item.ForeColor = file.IsAvailable ? Color.Black : Color.Gray;
             }
         }
 
@@ -206,7 +254,7 @@ namespace RetroMan.UI
             RetroSettings.Instance.DataFiles.Remove(dataFile);
             RetroSettings.Instance.Save();
             deviceList.Remove(deviceInfo);
-            treeListView1.SetObjects(deviceList);
+            OverviewList.SetObjects(deviceList);
         }
 
         private void checkToolStripMenuItem_Click(object sender, EventArgs e)
@@ -215,16 +263,7 @@ namespace RetroMan.UI
             RetroDeviceInfo deviceInfo = (RetroDeviceInfo)DeviceCtx.Tag;
             int unknownFilesCount = deviceInfo.CheckFiles();
             MessageBox.Show(string.Format("You have {0} unknown Files in this Rom Folder", unknownFilesCount));
-            treeListView1.Refresh();
-        }
-
-        private void treeListView1_FormatRow(object sender, FormatRowEventArgs e)
-        {
-            var file = e.Model as RetroFileInfo;
-            if (file != null)
-            {
-                e.Item.ForeColor = file.IsAvailable ? Color.Black : Color.Gray;
-            }
+            OverviewList.Refresh();
         }
     }
 }

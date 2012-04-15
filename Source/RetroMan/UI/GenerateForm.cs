@@ -1,13 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
+using System.Text;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using RetroMan.Core;
 using RetroMan.Database;
 using RetroMan.Tools;
-using System.ComponentModel;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RetroMan.UI
 {

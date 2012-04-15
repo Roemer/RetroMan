@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 using System.Text.RegularExpressions;
 using RetroMan.Database;
 
@@ -7,36 +8,60 @@ namespace RetroMan.Tools
 {
     public static class TosecFileParser
     {
-        private static Regex keyValueRegex = new Regex(@"([^\s]+?)\s(\((?>([^()]+)|\((?<number>)|\)(?<-number>))*(?(number)(?!))\)|(?:\"".*?\"")|[^\s]*)?");
+        // Fancy Regex to Parse the Key/Value Pairs out of an Element
+        private static Regex keyValueRegex = new Regex(@"(?<key>[^\s]+?)\s(?:\(\s*(?<value>(?>(?:[^()]+)|\((?<depth>)|\)(?<-depth>))*(?(depth)(?!)))\)|\""(?<value>.*?)\""|(?<value>[^\s]*))?\s*");
 
         public static DeviceDataObject ParseFile(string fileName)
         {
-            string fileContent = File.ReadAllText(fileName);
-            // Check the Header
-            if (!fileContent.StartsWith("clrmamepro"))
-            {
-                return null;
-            }
-            // Create the new Object
+            // Prepare the Object
             DeviceDataObject ddo = new DeviceDataObject();
-            // Valid Header, Parse the Root-Elements
-            MatchCollection matches = keyValueRegex.Matches(fileContent);
-            foreach (Match match in matches)
+            // Prepare the StringBuilder which holds all lines for an element
+            StringBuilder sb = new StringBuilder();
+            // Open the File to Read
+            using (FileStream fs = File.Open(fileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            using (StreamReader sr = new StreamReader(fs))
             {
-                string key = match.Groups[1].Captures[0].Value;
-                string value = match.Groups[2].Captures[0].Value;
-
-                if (key == "clrmamepro")
+                // Read the first Line
+                string checkLine = sr.ReadLine();
+                // Check if it is the ClrMame Pro Format
+                if (!checkLine.StartsWith("clrmamepro"))
                 {
-                    // Header
-                    ParseMetaInformation(value, ddo);
+                    // It's not, return
+                    return null;
                 }
-                else if (key == "game")
+
+                // Append the Line
+                sb.Append(checkLine);
+                // Loop as long as there are Lines to Read
+                string line;
+                while ((line = sr.ReadLine()) != null)
                 {
-                    // Game
-                    FileDataObject dfo = new FileDataObject();
-                    ParseGameInformation(value, dfo);
-                    ddo.Files.Add(dfo);
+                    sb.Append(line);
+                    // Check if it is a closing Line
+                    if (line == ")")
+                    {
+                        // Match the Key/Value
+                        Match match = keyValueRegex.Match(sb.ToString());
+                        string key = match.Groups["key"].Value;
+                        string value = match.Groups["value"].Value;
+
+                        // Check for the different Keys
+                        if (key == "clrmamepro")
+                        {
+                            // Header
+                            ParseMetaInformation(value, ddo);
+                        }
+                        else if (key == "game")
+                        {
+                            // Game
+                            FileDataObject dfo = new FileDataObject();
+                            ParseGameInformation(value, dfo);
+                            ddo.Files.Add(dfo);
+                        }
+
+                        // Finished current Element, clear the Buffer
+                        sb.Clear();
+                    }
                 }
             }
             return ddo;
@@ -47,8 +72,8 @@ namespace RetroMan.Tools
             MatchCollection subMatches = keyValueRegex.Matches(value);
             foreach (Match subMatch in subMatches)
             {
-                string subkey = subMatch.Groups[1].Captures[0].Value;
-                string subvalue = subMatch.Groups[2].Captures[0].Value;
+                string subkey = subMatch.Groups["key"].Value;
+                string subvalue = subMatch.Groups["value"].Value;
                 if (subkey == "name")
                 {
                     ddo.Name = subvalue;
@@ -61,8 +86,8 @@ namespace RetroMan.Tools
             MatchCollection subMatches = keyValueRegex.Matches(value);
             foreach (Match subMatch in subMatches)
             {
-                string subkey = subMatch.Groups[1].Captures[0].Value;
-                string subvalue = subMatch.Groups[2].Captures[0].Value;
+                string subkey = subMatch.Groups["key"].Value;
+                string subvalue = subMatch.Groups["value"].Value;
                 if (subkey == "name")
                 {
                     dfo.Name = subvalue;
@@ -80,8 +105,8 @@ namespace RetroMan.Tools
             MatchCollection subMatches = keyValueRegex.Matches(value);
             foreach (Match subMatch in subMatches)
             {
-                string subkey = subMatch.Groups[1].Captures[0].Value;
-                string subvalue = subMatch.Groups[2].Captures[0].Value;
+                string subkey = subMatch.Groups["key"].Value;
+                string subvalue = subMatch.Groups["value"].Value;
                 if (subkey == "name")
                 {
                     dfo.FileName = subvalue;
