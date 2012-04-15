@@ -56,6 +56,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\LogEntry.cs" />
+    <Compile Include="Core\Logger.cs" />
+    <Compile Include="Core\LogType.cs" />
     <Compile Include="Core\RetroDeviceInfo.cs" />
     <Compile Include="Core\RetroFileInfo.cs" />
     <Compile Include="Core\RetroSettings.cs" />
